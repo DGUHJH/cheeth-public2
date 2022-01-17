@@ -1,0 +1,13 @@
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@font-face {
+  font-family: Pretendard;
+  src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
+}
+
+* {
+  font-family: Pretendard;
+}
