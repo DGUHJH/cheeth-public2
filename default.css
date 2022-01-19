@@ -1,0 +1,28 @@
+* {
+  font-family: Pretendard;
+}
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+button {
+  color: #0000 !important;
+  border: 0 !important;
+}
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Pretendard;
+  src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
+}
+
+.container {
+  width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+}
