@@ -1,0 +1,259 @@
+.main_body {
+  width: 100%;
+  min-height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.main_banner_img_wrapper {
+  width: 100%;
+  height: 657px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.main_banner_img {
+  width: 1920px;
+  height: 603px;
+}
+
+.main_banner_button_container {
+  width: 1120px;
+  height: 109px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 548px;
+  z-index: 2;
+}
+
+.main_banner_button {
+  width: 374px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_banner_button_typo {
+  font-size: 21px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.main_banner_button_01 {
+  background: #005fa8;
+}
+
+.main_banner_button_02 {
+  background: #3caaff;
+}
+
+.main_banner_button_03 {
+  background: #0083e8;
+}
+
+.main_menu_list_container {
+  width: 869px;
+  height: 251px;
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.main_menu_item_container {
+  width: 160px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main_menu_item_img_01 {
+  height: 53px;
+}
+
+.main_menu_item_img_02 {
+  height: 65px;
+}
+
+.main_menu_item_img_03 {
+  height: 61px;
+}
+
+.main_menu_item_img_04 {
+  height: 45px;
+}
+
+.main_menu_item_img_05 {
+  height: 53px;
+}
+
+.main_menu_item_img_06 {
+  height: 34px;
+}
+
+.main_menu_item_img_07 {
+  height: 54px;
+}
+
+.main_menu_item_img_08 {
+  height: 54px;
+}
+
+.main_menu_item_typo {
+  font-size: 15px;
+  font-weight: 400px;
+  color: #343434;
+}
+
+.main_divider {
+  width: 1162px;
+  height: 1px;
+  background: #dedede;
+  margin-top: 132px;
+}
+
+.main_center_container {
+  width: 1280px;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 80px;
+}
+
+.main_center_title_container {
+  width: 1162px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_center_left_container {
+  display: flex;
+  align-items: center;
+}
+
+.main_center_title_typo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #165f98;
+}
+
+.main_center_carousel_button_container {
+  width: 111px;
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  border: 1px #eee solid;
+}
+
+.main_center_carousel_button {
+  width: 55px;
+  height: 43px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main_center_carousel_button_divider {
+  width: 1px;
+  height: 100%;
+  background: #eee;
+}
+
+.main_center_carousel_button_img {
+  width: 12px;
+}
+
+.main_center_see_more_typo {
+  font-size: 14px;
+  font-weight: 500;
+  color: #959595;
+}
+
+.main_center_carousel_card_container {
+  width: 1162px;
+  height: 265px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.main_center_carousel_card {
+  width: 250px;
+  height: 265px;
+  background: #fff;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+
+.main_center_carousel_card_chip {
+  width: 42px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #007ddb;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.main_center_carousel_card_chip_typo {
+  font-weight: 700;
+  font-size: 10px;
+  color: #007ddb;
+}
+
+.main_center_carousel_card_title_typo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #555;
+  margin-top: 18px;
+}
+
+.main_center_carousel_card_divider {
+  width: 18px;
+  height: 2px;
+  background: #555;
+  margin-top: 30px;
+}
+
+.main_center_carousel_card_item_typo {
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+  margin-top: 29px;
+}
+
+.main_center_carousel_card_item_description_typo {
+  font-size: 13px;
+  font-weight: 400;
+  color: #a0a0a0;
+  margin-top: 18px;
+}
+
+.main_center_carousel_background_wrapper {
+  width: 1280px;
+  height: 200px;
+  background: #f8f9fe;
+  position: absolute;
+  top: 205px;
+  z-index: -1;
+}
