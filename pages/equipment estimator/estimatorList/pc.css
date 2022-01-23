@@ -1,0 +1,287 @@
+.estimator_list_filter_container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.estimator_list_filter_typo {
+    columns: #555;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.estimator_list_filter {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.estimator_list_filter_sort_by {
+    min-width: 153px;
+    max-height: 36px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+
+.estimator_list_filter_sort_by_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+  
+.estimator_list_filter_sort_by_typo {
+    color: #C4C4C4;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.estimator_list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: solid 2px #333;
+}
+
+.estimator_list_data_type_container {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.estimator_list_data_type_title {
+    width: 584px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_data_type_numb {
+    width: 52px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_data_type_location {
+    width: 65px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_data_type_date_created {
+    width: 96px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_data_type_date_expiry {
+    width: 115px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.estimator_list_order {
+    width: 34px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_title {
+    width: 550px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_numb {
+    width: 52px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_location {
+    width: 65px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_date_created {
+    width: 96px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_date_expiry {
+    width: 115px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimator_list_divider {
+    width: 100%;
+    height: 1px;
+    background: #F2F2F2;
+}
+
+.estimator_sub_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.writing_button {
+    width: 83px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #e5e5e5;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.writing_button_typo {
+    color: #555;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px;
+}
+
+.pagination_numb {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination_numb_now {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #f2f2f2;
+}
+
+.pagination_numb_typo {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.pagination_numb_now_typo {
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pagination_next {
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28px;
+}
+
+.pagination_next_typo {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pagination_next_arrow {
+    filter: opacity(0.4) drop-shadow(0 0 0 #767676); 
+}
+
+.search {
+    width: 426px;
+    height: 35px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.search_field {
+    width: 105px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 30px 0 0 30px;
+    box-sizing: border-box;
+    padding: 0 11px 0 30px;
+}
+
+.search_field_typo {
+    columns: #333;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.search_bar {
+    width: 249px;
+    border: 1px solid #ddd;
+}
+
+.search_button {
+    width: 74px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0083E8;
+    border-radius: 0 30px 30px 0;
+    box-sizing: border-box;
+    padding: 0 20px 0 10px;
+}
+
+.search_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
