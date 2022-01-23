@@ -1,0 +1,83 @@
+.sign_up_container {
+    width: 712px;
+}
+
+.condition_container {
+width: 712px;
+margin: auto;
+margin-top: 103px;
+margin-bottom: 63px;
+}
+
+.condition_typo {
+font-size: 14px;
+font-weight: 500;
+margin-right: 13px;
+}
+
+.condition_context {
+width: 100%;
+height: 163px;
+border: solid 1px #E5E5E5;
+margin-top: 23px;
+margin-bottom: 40px;
+}
+
+.typo_and_check {
+display: flex;
+align-items: center;
+}
+
+.accept_all {
+    width: 712px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 45px;
+}
+
+.accept_all .condition_typo {
+    margin-left: 13px;
+    margin-right: 0;
+}
+
+.page_button_container {
+display: flex;
+justify-content: center;
+margin-bottom: 388px;
+}
+
+.page_before {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #DEDEDE;
+    margin: 0 10px;
+}
+
+.page_before_typo {
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page_after {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #0083E8;
+    margin: 0 10px;
+    background: #0083E8;
+}
+
+.page_after_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
