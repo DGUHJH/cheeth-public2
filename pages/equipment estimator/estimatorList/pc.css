@@ -166,24 +166,6 @@
     align-items: center;
 }
 
-.writing_button {
-    width: 83px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px #e5e5e5;
-    margin-top: 12px;
-    margin-bottom: 40px;
-}
-
-.writing_button_typo {
-    color: #555;
-    font-weight: 400;
-    font-size: 13px;
-    margin-left: 6px;
-}
-
 .pagination {
     display: flex;
     align-items: center;
