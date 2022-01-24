@@ -151,13 +151,6 @@
     margin-right: 13px;
 }
 
-.main_container_divider {
-    width: 100%;
-    height: 1px;
-    background: #E5E5E5;
-    margin: 20px 0 20px 0
-}
-
 .writing_info_detail_typo {
     color: #333;
     font-size: 15px;
@@ -175,49 +168,6 @@
 
 .writing_info_detail_blank_typo {
     color: #b6b6b6;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.writing_info_button_container {
-    width: 100%;
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
-}
-
-.writing_info_button_right {
-    display: flex;
-}
-
-.writing_info_button_left, .writing_info_button_right_save {
-    width: 83px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #E5E5E5;
-}
-
-.writing_info_button_left_typo, .writing_info_button_right_save_typo {
-    color: #555;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.writing_info_button_right_submit {
-    width: 83px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #E2EFFF;
-    margin-left: 15px;
-}
-
-.writing_info_button_right_submit_typo {
-    color: #0083E8;
     font-size: 13px;
     font-weight: 400;
 }

@@ -115,6 +115,13 @@
     margin-bottom: 15px;
 }
 
+.main_container_divider {
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+    margin: 20px 0 20px 0
+}
+
 .writing_button {
     width: 83px;
     height: 36px;
@@ -131,4 +138,48 @@
     font-weight: 400;
     font-size: 13px;
     margin-left: 6px;
+}
+
+.writing_info_button_container, .reading_info_button_container {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.writing_info_button_right, .reading_info_button_right {
+    display: flex;
+}
+
+.writing_info_button_left, .writing_info_button_right_save, .reading_info_button_right_list {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.writing_info_button_left_typo, .writing_info_button_right_save_typo, .reading_info_button_right_list_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.writing_info_button_right_submit, .reading_info_button_right_submit {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #E2EFFF;
+    background: #E2EFFF;
+    margin-left: 15px;
+}
+
+.writing_info_button_right_submit_typo, .reading_info_button_right_submit_typo {
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 400;
 }
