@@ -1,0 +1,126 @@
+.light {
+    background: #f2f2f2;
+}
+
+.reading_info_sub_container {
+    height: 75px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.reading_info_title {
+    margin-bottom: 7px;
+}
+
+.reading_info_title_typo {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reading_info_etc_container {
+    display: flex;
+}
+
+.reading_info_etc {
+    margin-right: 30px;
+}
+
+.reading_info_etc_typo {
+    color: #B6B6B6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.main_container_divider {
+    margin: 0;
+}
+
+.reading_info_main_container {
+    margin-bottom: 20px;
+}
+
+.reading_info_item_container {
+    width: 913px;
+    height: 42px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.reading_info_item {
+    width: 457px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.reading_info_item_title {
+    width: 147px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F9FE;
+}
+
+.reading_info_item_title_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.reading_info_item_context {
+    width: 310px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid 1px #F2F2F2;
+    padding-left: 32px;
+}
+
+.reading_info_item_context_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.reading_info_detail {
+    width: 100%;
+    height: 232px;
+    padding: 40px 20px;
+}
+
+.reading_info_detail_typo {
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.reading_info_attatchment {
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.reading_info_attatchment_container, .reading_info_attatchment {
+    display: flex;
+    align-items: center;
+}
+
+.reading_info_attatchment_typo {
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.writing_button {
+    margin: 0;
+}
+
+.reading_info_button_right_list {
+    margin-left: 15px;
+}
