@@ -1,0 +1,159 @@
+.container {
+    width: 620px;
+    height: 905px;
+    box-sizing: border-box;
+    padding: 26px 50px 50px 50px;
+}
+
+.dialog_header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+}
+
+.dialog_header_typo {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.dialog_close_button {
+    width: 29px;
+    height: 29px;
+    margin-top: 10px;
+}
+
+.dialog_item {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 24px 0;
+}
+
+.dialog_item_title {
+    min-width: 113px;
+}
+
+.dialog_item_title_typo {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dialog_item_context_container {
+    width: 407px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding-left: 30px;
+}
+
+.dialog_item_context_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 7px;
+}
+
+.dialog_item_context_typo_container {
+    width: 111px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #555;
+    padding-bottom: 7px;
+    margin-right: 10px;
+}
+
+.price_num  {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dialog_item_context_pic_upload {
+    width: 100%;
+    height: 211px;
+    background: #f0f0f0;
+}
+
+.button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px 60px 0 60px;
+}
+
+.button_white {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin-right: 20px;
+}
+
+.button_white_typo {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button_blue {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    background: #0083E8;
+}
+
+.button_blue_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bottom_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bottom_info_typo {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.select_button_container {
+    display: flex;
+}
+
+.select_button {
+    min-width: 107px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+    margin-left: 13px;
+}
+    
+.select_button_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+    
+.select_button_typo {
+    color: #B6B6B6;
+    font-size: 14px;
+}
