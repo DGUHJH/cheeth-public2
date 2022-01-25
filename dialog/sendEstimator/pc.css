@@ -1,0 +1,73 @@
+.container {
+    width: 864px;
+    height: 1186px;
+}
+
+.dialog_item_title {
+    min-width: 131px;
+}
+
+.wide {
+    min-width: 400px;
+}
+
+.semi_wide {
+    min-width: 140px;
+    margin: 0;
+    margin-right: 23px;
+}
+
+.row {
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.dialog_item {
+    padding: 37px 0;
+}
+
+.dialog_item_context_container {
+    width: 634px;
+    padding: 0;
+}
+
+.dialog_item_context {
+    display: flex;
+    align-items: baseline;
+}
+
+.dialog_item_sub_title {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dialog_blue_close_button {
+    width: 11px;
+    height: 11px;
+    margin-right: 13px;
+}
+
+.dialog_item_context_blank {
+    width: 634px;
+    height: 80px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.high {
+    height: 155px;
+}
+
+.dialog_item_context_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dialog_item_context_pic_upload {
+    width: 382px;
+    min-height: 214px;
+    margin-right: 40px;
+}
