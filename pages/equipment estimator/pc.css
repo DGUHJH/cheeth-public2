@@ -123,14 +123,15 @@
 }
 
 .writing_button {
-    width: 83px;
+    min-width: 83px;
     height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 1px #e5e5e5;
-    margin-top: 12px;
-    margin-bottom: 40px;
+    box-sizing: border-box;
+    margin: 12px 0 40px 12px;
+    padding: 10px 14px;
 }
 
 .writing_button_typo {
