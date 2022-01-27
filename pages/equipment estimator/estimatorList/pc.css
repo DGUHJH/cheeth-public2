@@ -118,8 +118,10 @@
     width: 550px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    box-sizing: border-box;
+    padding-left: 30px;
 }
 
 .estimator_list_numb {
