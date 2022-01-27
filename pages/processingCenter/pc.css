@@ -1,3 +1,7 @@
+.list_main_container {
+    overflow-x: hidden;
+}
+
 .filter_container {
     width: 100%;
     min-height: 68px;
