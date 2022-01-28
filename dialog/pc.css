@@ -60,7 +60,7 @@
 .dialog_item_context_typo_container {
     width: 111px;
     display: flex;  
-    justify-content: space-between;
+    justify-content: end;
     align-items: baseline;
     border-bottom: 1px solid #555;
     padding-bottom: 7px;
@@ -71,6 +71,7 @@
     color: #333;
     font-size: 18px;
     font-weight: 600;
+    margin-right: 10px;
 }
 
 .dialog_item_context_pic_upload {
