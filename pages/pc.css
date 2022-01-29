@@ -443,3 +443,10 @@
     transform: rotate(180deg);
     filter: opacity(0.4) drop-shadow(0 0 0 #767676); 
 }
+
+.advertisement_banner {
+    width: 150px;
+    height: 600px;
+    background: #c4c4c4;
+    margin: 45px 40px 0 40px;
+}
