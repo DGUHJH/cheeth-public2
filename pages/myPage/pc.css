@@ -1,0 +1,58 @@
+.list_main_container {
+    width: 728px;
+}
+
+.checkbox {
+    margin: 0 13px;
+}
+
+.name {
+    width: 510px;
+}
+
+.prosthetics_type {
+    width: 154px;
+}
+
+.count {
+    width: 223px;
+}
+
+.attatchment {
+    width: 105px;
+}
+
+.button_container_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: -15px;
+}
+
+.button_white {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 0 13px;
+    margin-right: 15px;
+}
+
+.button_white_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.pagination {
+    margin: 37px;
+}
