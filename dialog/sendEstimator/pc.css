@@ -1,6 +1,6 @@
 .container {
     width: 864px;
-    height: 1186px;
+    height: 1202px;
 }
 
 .dialog_item_title {
@@ -12,9 +12,8 @@
 }
 
 .semi_wide {
-    min-width: 140px;
+    min-width: 128px;
     margin: 0;
-    margin-right: 23px;
 }
 
 .row {
@@ -36,10 +35,11 @@
     align-items: baseline;
 }
 
-.dialog_item_sub_title {
+.dialog_item_sub_title, .dialog_item_sub_explanation {
     color: #b6b6b6;
     font-size: 13px;
     font-weight: 400;
+    margin-top: 7px;
 }
 
 .dialog_blue_close_button {
@@ -51,9 +51,16 @@
 .dialog_item_context_blank {
     width: 634px;
     height: 80px;
+    align-items: flex-start;
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     padding: 17px;
+}
+
+.calculate_price {
+    width: 95px;
+    height: 38px;
+    align-items: center;
 }
 
 .high {
@@ -70,4 +77,16 @@
     width: 382px;
     min-height: 214px;
     margin-right: 40px;
+}
+
+.upload_container {
+    min-width: 185px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.upload {
+    width: 83px;
+    height: 36px;
 }
