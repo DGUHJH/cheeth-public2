@@ -1,0 +1,622 @@
+.container {
+    width: 620px;
+    height: 905px;
+    box-sizing: border-box;
+    padding: 26px 50px 50px 50px;
+}
+
+.dialog_header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+}
+
+.dialog_header_typo {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.dialog_close_button {
+    width: 29px;
+    height: 29px;
+    margin-top: 10px;
+}
+
+.dialog_item {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 24px 0;
+}
+
+.dialog_item_title {
+    min-width: 113px;
+}
+
+.dialog_item_title_typo {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dialog_item_context_container {
+    width: 407px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding-left: 30px;
+}
+
+.dialog_item_context_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 7px;
+}
+
+.dialog_item_context_typo_container {
+    width: 111px;
+    display: flex;  
+    justify-content: end;
+    align-items: baseline;
+    border-bottom: 1px solid #555;
+    padding-bottom: 7px;
+    margin-right: 10px;
+}
+
+.dialog_item_context_calculate_price {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.dialog_item_context_blank {
+    width: 95px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    padding: 0 14px;
+}
+
+.dialog_item_context_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.operator {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0 13px;
+}
+
+.price_num  {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.dialog_item_context_pic_upload {
+    width: 100%;
+    height: 211px;
+    background: #f0f0f0;
+}
+
+.pic_upload_container {
+    width: 298px;
+    margin-right: 40px;
+}
+
+.pic_upload {
+    width: 298px;
+    height: 168px;
+    background: #F0F0F0;
+}
+
+.small_pic_upload_container {
+    width: 298px;
+    height: 52px;
+    display: flex;
+    margin-top: 10px;
+    margin-right: -13px;
+}
+
+.small_pic_upload {
+    min-width: 92px;
+    height: 52px;
+    background: #F0F0F0;
+    margin-right: 11px;
+}
+
+.upload {
+    width: 83px;
+    height: 36px;
+}
+
+.upload_typo {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.image_slider {
+    width: 298px;
+    height: 168px;
+    background: #C4C4C4;
+    background: #F0F0F0;
+    box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.image_slider_arrow_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.image_slider_arrow_container img:first-child {
+    transform: rotate(180deg);
+}
+
+.image_slider_arrow {
+    margin: 0 13px;
+}
+
+.button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px 60px 0 60px;
+}
+
+.button_white {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin-right: 20px;
+}
+
+.button_white_typo {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button_blue {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    background: #0083E8;
+}
+
+.button_blue_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bottom_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bottom_info_typo {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.select_button_container {
+    display: flex;
+}
+
+.select_button {
+    min-width: 107px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+    margin-left: 13px;
+}
+    
+.select_button_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+    
+.select_button_typo {
+    color: #B6B6B6;
+    font-size: 14px;
+}
+
+.info {
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.info_title {
+    min-width: 70px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: none;
+    margin-right: 25px;
+}
+
+.send_estimator_container {
+    width: 864px;
+    height: 1202px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 42px 50px;
+}
+
+.send_estimator_dialog_item_title {
+    min-width: 131px;
+}
+
+.wide {
+    min-width: 400px;
+}
+
+.semi_wide {
+    min-width: 128px;
+    margin: 0;
+}
+
+.send_estimator_dialog_item {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 37px 0;
+}
+
+.send_estimator_dialog_item_context_container {
+    width: 634px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.send_estimator_dialog_item_context {
+    display: flex;
+    align-items: baseline;
+}
+
+.send_estimator_dialog_item_sub_title, .send_estimator_dialog_item_sub_explanation {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.send_estimator_dialog_blue_close_button {
+    width: 11px;
+    height: 11px;
+    margin-right: 13px;
+}
+
+.send_estimator_dialog_item_context_blank {
+    width: 634px;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.calculate_price {
+    width: 95px;
+    height: 38px;
+    align-items: center;
+}
+
+.high {
+    height: 155px;
+}
+
+.send_estimator_dialog_item_context_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* .send_estimator_dialog_item_context_pic_upload {
+    width: 382px;
+    min-height: 214px;
+    margin-right: 40px;
+} */
+
+.upload_container {
+    width: 175px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.upload {
+    width: 83px;
+    height: 36px;
+}
+
+.matching_container {
+    width: 440px;
+    height: 238px;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.matching_header {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 171px;
+    padding-right: 34px;
+    background: #F6F6F6;
+}
+
+.matching_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matching_body_typo_wrapper {
+    margin: 33px 0 40px 0;
+}
+
+.matching_header_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.matching_button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 27px;
+}
+
+.matching_button_white {
+    width: 121px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin-right: 10px;
+}
+
+.matching_button_white_typo {
+    color: #444;
+    font-size: 16px;
+   font-weight: 300;
+}
+
+.matching_button_blue {
+    width: 121px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #005FA8;
+    background: #005FA8;
+}
+
+.matching_button_blue_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.electronic_estimator_container {
+    width: 843px;
+    height: 1329px;
+    box-sizing: border-box;
+    padding: 60px 50px 50px 50px;
+    margin: 0 auto;
+}
+
+.electronic_estimator_dialog_item {
+    flex-direction: column;
+    padding: 37px 0 37px 0;
+}
+
+.electronic_estimator_dialog_item_title {
+    margin-bottom: 30px;
+}
+
+.electronic_estimator_dialog_item_sub_title_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.electronic_estimator_dialog_item_context_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.electronic_estimator_dialog_item_context {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.electronic_estimator_dialog_item_button_container {
+    width: 116px;
+    display: flex;
+}
+
+.electronic_estimator_dialog_item_button {
+    width: 54px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+
+.price_area {
+    width: 101px;
+    height: 38px;
+}
+
+.electronic_estimator_dialog_item_button_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.electronic_estimator_select_button_container {
+    display: flex;
+    margin-left: 47px;
+}
+
+.without_margin {
+    margin: 0;
+}
+
+.darker {
+    background: #F2F2F2;
+}
+
+.electronic_estimator_dialog_item_context_info {
+    width: 346px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #666;
+    margin-left: 50px;
+}
+
+.electronic_estimator_dialog_item_context_info_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.electronic_estimator_button_container_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.electronic_estimator_button_container {
+    width: 286px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.electronic_estimator_button_white {
+    width: 133px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin-right: 20px;
+}
+
+.electronic_estimator_button_white_typo {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.electronic_estimator_button_blue {
+    width: 133px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    background: #0083E8;
+}
+
+.electronic_estimator_button_white_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.electronic_estimator_profile_name {
+    display: flex;
+    align-items: center;
+    margin-right: 58px;
+}
+
+.electronic_estimator_profile_name_typo {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.electronic_estimator_profile_info_container {
+    display: flex;
+    align-items: center;
+}
+
+.electronic_estimator_profile_info {
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+}
+
+.electronic_estimator_profile_info p:first-child {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.electronic_estimator_profile_info p:last-child {
+    color: #0083e8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
