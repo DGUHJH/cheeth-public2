@@ -9,11 +9,24 @@ margin: 0 !important;
 
 button {
 color: #0000 !important;
-border: 0 !important;
+background: #fff;
+border: 0;
 }
 
 p {
 margin: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    border: none;
 }
 
 @font-face {
@@ -25,4 +38,3069 @@ src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2
 width: 1280px;
 height: 100%;
 margin: 0 auto;
+}
+
+.main_main_body {
+width: 100%;
+min-height: calc(100vh - 250px);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 80px;
+}
+
+.main_main_banner_img_wrapper {
+width: 100%;
+height: 657px;
+display: flex;
+justify-content: center;
+position: relative;
+overflow-x: hidden;
+}
+
+.main_main_banner_img {
+width: 1920px;
+height: 603px;
+}
+
+.main_main_banner_button_container {
+width: 1120px;
+height: 109px;
+display: flex;
+justify-content: space-between;
+position: absolute;
+top: 548px;
+z-index: 2;
+}
+
+.main_main_banner_button {
+width: 374px;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main_main_banner_button_typo {
+font-size: 21px;
+font-weight: 800;
+color: #fff;
+}
+
+.main_main_banner_button_01 {
+background: #005fa8;
+}
+
+.main_main_banner_button_02 {
+background: #3caaff;
+}
+
+.main_main_banner_button_03 {
+background: #0083e8;
+}
+
+.main_main_menu_list_container {
+width: 869px;
+height: 251px;
+margin-top: 95px;
+display: flex;
+justify-content: space-between;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+.main_main_menu_item_container {
+width: 160px;
+height: 88px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+}
+
+.main_main_menu_item_img_01 {
+height: 53px;
+}
+
+.main_main_menu_item_img_02 {
+height: 65px;
+}
+
+.main_main_menu_item_img_03 {
+height: 61px;
+}
+
+.main_main_menu_item_img_04 {
+height: 45px;
+}
+
+.main_main_menu_item_img_05 {
+height: 53px;
+}
+
+.main_main_menu_item_img_06 {
+height: 34px;
+}
+
+.main_main_menu_item_img_07 {
+height: 54px;
+}
+
+.main_main_menu_item_img_08 {
+height: 54px;
+}
+
+.main_main_menu_item_typo {
+font-size: 15px;
+font-weight: 400px;
+color: #343434;
+}
+
+.main_main_divider {
+width: 1162px;
+height: 1px;
+background: #dedede;
+margin-top: 132px;
+}
+
+.main_main_center_container {
+width: 1280px;
+height: 405px;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+margin-top: 80px;
+}
+
+.main_main_center_title_container {
+width: 1162px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.main_main_center_left_container {
+display: flex;
+align-items: center;
+}
+
+.main_main_center_title_typo {
+font-size: 32px;
+font-weight: 700;
+color: #165f98;
+}
+
+.main_main_center_carousel_button_container {
+width: 111px;
+height: 43px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 40px;
+border: 1px #eee solid;
+}
+
+.main_main_center_carousel_button {
+width: 55px;
+height: 43px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.main_main_center_carousel_button_divider {
+width: 1px;
+height: 100%;
+background: #eee;
+}
+
+.main_main_center_carousel_button_img {
+width: 12px;
+}
+
+.main_main_center_see_more_typo {
+font-size: 14px;
+font-weight: 500;
+color: #959595;
+}
+
+.main_main_center_carousel_card_container {
+width: 1162px;
+height: 265px;
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+}
+
+.main_main_center_carousel_card {
+width: 250px;
+height: 265px;
+background: #fff;
+padding: 40px 30px;
+box-sizing: border-box;
+border: 1px solid #ececec;
+border-radius: 10px;
+}
+
+.main_main_center_carousel_card_chip {
+width: 42px;
+height: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #007ddb;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.main_main_center_carousel_card_chip_typo {
+font-weight: 700;
+font-size: 10px;
+color: #007ddb;
+}
+
+.main_main_center_carousel_card_title_typo {
+font-size: 18px;
+font-weight: 700;
+color: #555;
+margin-top: 18px;
+}
+
+.main_main_center_carousel_card_divider {
+width: 18px;
+height: 2px;
+background: #555;
+margin-top: 30px;
+}
+
+.main_main_center_carousel_card_item_typo {
+font-size: 13px;
+font-weight: 500;
+color: #555;
+margin-top: 29px;
+}
+
+.main_main_center_carousel_card_item_description_typo {
+font-size: 13px;
+font-weight: 400;
+color: #a0a0a0;
+margin-top: 18px;
+}
+
+.main_main_center_carousel_background_wrapper {
+width: 1280px;
+height: 200px;
+background: #f8f9fe;
+position: absolute;
+top: 205px;
+z-index: -1;
+}
+
+.main_sub_body {
+width: 100%;
+margin-bottom: 120px;
+display: flex;
+justify-content: center;
+position: relative;
+overflow-x: hidden;
+}
+
+.main_sub_inner_body {
+width: 1920px;
+height: 351px;
+display: flex;
+justify-content: center;
+background: #005FA8;
+}
+
+.main_sub_text_container {
+min-width: 202px;
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: start;
+margin-right: 141px;
+margin-left: 379px;
+}
+
+.main_sub_text_typo_title {
+font-size: 32px;
+margin-top: 60px;
+}
+
+.main_sub_text_typo_see_all {
+font-size: 14px;
+margin-top: 18px;
+}
+
+.main_sub_carousel_button_container {
+width: 111px;
+height: 43px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px #fff solid;
+margin-top: 40px;
+}
+
+.main_sub_carousel_button {
+width: 55px;
+height: 43px;
+background: #005FA8;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.main_sub_carousel_button_divider {
+width: 1px;
+height: 100%;
+background: #fff;
+}
+
+.main_sub_carousel_button_img {
+width: 12px;
+}
+
+.main_sub_banner_container {
+display: flex;
+margin-right: -72px;
+box-sizing: border-box;
+overflow-x: hidden;
+position: relative;
+}
+
+.main_sub_banner {
+min-width: 226px;
+height: 291px;
+background-color: #fff;
+margin: 30px 15px;
+padding: 0 25px 35px 25px;
+box-sizing: border-box;
+}
+
+.main_sub_banner_header {
+display: flex;
+justify-content: space-between;
+}
+
+.main_sub_banner_chip {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 57px;
+height: 53px;
+box-sizing: border-box;
+margin-top: -13px;
+padding-top: 12px;
+background: #3BAAFF;
+font-size: 14px;
+font-weight: 700;
+color: #fff;
+}
+
+.main_sub_banner_header_nickname {
+font-size: 11px;
+font-weight: 400;
+margin-top: 19px;
+}
+
+.main_sub_banner_item_top_typo {
+margin-top: 20px;
+color: #555;
+font-size: 12px;
+}
+
+.main_sub_banner_item_bottom_typo {
+margin-top: 15px;
+color: #555;
+font-size: 12px;
+}
+
+.main_number {
+display: flex;
+align-items: baseline;
+margin-top: 4px;
+color: #464646;
+}
+
+.main_number p:first-child {
+font-size: 20px;
+margin-right: 4px;
+font-weight: 500;
+}
+
+.main_number p:last-child {
+font-size: 14px;
+font-weight: 600;
+}
+
+.main_sub_banner_divider {
+width: 14px;
+margin: 15px 0 20px;
+border-bottom: solid 2px #444;
+}
+
+.main_sub_banner_footer {
+font-size: 13px;
+font-weight: 400;
+color: #A0A0A0;
+}
+
+.main_footer_body {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.main_footer_body_header {
+width: 1164px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.main_footer_body_typo_container {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: baseline;
+}
+
+.main_footer_body_header_typo {
+color: #155F98;
+font-size: 32px;
+font-weight: 600;
+margin-right: 335px;
+margin-bottom: 70px;
+}
+
+.main_footer_body_header_see_all {
+color: #959595;
+font-size: 14px;
+}
+
+.main_footer_body_item_container {
+width: 1164px;
+display: flex;
+justify-content: space-between;
+}
+
+.main_footer_body_item {
+width: 176px;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+border: solid 1px #007DDB;
+border-radius: 35px;
+margin: 10px 0;
+}
+
+.main_footer_body_item_typo {
+font-size: 14px;
+font-weight: 600;
+color: #007DDB;
+}
+
+.main_footer_body_divider {
+width: 1162px;
+height: 1px;
+background: #DEDEDE;
+box-sizing: border-box;
+margin-top: 110px;
+margin-bottom: 80px;
+}
+
+.main_project_youtube_container {
+width: 1164px;
+display: flex;
+justify-content: space-between;
+padding-bottom: 80px;
+margin-bottom: 40px;
+border-bottom: solid 1px #DEDEDE;
+}
+
+.main_project_youtube_typo {
+font-size: 26px;
+font-weight: 600;
+margin-bottom: 14.main_9px;
+}
+
+.main_project_box {
+width: 551px;
+height: 226px;
+border: 1px solid #F8F9FE;
+background: #F8F9FE;
+}
+
+.main_youtube_box {
+width: 551px;
+height: 226px;
+background: #0083E8;
+}
+
+.main_partners {
+width: 1119px;
+height: 136px;
+margin-bottom: 60px;
+}
+
+.main_partners_typo {
+color: #333;
+font-size: 26px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+.main_partners_box_container {
+display: flex;
+justify-content: space-between;
+}
+
+.main_partners_box {
+width: 211px;
+height: 91px;
+background: #ECECEC;
+}
+
+.login_body {
+width: 100%;
+min-height: calc(100vh - 250px);
+display: flex;
+justify-content: center;
+}
+
+.login_container {
+width: 330px;
+height: 518px;
+display: flex;
+flex-direction: column;
+margin-top: 80px;
+}
+
+.login_title_typo {
+color: #333;
+font-size: 26px;
+font-weight: 500;
+}
+
+.login_editor_container {
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+}
+
+.login_editor {
+width: 330px;
+height: 40px;
+border: 1px #bbb solid;
+padding: 0 24px;
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+
+.login_submit_button {
+width: 330px;
+height: 52px;
+background: #0083e8;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 3px;
+}
+
+.login_submit_button_typo {
+color: #fff;
+font-size: 13px;
+font-weight: 600;
+}
+
+.login_find_container {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 13px;
+}
+
+.login_find_save_container {
+display: flex;
+align-items: center;
+}
+
+.login_find_save_typo {
+color: #a6a6a6;
+font-size: 11px;
+font-weight: 300;
+margin-left: 10px;
+}
+
+.login_find_info_container {
+width: 131px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.login_find_info_typo {
+color: #222;
+font-size: 11px;
+font-weight: 300;
+cursor: pointer;
+}
+
+.login_platform_container {
+width: 100%;
+height: 186px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 80px;
+}
+
+.login_platform_button {
+width: 100%;
+height: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 2px;
+}
+
+.login_platform_button_kakao {
+background: #feeb35;
+}
+
+.login_platform_button_kakao_typo {
+color: #3c1e1e;
+font-size: 13px;
+font-weight: 400;
+}
+
+.login_platform_button_naver {
+background: #19ce60;
+}
+
+.login_platform_button_naver_typo {
+color: #fff;
+font-size: 13px;
+font-weight: 400;
+}
+
+.login_platform_button_google {
+box-sizing: border-box;
+border: 1px solid #cccccc;
+}
+
+.login_platform_button_google_typo {
+color: #222;
+font-size: 13px;
+font-weight: 400;
+}
+
+.accept_conditions_sign_up_container {
+width: 712px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+margin-top: 80px;
+}
+
+.accept_conditions_sign_up_container {
+width: 643px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+margin-top: 80px;
+}
+
+.accept_conditions_sign_up_typo_container {
+width: 100%;
+display: flex;
+justify-content: start;
+margin-bottom: 40px;
+}
+
+.accept_conditions_sign_up_typo {
+color: #333;
+font-size: 26px;
+font-weight: 500;
+}
+
+.accept_conditions_sign_up_step_container {
+width: 544px;
+height: 72px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+border: solid 1px #E1E1E1;
+border-radius: 36px;
+padding-left: 26px;
+}
+
+.accept_conditions_sign_up_step {
+min-width: 71px;
+font-size: 13px;
+font-weight: 600;
+margin: 0 13px;
+}
+
+.accept_conditions_sign_up_step_arrow {
+width: 14px;
+height: 28px;
+margin-left: 13px;
+margin-right: 27px;
+}    
+
+.accept_conditions_condition_container {
+width: 712px;
+margin: auto;
+margin-top: 103px;
+margin-bottom: 63px;
+}
+
+.accept_conditions_condition_typo {
+font-size: 14px;
+font-weight: 500;
+margin-right: 13px;
+}
+
+.accept_conditions_condition_context {
+width: 100%;
+height: 163px;
+border: solid 1px #E5E5E5;
+margin-top: 23px;
+margin-bottom: 40px;
+}
+
+.accept_conditions_typo_and_check {
+display: flex;
+align-items: center;
+}
+
+.accept_conditions_accept_all {
+width: 712px;
+display: flex;
+justify-content: end;
+align-items: center;
+margin: auto;
+margin-top: -10px;
+margin-bottom: 45px;
+}
+
+.accept_conditions_accept_all .accept_conditions_condition_typo {
+margin-left: 13px;
+margin-right: 0;
+}
+
+.accept_conditions_page_button_container {
+display: flex;
+justify-content: center;
+margin-bottom: 388px;
+}
+
+.accept_conditions_page_before {
+width: 189px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #fff;
+border: solid 1px #DEDEDE;
+margin: 0 10px;
+}
+
+.accept_conditions_page_before_typo {
+color: #555;
+font-size: 16px;
+font-weight: 500;
+}
+
+.accept_conditions_page_after {
+width: 189px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid 1px #0083E8;
+margin: 0 10px;
+background: #0083E8;
+}
+
+.accept_conditions_page_after_typo {
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+}
+
+.sign_up_sign_up_container {
+width: 643px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+margin-top: 80px;
+}
+
+.sign_up_sign_up_typo_container {
+width: 100%;
+display: flex;
+justify-content: start;
+margin-bottom: 40px;
+}
+
+.sign_up_sign_up_typo {
+color: #333;
+font-size: 26px;
+font-weight: 500;
+}
+
+.sign_up_sign_up_step_container {
+width: 544px;
+height: 72px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+border: solid 1px #E1E1E1;
+border-radius: 36px;
+padding-left: 26px;
+}
+
+.sign_up_sign_up_step {
+min-width: 71px;
+font-size: 13px;
+font-weight: 600;
+margin: 0 13px;
+}
+
+.sign_up_sign_up_step_arrow {
+width: 14px;
+height: 28px;
+margin-left: 13px;
+margin-right: 27px; 
+}
+
+.sign_up_info_wrapper {
+width: 643px;
+margin: auto;
+}
+
+.sign_up_top_divider {
+width: 100%;
+height: 2px;
+background: #3D3D3D;
+margin: 60px 0 22.5px;
+}
+
+.sign_up_info_container {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.sign_up_info_item {
+width: 100%;
+display: flex;
+justify-content: start;
+align-items: flex-start;
+margin: 7.5px 0;
+}
+
+.sign_up_info_item_typo {
+min-width: 156px;
+min-height: 38px;
+color: #333;
+font-size: 14px;
+font-weight: 500;
+box-sizing: border-box;
+padding: 7.5px 0;
+}
+
+.sign_up_info_item_blank {
+min-width: 487px;
+height: 38px;
+display: flex;
+justify-content: start;
+align-items: center;
+border: solid 1px #EFEFEF;
+box-sizing: border-box;
+margin-right: 10px;
+padding: 0 15px;
+}
+
+.sign_up_info_item_blank_with_button {
+width: 487px;
+height: 38px;
+border: solid 1px #EFEFEF;
+box-sizing: border-box;
+margin-right: 10px;
+padding: 0 15px;
+}
+
+.sign_up_info_item_button {
+min-width: 109px;
+height: 38px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #8B8B8B;
+box-sizing: border-box;
+border: solid 1px #8B8B8B;
+}
+
+.sign_up_info_item_button_typo {
+color: #FFF;
+font-size: 14px;
+}
+
+.sign_up_info_container_divider {
+width: 100%;
+height: 1px;
+background: #3D3D3D;
+box-sizing: border-box;
+margin: 22.5px 0;
+}
+
+.sign_up_info_item_blank_comment_container {
+display: flex;
+flex-direction: column;
+}
+
+.sign_up_info_item_blank_comment {
+max-width: 487px;
+color: #B6B6B6;
+font-size: 14px;
+font-weight: 400;
+margin-top: 2.5px;
+}
+
+.sign_up_info_item_select_button {
+min-width: 155px;
+height: 38px;
+display: flex;
+align-items: center;
+border: solid 1px #EFEFEF;
+}
+
+.sign_up_info_item_select_button_typo_container {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+}
+
+.sign_up_info_item_select_button_typo {
+color: #B6B6B6;
+font-size: 14px;
+}
+
+.sign_up_page_button_container {
+display: flex;
+justify-content: center;
+margin-top: 72.5px;
+margin-bottom: 120px;
+}
+
+.sign_up_page_button {
+width: 189px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid 1px #DEDEDE;
+margin: 0 10px;
+}
+
+.sign_up_page_button_typo {
+color: #555;
+font-size: 16px;
+font-weight: 500;
+}
+
+.sign_up_confirm_button {
+width: 189px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid 1px #0083E8;
+margin: 0 10px;
+background: #0083E8;
+}
+
+.sign_up_confirm_button_typo {
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+}
+
+.sign_up_center_divider {
+width: 100%;
+height: 1px;
+background: #EAEAEA;
+box-sizing: border-box;
+margin: 22.5px 0;
+}
+
+.equipment_estimator_header, .processing_center_header, .cheesigner_view_all_header, .my_page_header, .project_header {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    background: #005FA8;
+    overflow-x: hidden;
+}
+
+.equipment_estimator_header_typo, .processing_center_header_typo, .cheesigner_view_all_header_typo, .my_page_header_typo, .project_header_typo {
+    width: 1920px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .my_page_body, .project_body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.equipment_estimator_side_menu, .processing_center_side_menu, .cheesigner_view_all_side_menu, .my_page_side_menu, .project_side_menu {
+    min-width: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 40px;
+}
+
+.equipment_estimator_side_menu_title, .processing_center_side_menu_title, .cheesigner_view_all_side_menu_title, .my_page_side_menu_title, .project_side_menu_title {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    background: #005FA8;
+    border: solid 1px #005FA8;
+    border-radius: 13px 13px 0 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.equipment_estimator_side_menu_title_typo, .processing_center_side_menu_title_typo, .cheesigner_view_all_side_menu_title_typo, .my_page_side_menu_title_typo, .project_side_menu_title_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.equipment_estimator_side_menu_list, .processing_center_side_menu_list, .cheesigner_view_all_side_menu_list, .my_page_side_menu_list, .project_side_menu_list {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #e5e5e5;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.equipment_estimator_side_menu_list_typo, .processing_center_side_menu_list_typo, .cheesigner_view_all_side_menu_list_typo, .my_page_side_menu_list_typo, .project_side_menu_list_typo {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 12px;
+}
+
+.equipment_estimator_side_menu_list_typo_blue, .processing_center_side_menu_list_typo_blue, .cheesigner_view_all_side_menu_list_typo_blue, .my_page_side_menu_list_typo_blue, .project_side_menu_list_typo_blue {
+    display: flex;
+    align-items: center;
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.equipment_estimator_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container, .project_list_main_container {
+    width: 728px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipment_estimator_connection_location_container, .processing_center_connection_location_container, .cheesigner_view_all_connection_location_container, .my_page_connection_location_container, .project_connection_location_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.equipment_estimator_connection_location_typo, .processing_center_connection_location_typo, .cheesigner_view_all_connection_location_typo, .my_page_connection_location_typo, .project_connection_location_typo {
+    columns: #727272;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_connection_location_typo_bold, .processing_center_connection_location_typo_bold, .cheesigner_view_all_connection_location_typo_bold, .my_page_connection_location_typo_bold, .project_connection_location_typo_bold {
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.equipment_estimator_connection_location_arrow, .processing_center_connection_location_arrow, .cheesigner_view_all_connection_location_arrow, .my_page_connection_location_arrow, .project_connection_location_arrow {
+    margin: 0 10px;
+}
+
+.equipment_estimator_connection_location_divider, .processing_center_connection_location_divider, .cheesigner_view_all_connection_location_divider, .my_page_connection_location_divider, .project_connection_location_divider {
+    width: 100%;
+    height: 2px;
+    background: #333;
+    margin-bottom: 15px;
+}
+
+.equipment_estimator_sub_container, .processing_center_sub_container, .cheesigner_view_all_list_sub_container, .my_page_sub_container, .project_sub_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equipment_estimator_pagination, .processing_center_pagination, .cheesigner_view_all_pagination, .my_page_pagination, .project_pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px;
+}
+
+.equipment_estimator_pagination_numb, .processing_center_pagination_numb, .cheesigner_view_all_pagination_numb, .my_page_pagination_numb, .project_pagination_numb {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_pagination_numb_now, .processing_center_pagination_numb_now, .cheesigner_view_all_pagination_numb_now, .my_page_pagination_numb_now, .project_pagination_numb_now {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #f2f2f2;
+}
+
+.equipment_estimator_pagination_numb_typo, .processing_center_pagination_numb_typo, .cheesigner_view_all_pagination_numb_typo, .my_page_pagination_numb_typo, .project_pagination_numb_typo {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_pagination_numb_now_typo, .processing_center_pagination_numb_now_typo, .cheesigner_view_all_pagination_numb_now_typo, .my_page_pagination_numb_now_typo, .project_pagination_numb_now_typo {
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equipment_estimator_pagination_next, .processing_center_pagination_next, .cheesigner_view_all_pagination_next, .my_page_pagination_next, .project_pagination_next {
+    width: 67px;
+    height: 34px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.equipment_estimator_pagination_next_typo, .processing_center_pagination_next_typo, .cheesigner_view_all_pagination_next_typo, .my_page_pagination_next_typo, .project_pagination_next_typo {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equipment_estimator_pagination_next_arrow, .processing_center_pagination_next_arrow, .cheesigner_view_all_pagination_next_arrow, .my_page_pagination_next_arrow, .project_pagination_next_arrow {
+    filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
+}
+
+.equipment_estimator_pagination_before, .processing_center_pagination_before, .cheesigner_view_all_pagination_before {
+    width: 67px;
+    height: 34px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.equipment_estimator_pagination_before_typo, .processing_center_pagination_before_typo, .cheesigner_view_all_pagination_before_typo {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equipment_estimator_pagination_before_arrow, .processing_center_pagination_before_arrow, .cheesigner_view_all_pagination_before_arrow {
+    transform: rotate(180deg);
+    filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
+}
+
+.equipment_estimator_filter_container, .cheesigner_view_all_list_filter_container, .my_page_filter_container, .project_filter_container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.equipment_estimator_filter_typo, .cheesigner_view_all_list_filter_typo, .my_page_filter_typo, .project_filter_typo {
+    columns: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_filter, .cheesigner_view_all_list_filter, .my_page_filter, .project_filter {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.equipment_estimator_filter_sort_by, .cheesigner_view_all_list_filter_sort_by, .my_page_filter_sort_by, .project_filter_sort_by {
+    min-width: 153px;
+    max-height: 36px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+
+.equipment_estimator_filter_sort_by_typo_container, .cheesigner_view_all_list_filter_sort_by_typo_container, .my_page_filter_sort_by_typo_container, .project_filter_sort_by_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+  
+.equipment_estimator_filter_sort_by_typo, .cheesigner_view_all_list_filter_sort_by_typo, .my_page_filter_sort_by_typo, .project_filter_sort_by_typo {
+    color: #C4C4C4;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.equipment_estimator_writing_button {
+    min-width: 83px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: solid 1px #e5e5e5;
+    box-sizing: border-box;
+    margin: 12px 0 40px 12px;
+    padding: 10px 14px;
+}
+
+.equipment_estimator_writing_button_typo {
+    color: #555;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.equipment_estimator_writing_info_button_container, .equipment_estimator_view_info_button_container, .project_request_writing_info_button_container {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.equipment_estimator_writing_info_button_right_container, .equipment_estimator_view_info_button_right, .project_request_writing_info_button_right {
+    display: flex;
+}
+
+.equipment_estimator_writing_info_button_left, .equipment_estimator_writing_info_button_right_save, .equipment_estimator_view_info_button_right_list, .project_request_writing_info_button_left, .project_request_writing_info_button_right_save {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.equipment_estimator_writing_info_button_left_typo, .equipment_estimator_writing_info_button_right_save_typo, .equipment_estimator_view_info_button_right_list_typo, .project_request_writing_info_button_left_typo, .project_request_writing_info_button_right_save_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_writing_info_button_right_submit, .equipment_estimator_view_info_button_right_submit, .project_request_writing_info_button_right_submit {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #E2EFFF;
+    background: #E2EFFF;
+    margin-left: 15px;
+}
+
+.equipment_estimator_writing_info_button_right_submit_typo, .equipment_estimator_view_info_button_right_submit_typo, .project_request_writing_info_button_right_submit_typo {
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: solid 2px #333;
+}
+
+.equipment_estimator_list_data_type_container {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.equipment_estimator_list_data_type_order {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_data_type_title {
+    width: 353px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_data_type_numb {
+    width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_data_type_location {
+    width: 69px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_data_type_date_created {
+    width: 92px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_data_type_date_expiry {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.equipment_estimator_list_order {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_title {
+    width: 353;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.equipment_estimator_list_numb {
+    width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_location {
+    width: 69px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_date_created {
+    width: 92px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_list_date_expiry {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_divider {
+    width: 100%;
+    height: 1px;
+    background: #F2F2F2;
+}
+
+.equipment_estimator_list_search, .processing_center_search, .cheesigner_view_all_search, .project_search {
+    width: 426px;
+    height: 35px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.equipment_estimator_list_search_field, .processing_center_search_field, .cheesigner_view_all_search_field, .project_search_field {
+    width: 105px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 30px 0 0 30px;
+    box-sizing: border-box;
+    padding: 0 11px 0 30px;
+}
+
+.equipment_estimator_list_search_field_typo, .processing_center_search_field_typo, .cheesigner_view_all_search_field_typo, .project_search_field_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.equipment_estimator_list_search_bar, .processing_center_search_bar, .cheesigner_view_all_search_bar, .project_search_bar {
+    width: 249px;
+    border: 1px solid #ddd;
+}
+
+.equipment_estimator_list_search_button, .processing_center_search_button, .cheesigner_view_all_search_button, .project_search_button {
+    width: 74px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0083E8;
+    border-radius: 0 30px 30px 0;
+    box-sizing: border-box;
+    padding: 0 20px 0 10px;
+}
+
+.equipment_estimator_list_search_button_typo, .processing_center_search_button_typo, .cheesigner_view_all_search_button_typo, .project_search_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equipment_estimator_connection_location_container, .processing_center_connection_location_container {
+    margin-bottom: 44px;
+}
+
+.equipment_estimator_writing_info_sub_container {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.equipment_estimator_writing_select_button, .project_request_select_button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.equipment_estimator_writing_select_board, .project_request_select_board {
+    width: 556px;
+    margin-right: 10px;
+}
+
+.equipment_estimator_writing_select_button_typo, .project_request_select_button_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_writing_select_button_arrow, .project_request_select_button_arrow {
+    width: 17px;
+    height: 8px;
+}
+
+.equipment_estimator_writing_select_location {
+    width: 347px;
+}
+
+.equipment_estimator_writing_info_title {
+    width: 515px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 0 20px;
+    margin-right: 10px;
+}
+
+.equipment_estimator_writing_info_title_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_writing_info_date_expiry {
+    width: 388px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    background: #eee;
+    padding: 0 20px;
+}
+
+.equipment_estimator_writing_info_date_expiry_typo {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400px;
+}
+
+.equipment_estimator_writing_info_main_container {
+    width: 100%;
+    height: 599px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.equipment_estimator_writing_info_intro {
+    width: 100%;
+    height: 95px;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+.equipment_estimator_writing_info_intro_typo_top{
+    width: 575px;
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 300px;
+    margin-bottom: 7px;
+}
+
+.equipment_estimator_writing_info_intro_typo_bottom{
+    color: #555;
+    font-size: 13px;
+    font-weight: 400px;
+}
+
+.equipment_estimator_writing_info_item_container {
+    padding: 40px 30px 30px 30px;
+}
+
+.equipment_estimator_writing_info_item {
+    width: 600px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.equipment_estimator_writing_info_item_blank {
+    width: 441px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    padding: 0 20px;
+}
+
+.equipment_estimator_writing_info_item_typo {
+    min-width: 157px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.equipment_estimator_writing_info_item_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_writing_info_select_button_container {
+    display: flex;
+}
+
+.equipment_estimator_writing_year {
+    width: 144px;
+    height: 38px;
+    margin-right: 13px;
+}
+
+.equipment_estimator_writing_month, .equipment_estimator_writing_date {
+    width: 107px;
+    height: 38px;
+    margin-right: 13px;
+}
+
+.equipment_estimator_writing_info_detail_typo {
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.equipment_estimator_writing_info_detail_blank {
+    width: 100%;
+    height: 209px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.equipment_estimator_writing_info_detail_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_view_info_sub_container {
+    height: 75px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.equipment_estimator_view_info_title {
+    margin-bottom: 7px;
+}
+
+.equipment_estimator_view_info_title_typo {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.equipment_estimator_view_info_etc_container {
+    display: flex;
+}
+
+.equipment_estimator_view_info_etc {
+    margin-right: 30px;
+}
+
+.equipment_estimator_view_info_etc_typo {
+    color: #B6B6B6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.equipment_estimator_view_info_main_container {
+    height: 522px;
+    margin-bottom: 20px;
+}
+
+.equipment_estimator_view_info_item_container {
+    width: 913px;
+    height: 42px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.equipment_estimator_view_info_item {
+    width: 457px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.equipment_estimator_view_info_item_title {
+    width: 147px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F9FE;
+}
+
+.equipment_estimator_view_info_item_title_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equipment_estimator_view_info_item_context {
+    width: 310px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid 1px #F2F2F2;
+    padding-left: 32px;
+}
+
+.equipment_estimator_view_info_item_context_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.equipment_estimator_view_info_detail {
+    width: 100%;
+    height: 393px;
+    padding: 40px 20px;
+}
+
+.equipment_estimator_view_info_detail_typo {
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.equipment_estimator_view_info_button_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.equipment_estimator_view_info_button_right_list, .equipment_estimator_view_info_button_delete {
+    margin-left: 15px;
+}
+
+.equipment_estimator_view_info_button_delete, .equipment_estimator_view_info_button_edit {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.equipment_estimator_view_info_button_delete_typo, .equipment_estimator_view_info_button_edit_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_view_below_button {
+    margin-bottom: 14px;
+}
+
+.equipment_estimator_my_page_request_history_wrapper {
+    margin-bottom: 60px;
+}
+
+.equipment_estimator_my_page_request_history_chip_container {
+    width: 100%;
+    height: 52px;
+    display: flex;
+}
+
+.equipment_estimator_my_page_request_history_chip {
+    width: 168px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.equipment_estimator_my_page_request_history_chip_typo {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.equipment_estimator_my_page_request_history_container {
+    width: 100%;
+    height: 647px;
+}
+
+.equipment_estimator_my_page_request_history_datatype_container {
+    width: 100%;
+    height: 52px;
+    display: flex;
+}
+
+.equipment_estimator_my_page_request_history_datatype {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005FA8;
+}
+
+.equipment_estimator_my_page_request_history_datatype_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.equipment_estimator_my_page_category {
+    min-width: 145px;
+}
+
+.equipment_estimator_my_page_context {
+    min-width: 240px;
+}
+
+.equipment_estimator_my_page_count {
+    min-width: 40px;
+}
+
+.equipment_estimator_my_page_date_estimated {
+    min-width: 180px;
+}
+
+.equipment_estimator_my_page_date_expiry {
+    min-width: 108px;
+}
+
+.equipment_estimator_my_page_estimator_read {
+    min-width: 200px;
+}
+
+.equipment_estimator_my_page_request_history_list_container {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_my_page_request_history_list {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_my_page_request_history_list_typo {
+    color: #4b4b4b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_my_page_estimator_read_button {
+    width: 60px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 12px;
+}
+
+.equipment_estimator_my_page_estimator_read_button_typo {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.equipment_estimator_my_page_select_list {
+    background: #F8F9FE;
+    color: #838C94;
+}
+
+.equipment_estimator_my_page_selected {
+    background: #fff;
+    border-left: 5px solid #005FA8;
+    margin-right: -5px;
+}
+
+.equipment_estimator_my_page_selected_typo {
+    color: #005FA8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.equipment_estimator_my_page_pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 231px;
+}
+
+.equipment_estimator_my_page_margin {
+    width: 768px;
+    height: 100%;
+}
+
+.processing_center_main_container {
+    width: 913px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.processing_center_filter_container {
+    width: 100%;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    background: #F2F2F2;
+    border-top: 2px solid #333;
+    box-sizing: border-box;
+    padding: 0 40px;
+    margin-bottom: 45px;
+}
+
+.processing_center_filter {
+    display: flex;
+    margin-right: 40px;
+}
+
+.processing_center_filter_typo {
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.processing_center_main_center_carousel_card_container {
+    width: 1162px;
+    height: 885px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -25px;
+}
+  
+.processing_center_main_center_carousel_card {
+    width: 271px;
+    height: 265px;
+    background: #fff;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    margin: 15px 25px;
+}
+  
+.processing_center_main_center_carousel_card_chip {
+    width: 42px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #007ddb;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+  
+.processing_center_main_center_carousel_card_chip_typo {
+    font-weight: 700;
+    font-size: 10px;
+    color: #007ddb;
+}
+  
+.processing_center_main_center_carousel_card_title_typo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+    margin-top: 18px;
+}
+  
+.processing_center_main_center_carousel_card_divider {
+    width: 18px;
+    height: 2px;
+    background: #555;
+    margin-top: 30px;
+}
+  
+.processing_center_main_center_carousel_card_item_typo {
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 29px;
+}
+  
+.processing_center_main_center_carousel_card_item_description_typo {
+    font-size: 13px;
+    font-weight: 400;
+    color: #a0a0a0;
+    margin-top: 18px;
+}
+
+.processing_center_writing_button_container {
+    display: flex;
+    justify-content: end;
+}
+
+.processing_center_writing_button {
+    width: 83px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2EFFF;
+}
+
+.processing_center_writing_button_typo {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.processing_center_profile_connection_location_container {
+    margin-bottom: 44px;
+}
+
+.processing_center_profile_profile_wrapper {
+    width: 100%;
+    border-top: 2px solid #333;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 6.5px 40px 6.5px;
+}
+
+.processing_center_profile_profile_container {
+    display: flex;
+    margin: 20px 0;
+}
+
+.processing_center_profile_profile_item_container {
+    box-sizing: border-box;
+    margin: 0 13.5px;
+}
+
+.processing_center_profile_profile_item {
+    min-height: 65px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.processing_center_profile_service_explanation {
+    width: 873px;
+    height: 124px;
+    border: 1px solid #E5E5E5;
+    padding: 21px;
+}
+
+.processing_center_profile_profile_item_typo_container {
+    display: flex;
+    align-items: baseline;
+}
+
+.processing_center_profile_profile_item_typo_container p:last-child {
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.processing_center_profile_profile_item_typo {
+    color: #4b4b4b;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.processing_center_profile_profile_info_container {
+    display: flex;
+}
+
+.processing_center_profile_profile_info_blank {
+    width: 324px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #666;
+}
+
+.processing_center_profile_without_select_button {
+    width: 500px;
+}
+
+.processing_center_profile_profile_info_blank_typo_container {
+    display: flex;
+    margin-right: 12px;
+}
+
+.processing_center_profile_profile_info_blank_typo {
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.processing_center_profile_profile_image_wrapper {
+    width: 346px;
+    height: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    margin-top: 10px;
+}
+
+.processing_center_profile_select_button {
+    min-width: 157px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+    margin-right: 20px;
+}
+    
+.processing_center_profile_select_button_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.processing_center_profile_select_button_typo {
+    color: #B6B6B6;
+    font-size: 14px;
+}
+
+.processing_center_profile_image_container {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.processing_center_profile_image_wrapper {
+    width: 165px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.processing_center_profile_sample_image {
+    width: 54px;
+    height: 47px;
+}
+
+.processing_center_profile_pic_upload {
+    width: 165px;
+    height: 93px;
+    background: #F2F2F2;
+    margin-left: 12px;
+}
+
+.processing_center_profile_button_container {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.processing_center_profile_writing_button, .processing_center_profile_cancel_button {
+    width: 83px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2EFFF;
+    margin: 0 0 60px 15px;
+}
+
+.processing_center_profile_writing_button_typo, .processing_center_profile_cancel_button_typo {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.processing_center_profile_cancel_button {
+    background: #fff;
+    border: 1px solid #E5E5E5;
+}
+
+.processing_center_profile_cancel_button_typo {
+    color: #555555;
+    font-weight: 400;
+}
+
+.processing_center_profile_being_entered {
+    color: #444444;
+    margin-right: 7px;
+}
+
+.processing_center_profile_direct_input {
+    width: 100%;
+    width: 42px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.processing_center_profile_direct_input_blank {
+    min-width: 334px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    padding: 0 14px;
+}
+
+.processing_center_profile_direct_input_blank_typo {
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.processing_center_profile_direct_input_button {
+    min-width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8B8B8B;
+    border: 1px solid #8B8B8B;
+}
+
+.processing_center_profile_direct_input_button_typo {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cheesigner_view_all_list_container, .my_page_list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top: solid 2px #333;
+    margin-bottom: 58px;
+}
+
+.cheesigner_view_all_list_data_type_container, .my_page_list_data_type_container, .project_list_data_type_container {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cheesigner_view_all_list_data_type, .my_page_list_data_type, .project_list_data_type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cheesigner_view_all_list, .my_page_list, .project_list {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.cheesigner_view_all_list_order {
+    width: 34px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_numb {
+    width: 52px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_date_created {
+    width: 96px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_date_expiry {
+    width: 115px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_data_type_margin {
+    width: 25px;
+}
+
+.cheesigner_view_all_list_checkbox {
+    width: 12px;
+    height: 12px;
+    margin: 12px 10px;
+}
+
+.cheesigner_view_all_list_nickname {
+    width: 247px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_success_rate {
+    width: 112px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_satisfaction {
+    width: 200px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_total_project {
+    width: 136px;
+    height: 100%;
+}
+
+.cheesigner_view_all_list_total_price {
+    width: 144px;
+    height: 100%;
+}
+
+.my_page_checkbox {
+    margin-right: 10px;
+}
+
+.my_page_list_container {
+    margin: 0;
+}
+
+.my_page_list_main_container {
+    width: 728px;
+}
+
+.my_page_order {
+    width: 34px;
+}
+
+.my_page_name {
+    width: 524px;
+}
+
+.my_page_prosthetics_type {
+    width: 140px;
+}
+
+.my_page_count {
+    width: 213px;
+}
+
+.my_page_attatchment {
+    width: 105px;
+}
+
+.my_page_button_container_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.my_page_button_container, .project_request_button_container, .electronic_contract_button_container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: -15px;
+}
+
+.my_page_button_white, .project_request_button_white {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 0 13px;
+    margin-right: 15px;
+}
+
+.my_page_button_white_typo, .project_request_button_white_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.my_page_pagination {
+    margin: 37px;
+}
+
+.project_list_order {
+    width: 34px;
+}
+
+.project_list_title {
+    width: 279px;
+}
+
+.project_list_nickname {
+    width: 86px;
+}
+
+.project_list_numb {
+    width: 79px;
+}
+
+.project_list_date_expiry, .project_list_date_created {
+    width: 133px;
+}
+
+.project_writing_button_container {
+    display: flex;
+    justify-content: end;
+}
+
+.project_writing_button {
+    min-width: 83px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #e5e5e5;
+    box-sizing: border-box;
+    margin: 12px 0 40px 12px;
+    padding: 10px 14px;
+}
+
+.project_writing_button_icon {
+    margin-right: 6px;
+}
+
+.project_writing_button_typo {
+    color: #555;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.project_request_connection_location_container {
+    margin-bottom: 44px;
+}
+
+.project_request_writing_info_sub_container {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.project_request_select_button_container {
+    height: 100%;
+    display: flex;
+}
+
+.project_request_select_board {
+    width: 556px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.project_request_select_location {
+    width: 347px;
+}
+
+.project_request_calendar {
+    width: 189px;
+}
+
+.project_request_time {
+    width: 118px;
+}
+
+.project_request_select {
+    width: 126px;
+}
+
+.project_request_select_button {
+    margin-right: 15px;
+}
+
+.project_request_writing_info_title {
+    width: 515px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    padding: 0 20px;
+    margin-right: 10px;
+}
+
+.project_request_writing_info_title_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.project_request_writing_info_date_expiry {
+    width: 388px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    background: #eee;
+    padding: 0 20px;
+}
+
+.project_request_writing_info_date_expiry_typo {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400px;
+}
+
+.project_request_writing_info_main_container {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+
+.project_request_writing_info_intro {
+    width: 100%;
+    height: 95px;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+.project_request_writing_info_intro_typo{
+    width: 575px;
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 300px;
+    margin-bottom: 7px;
+}
+
+.project_request_writing_info_item_container {
+    box-sizing: border-box;
+    padding: 30px 30px 20px 30px;
+}
+
+.project_request_writing_info_item {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.project_request_writing_info_item_blank {
+    width: 441px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    padding: 0 20px;
+}
+
+.project_request_writing_info_item_typo {
+    min-width: 200px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.project_request_detail {
+    height: 100px;
+    margin-top: 27px;
+}
+
+.project_request_writing_info_detail_blank {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.project_request_writing_info_detail_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.project_request_writing_info_underline_box {
+    width: 333px;
+    height: 100%;
+    border-bottom: 1px solid #666666;
+    margin-left: 5px;
+}
+
+.project_request_move_button {
+    width: 123px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 19px;
+    margin-right: 78px;
+}
+
+.project_request_move_button_typo {
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.project_request_move_button_margin {
+    width: 123px;
+    margin-right: 78px;
+}
+
+.project_request_request {
+    width: 479px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 19px;
+    box-sizing: border-box;
+    padding: 0 24px;
+}
+
+.project_request_request_typo_title {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.project_request_request_typo_context {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.project_request_main_container_divider {
+    margin-bottom: 30px;
+}
+
+.project_request_writing_info_button_left {
+    width: 115px;
+}
+
+.project_request_reading_info_sub_container {
+    height: 115px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.project_request_reading_info_title {
+    margin-bottom: 7px;
+}
+
+.project_request_reading_info_title_typo {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.project_request_reading_info_etc_container {
+    display: flex;
+}
+
+.project_request_reading_info_etc {
+    margin-right: 30px;
+}
+
+.project_request_reading_info_etc_typo {
+    color: #B6B6B6;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.project_request_reading_info_main_container {
+    margin-bottom: 20px;
+}
+
+.project_request_reading_info_item_container {
+    width: 913px;
+    height: 42px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.project_request_reading_info_item {
+    width: 457px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.project_request_reading_info_item_title {
+    width: 147px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F9FE;
+}
+
+.project_request_reading_info_item_title_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.project_request_reading_info_item_context {
+    width: 310px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid 1px #F2F2F2;
+    padding-left: 32px;
+}
+
+.project_request_reading_info_item_context_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.project_request_reading_info_detail {
+    width: 100%;
+    height: 393px;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+.project_request_reading_info_detail_typo {
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.project_request_button_wrapper, .electronic_contract_button_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.project_request_profile_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.project_request_profile_pic_upload {
+    width: 38px;
+    height: 38px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.project_request_profile_button_container {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.project_request_profile_button {
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 0 8px;
+    margin-right: 10px;
+}
+
+.project_request_profile_button_typo {
+    color: #444;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* .button_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_container {
+    display: flex;
+} */
+
+/* .button {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    margin-right: 15px;
+} */
+
+/* .button_typo {
+    font-size: 13px;
+} */
+
+.project_request_button {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    margin-right: 15px;
+}
+
+.project_request_button_typo {
+    font-size: 13px;
+}
+
+.blue {
+    color: #0083E8;
+    background: #E2EFFF;
+    font-weight: 500;
+    border: 1px solid #E2EFFF;
+}
+
+.dark_blue {
+    color: #fff;
+    background: #0083E8;
+    font-weight: 600;
+    border: 1px solid #0083E8;
+}
+
+.white {
+    font-weight: 400;
+    border: 1px solid #E5E5E5
+}
+
+.white_typo {
+    color: #555;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.without_margin_right {
+    margin-right: 0;
+}
+
+.project_electronic_contract_select_button {
+    width: 107px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 13px;
+}
+
+.electronic_contract_main_container {
+    width: 928px;
+}
+
+.electronic_contract_wrapper {
+    width: 868px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.electronic_contract_container {
+    padding: 30px 30px 25px 30px;
+}
+
+.electronic_contract_condition {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.electronic_contract_condition_typo_container {
+    display: flex;
+    align-items: center;
+}
+
+.electronic_contract_condition_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sub_typo {
+    color: #acacac;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.short_cut {
+    color: #acacac;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.project_select_button_container {
+    height: 100%;
+    display: flex;
+    margin-left: 26px;
+}
+
+.project_select_button {
+    width: 107px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-right: 13px;
+}
+
+.project_select_button_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.accept_all {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.accept_all_typo {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.special_contract {
+    width: 100%;
+}
+
+.special_contract_title {
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.special_contract_context {
+    width: 100%;
+    height: 118px;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+}
+
+.caution {
+    margin: 20px 0 30px 0;
+}
+
+.caution_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.electronic_contract_button {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.main_container_divider {
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+    margin: 20px 0 20px 0
+}
+
+.divider_without_margin {
+    margin: 0;
+}
+
+.light {
+    background: #f2f2f2;
+}
+
+.advertisement_banner {
+    width: 150px;
+    height: 600px;
+    background: #c4c4c4;
+    margin: 45px 40px 0 40px;
+}
+
+.image_slider {
+    width: 449px;
+    height: 253px;
+    background: #C4C4C4;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.image_slider_arrow_container {
+    width: 100%;
+    height: 213px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.image_slider_arrow_container img:first-child {
+    transform: rotate(180deg);
+}
+
+.image_slider_arrow {
+    margin: 0 13px;
+}
+
+.image_slider_current_slide_container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_slider_current_slide, .image_slider_not_current_slide {
+    margin: 0 5px;
 }
