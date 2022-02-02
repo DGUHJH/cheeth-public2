@@ -71,6 +71,7 @@
     display: flex;
     align-items: center;
     margin-left: 65px;
+    padding-bottom: 10px;
 }
 
 .dialog_item_context_blank {
@@ -93,6 +94,12 @@
     font-size: 13px;
     font-weight: 300;
     margin: 0 13px;
+}
+
+.dialog_item_context_calculate_price_numb {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .price_num  {
@@ -619,4 +626,39 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.cad_container {
+    width: 668px;
+    height: 745px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 25px 50px;
+}
+
+.cad_title {
+    min-width: 190px;
+}
+
+.cad_pic_upload {
+    width: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cad_image_slider {
+    width: 306px;
+    height: 171px;
+}
+
+.cad_pic_container {
+    width: 262px;
+    height: 61px;
+}
+
+.cad_pic {
+    width: 109px;
+    height: 61px;
+    margin-right: 22px;
 }
