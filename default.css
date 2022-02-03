@@ -29,6 +29,10 @@ input {
     border: none;
 }
 
+select {
+    appearance: none;
+}
+
 @font-face {
 font-family: Pretendard;
 src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
@@ -1103,7 +1107,7 @@ box-sizing: border-box;
 margin: 22.5px 0;
 }
 
-.equipment_estimator_header, .processing_center_header, .cheesigner_view_all_header, .my_page_header, .project_header {
+.equipment_estimator_header, .processing_center_header, .cheesigner_view_all_header, .my_page_header, .project_header, .tribute_request_header {
     width: 100%;
     height: 180px;
     display: flex;
@@ -1112,7 +1116,14 @@ margin: 22.5px 0;
     overflow-x: hidden;
 }
 
-.equipment_estimator_header_typo, .processing_center_header_typo, .cheesigner_view_all_header_typo, .my_page_header_typo, .project_header_typo {
+.tribute_request_header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.equipment_estimator_header_typo, .processing_center_header_typo, .cheesigner_view_all_header_typo, .my_page_header_typo, .project_header_typo, .tribute_request_header_typo {
     width: 1920px;
     text-align: center;
     color: #fff;
@@ -1120,11 +1131,15 @@ margin: 22.5px 0;
     font-weight: 700;
 }
 
-.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .my_page_body, .project_body {
+.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .my_page_body, .project_body, .tribute_request_body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 40px;
+}
+
+.tribute_request_body {
+    align-items: center;
 }
 
 .equipment_estimator_side_menu, .processing_center_side_menu, .cheesigner_view_all_side_menu, .my_page_side_menu, .project_side_menu {
@@ -1190,30 +1205,39 @@ margin: 22.5px 0;
     flex-direction: column;
 }
 
-.equipment_estimator_connection_location_container, .processing_center_connection_location_container, .cheesigner_view_all_connection_location_container, .my_page_connection_location_container, .project_connection_location_container {
+.equipment_estimator_connection_location_container, .processing_center_connection_location_container, .cheesigner_view_all_connection_location_container, .my_page_connection_location_container, .project_connection_location_container, .tribute_request_connection_location_container {
     display: flex;
     justify-content: start;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.equipment_estimator_connection_location_typo, .processing_center_connection_location_typo, .cheesigner_view_all_connection_location_typo, .my_page_connection_location_typo, .project_connection_location_typo {
+.tribute_request_connection_location_container {
+    color: #fff;
+    margin: 30px 0 25px;
+}
+
+.equipment_estimator_connection_location_typo, .processing_center_connection_location_typo, .cheesigner_view_all_connection_location_typo, .my_page_connection_location_typo, .project_connection_location_typo, .tribute_request_connection_location_typo {
     columns: #727272;
     font-size: 13px;
     font-weight: 400;
 }
 
-.equipment_estimator_connection_location_typo_bold, .processing_center_connection_location_typo_bold, .cheesigner_view_all_connection_location_typo_bold, .my_page_connection_location_typo_bold, .project_connection_location_typo_bold {
+.equipment_estimator_connection_location_typo_bold, .processing_center_connection_location_typo_bold, .cheesigner_view_all_connection_location_typo_bold, .my_page_connection_location_typo_bold, .project_connection_location_typo_bold, .tribute_request_connection_location_typo_bold {
     color: #333;
     font-size: 13px;
     font-weight: 600;
 }
 
-.equipment_estimator_connection_location_arrow, .processing_center_connection_location_arrow, .cheesigner_view_all_connection_location_arrow, .my_page_connection_location_arrow, .project_connection_location_arrow {
+.tribute_request_connection_location_typo_bold {
+    color: #fff;
+}
+
+.equipment_estimator_connection_location_arrow, .processing_center_connection_location_arrow, .cheesigner_view_all_connection_location_arrow, .my_page_connection_location_arrow, .project_connection_location_arrow, .tribute_request_connection_location_arrow {
     margin: 0 10px;
 }
 
-.equipment_estimator_connection_location_divider, .processing_center_connection_location_divider, .cheesigner_view_all_connection_location_divider, .my_page_connection_location_divider, .project_connection_location_divider {
+.equipment_estimator_connection_location_divider, .processing_center_connection_location_divider, .cheesigner_view_all_connection_location_divider, .my_page_connection_location_divider, .project_connection_location_divider, .tribute_request_connection_location_divider {
     width: 100%;
     height: 2px;
     background: #333;
@@ -1369,7 +1393,7 @@ margin: 22.5px 0;
     margin-bottom: 60px;
 }
 
-.equipment_estimator_writing_info_button_right_container, .equipment_estimator_view_info_button_right, .project_request_writing_info_button_right {
+.equipment_estimator_writing_info_button_right_container, .equipment_estimator_view_info_button_right, .project_request_writing_info_button_right, .tribute_request_button_container {
     display: flex;
 }
 
@@ -2487,7 +2511,7 @@ margin: 22.5px 0;
     margin-right: -15px;
 }
 
-.my_page_button_white, .project_request_button_white {
+.my_page_button_white, .project_request_button_white, .tribute_request_button {
     height: 36px;
     display: flex;
     justify-content: center;
@@ -2497,7 +2521,7 @@ margin: 22.5px 0;
     margin-right: 15px;
 }
 
-.my_page_button_white_typo, .project_request_button_white_typo {
+.my_page_button_white_typo, .project_request_button_white_typo, .tribute_request_button_typo {
     color: #555;
     font-size: 13px;
     font-weight: 400;
@@ -2850,7 +2874,7 @@ margin: 22.5px 0;
     font-weight: 300;
 }
 
-.project_request_button_wrapper, .electronic_contract_button_wrapper {
+.project_request_button_wrapper, .electronic_contract_button_wrapper, .tribute_request_button_wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -2875,7 +2899,7 @@ margin: 22.5px 0;
     margin-bottom: 7px;
 }
 
-.project_request_profile_button {
+.project_request_profile_button{
     height: 21px;
     display: flex;
     justify-content: center;
@@ -3152,4 +3176,214 @@ margin: 22.5px 0;
 
 .image_slider_current_slide, .image_slider_not_current_slide {
     margin: 0 5px;
+}
+
+.select_button_item_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #444444;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+}
+
+.select_button_item {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.select_button_item_typo {
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.teeth_model_container {
+    width: 504px;
+    margin-right: 90px;
+}
+
+.teeth_model_title {
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 27px;
+}
+
+.teeth_model_title_typo {
+    color: #444;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.teeth_model_wrapper {
+    width: 100%;
+    height: 767px;
+    background: #fafafa;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 38px 35px;
+}
+
+.tribute_request_card {
+    width: 635px;
+    height: 1066px;
+    box-sizing: border-box;
+}
+
+.tribute_request_card_chip {
+    width: 225px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+    border-radius: 18px 18px 0 0;
+    padding: 0 40px;
+}
+
+.tribute_request_card_chip_typo {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tribute_request_info_container {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 40px 50px
+}
+
+.tribute_request_info_prosthetics_container {
+    width: 100%;
+    height: 78px;
+    margin-bottom: 30px;
+}
+
+.tribute_request_info_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tribute_request_info_prosthetics {
+    width: 100%;
+    display: flex;
+    margin-top: 26px;
+}
+
+.tribute_request_info_prosthetics_blank {
+    width: 164px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    border-radius: 18px 0 0 18px;
+}
+
+
+.find_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.find_container {
+    width: 412px;
+    height: 340px;
+}
+
+.find_id_container, .find_pw_container {
+    width: 100%;
+    height: 100%;
+}
+
+.find_id_header, .find_pw_header {
+    width: 100%;
+    height: 61px;
+}
+
+.find_id_header_typo, .find_pw_header_typo {
+    color: #555;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.find_id_body, .find_pw_body {
+    width: 100%;
+    height: 279px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.find_id_intro, .find_pw_intro {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+.phone_number_container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.phone_number {
+    width: 242px;
+    height: 100%;
+    border: 1px solid #BBBBBB;
+    margin-right: 10px;
+    padding: 0 20px;
+}
+
+.phone_number_button {
+    width: 81px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+}
+
+.phone_number_button_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.certification_number_container, .pw_name_container, .email_container {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 13px;
+}
+
+.certification_number, .pw_name, .email {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #BBBBBB;
+    padding: 0 20px;
+}
+
+.find_id_button, .find_pw_button {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+    border: 1px solid #0083E8;
+}
+
+.find_id_button_typo, .find_pw_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
 }
