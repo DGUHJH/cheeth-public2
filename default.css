@@ -3297,6 +3297,11 @@ margin: 22.5px 0;
     height: 340px;
 }
 
+.find_completed_container {
+    width: 412px;
+    height: 410px;
+}
+
 .find_id_container, .find_pw_container {
     width: 100%;
     height: 100%;
@@ -3320,6 +3325,31 @@ margin: 22.5px 0;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 40px;
+}
+
+.find_id_completed_body {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.find_pw_completed_body {
+    width: 100%;
+    height: 311px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.find_completed_main_intro {
+    color: #555;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 13px;
 }
 
 .find_id_intro, .find_pw_intro {
@@ -3372,7 +3402,7 @@ margin: 22.5px 0;
     padding: 0 20px;
 }
 
-.find_id_button, .find_pw_button {
+.find_id_button, .find_pw_button, .find_completed_login_button {
     width: 100%;
     height: 52px;
     display: flex;
@@ -3382,8 +3412,49 @@ margin: 22.5px 0;
     border: 1px solid #0083E8;
 }
 
-.find_id_button_typo, .find_pw_button_typo {
+.find_id_button_typo, .find_pw_button_typo, .find_completed_login_button_typo {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
+}
+
+.find_sub_divider {
+    width: 38px;
+    height: 2px;
+    background: #e5e5e5;
+    margin-top: -2px;
+    margin-bottom: 25px;
+}
+
+.email_found, .send_temp_pw_email {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.send_temp_pw_email {
+    margin-bottom: 40px;
+}
+
+.member_since {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.find_completed_find_pw_button {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    margin-bottom: 10px;
+}
+
+.find_completed_find_pw_button_typo {
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 500;
 }
