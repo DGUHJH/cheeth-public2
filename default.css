@@ -1140,6 +1140,7 @@ margin: 22.5px 0;
 
 .tribute_request_body {
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .equipment_estimator_side_menu, .processing_center_side_menu, .cheesigner_view_all_side_menu, .my_page_side_menu, .project_side_menu {
@@ -2880,6 +2881,10 @@ margin: 22.5px 0;
     margin-bottom: 60px;
 }
 
+.tribute_request_button_wrapper {
+    margin: 0;
+}
+
 .project_request_profile_wrapper {
     display: flex;
     align-items: center;
@@ -3230,7 +3235,6 @@ margin: 22.5px 0;
 .tribute_request_card {
     width: 635px;
     height: 1066px;
-    box-sizing: border-box;
 }
 
 .tribute_request_card_chip {
@@ -3242,7 +3246,24 @@ margin: 22.5px 0;
     border: 1px solid #e5e5e5;
     border-bottom: 1px solid #fff;
     border-radius: 18px 18px 0 0;
+    box-sizing: border-box;
     padding: 0 40px;
+}
+
+.tribute_request_card_border_top_container {
+    display: flex;
+}
+
+.tribute_request_card_border_top_invisible {
+    width: 225px;
+    height: 1px;
+    background: #fff;
+}
+
+.tribute_request_card_border_top_visible {
+    width: 410px;
+    height: 1px;
+    background: #e5e5e5;
 }
 
 .tribute_request_card_chip_typo {
@@ -3254,8 +3275,11 @@ margin: 22.5px 0;
 .tribute_request_info_container {
     width: 100%;
     border: 1px solid #e5e5e5;
+    border-top: none;
+    border-radius: 0 0 0 18px;
     box-sizing: border-box;
-    padding: 40px 50px
+    padding: 40px 50px;
+    position: relative;
 }
 
 .tribute_request_info_prosthetics_container {
@@ -3277,12 +3301,176 @@ margin: 22.5px 0;
 }
 
 .tribute_request_info_prosthetics_blank {
-    width: 164px;
+    width: 400px;
     height: 36px;
     border: 1px solid #e5e5e5;
     border-radius: 18px 0 0 18px;
+    padding: 0 18px;
 }
 
+.tribute_request_info_prosthetics_button {
+    width: 110px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444444;
+    border: 1px solid #444;
+    border-radius: 0 18px 18px 0;
+}
+
+.tribute_request_info_prosthetics_button_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.tribute_request_info_selected_dental_container {
+    width: 100%;
+    height: 84px;
+    margin-bottom: 50px;
+}
+
+.tribute_request_info_selected_dental {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.tribute_request_info_selected_dental_blank {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #333;
+}
+
+.tribute_request_info_select_button_container {
+    width: 152px;
+    height: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.tribute_request_info_select_button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.tribute_request_info_select_button_typo {
+    color: #c4c4c4;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dotted_divider {
+    width: 100%;
+    height: 4px;
+    margin: 20px 0 40px;
+}
+
+.tribute_request_detail_info {
+    width: 100%;
+    height: 124px;
+    border: 1px solid #E5E5E5;
+    padding: 21px;
+    margin-bottom: 40px;
+}
+
+.tribute_request_info_more_container {
+    width: 100%;
+    height: 198px;
+    background: #F2F2F2;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.tribute_request_info_more_header {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.tribute_request_info_more_header_typo {
+    min-width: 60px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 33px;
+}
+
+.tribute_request_info_more_header_blank_container {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.tribute_request_info_more_header_blank {
+    width: 240px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px 0 0 20px;
+    padding: 0 20px;
+}
+
+.tribute_request_info_more_header_blank {
+    color: #c4c4c4;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tribute_request_info_more_header_button {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    border: 1px solid #444;
+    border-radius: 0 20px 20px 0;
+}
+
+.tribute_request_info_more_header_button_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.tribute_request_info_more_body {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tribute_request_info_more_item {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 0 18px;
+}
+
+.tribute_request_info_more_item_typo {
+    color: #c4c4c4;
+    font-size: 13px;
+    font-weight: 400;
+}
 
 .find_body {
     width: 100%;
