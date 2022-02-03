@@ -3389,20 +3389,20 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.certification_number_container, .pw_name_container, .email_container {
+.certification_number_container, .pw_name_container, .email_container, .new_pw_container {
     width: 100%;
     height: 40px;
     margin-bottom: 13px;
 }
 
-.certification_number, .pw_name, .email {
+.certification_number, .pw_name, .email, .new_pw {
     width: 100%;
     height: 100%;
     border: 1px solid #BBBBBB;
     padding: 0 20px;
 }
 
-.find_id_button, .find_pw_button, .find_completed_login_button {
+.find_id_button, .find_pw_button, .find_completed_login_button, .change_pw_button {
     width: 100%;
     height: 52px;
     display: flex;
@@ -3412,7 +3412,7 @@ margin: 22.5px 0;
     border: 1px solid #0083E8;
 }
 
-.find_id_button_typo, .find_pw_button_typo, .find_completed_login_button_typo {
+.find_id_button_typo, .find_pw_button_typo, .find_completed_login_button_typo, .change_pw_button_typo {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
