@@ -1131,7 +1131,7 @@ margin: 22.5px 0;
     font-weight: 700;
 }
 
-.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .my_page_body, .project_body, .tribute_request_body, .qna_body, .notice_body {
+.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .my_page_body, .project_body, .tribute_request_body, .tribute_request_preview_body, .qna_body, .notice_body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -1140,7 +1140,14 @@ margin: 22.5px 0;
 
 .tribute_request_body {
     align-items: center;
+    margin-top: 80px;
     margin-bottom: 70px;
+}
+
+.tribute_request_preview_body {
+    align-items: flex-end;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 
 .equipment_estimator_side_menu, .processing_center_side_menu, .cheesigner_view_all_side_menu, .my_page_side_menu, .project_side_menu {
@@ -3226,10 +3233,11 @@ margin: 22.5px 0;
 .teeth_model_wrapper {
     width: 100%;
     height: 767px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fafafa;
     border-radius: 25px;
-    box-sizing: border-box;
-    padding: 38px 35px;
 }
 
 .tribute_request_card {
@@ -4045,3 +4053,129 @@ margin: 22.5px 0;
     align-items: center;
 }
 
+.teeth_model_preview_wrapper {
+    width: 476px;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    border-radius: 25px;
+    margin-right: 30px;
+    margin-bottom: 65px;
+}
+
+.tribute_request_preview_info_wrapper {
+    width: 474px;
+}
+
+.tribute_request_preview_info_container {
+    margin-bottom: 30px;
+}
+
+.tribute_request_preview_info {
+    width: 474px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #555;
+}
+
+.tribute_request_preview_info_title {
+    width: 175px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tribute_request_preview_info_title {
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tribute_request_preview_info_context {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tribute_request_preview_info_context_typo {
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.selected_dental_preview_container {
+    display: flex;
+}
+
+.selected_dental_preview_item {
+    width: 36px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 18.5px;
+    box-sizing: border-box;
+    margin-right: 8px;
+    padding: 0 9px;
+}
+
+.selected_dental_preview_item_typo {
+    color: #0083e8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tribute_request_preview_info_more {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    margin-bottom: 30px;
+}
+
+.tribute_request_preview_info_more_typo {
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tribute_request_preview_info_more_detail {
+    width: 100%;
+    height: 124px;
+    box-sizing: border-box;
+    padding: 20px 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tribute_request_preview_button_wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tribute_request_preview_button {
+    min-width: 80px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 13px;
+    margin-left: 14px;
+}
+
+.tribute_request_preview_button_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
