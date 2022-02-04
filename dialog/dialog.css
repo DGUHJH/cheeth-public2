@@ -662,3 +662,178 @@
     height: 61px;
     margin-right: 22px;
 }
+
+.tribute_request_container {
+    width: 727px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.tribute_request_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.tribute_request_header_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.tribute_request_header_close_button {
+    margin-left: 247px;
+}
+
+.tribute_request_body {
+    width: 100%;
+    height: 424px;
+    box-sizing: border-box;
+    padding: 40px 50px 30px 50px;
+}
+
+.tribute_request_table {
+    margin-bottom: 20px;
+}
+
+.tribute_request_table_data_type_container {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    background: #F8F9FE;
+}
+
+.tribute_request_table_data_type_typo {
+    color: #005FA8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tribute_request_table_data_type_order {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_type_document {
+    width: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_type_necessary {
+    width: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_type_file_name {
+    width: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_type_download {
+    width: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_type_note {
+    width: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_container {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tribute_request_table_data_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.tribute_request_table_data_order {
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_document {
+    width: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_necessary {
+    width: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_file_name {
+    width: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_download {
+    width: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_table_data_download_img {
+    margin-left: 7px;
+}
+
+.tribute_request_table_data_note {
+    width: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tribute_request_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tribute_request_button {
+    width: 121px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+}
+
+.tribute_request_button_typo {
+    color: #444;
+    font-size: 16px;
+    font-weight: 300;
+}
