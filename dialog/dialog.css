@@ -1,3 +1,12 @@
+* {
+    font-family: Pretendard;
+}
+
+@font-face {
+    font-family: Pretendard;
+    src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
+}
+
 .container {
     width: 620px;
     height: 905px;
