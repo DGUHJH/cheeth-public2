@@ -2333,14 +2333,14 @@ margin: 22.5px 0;
     font-weight: 400;
 }
 
-.processing_center_profile_being_entered {
+.being_entered {
     color: #444444;
     margin-right: 7px;
 }
 
 .processing_center_profile_direct_input {
     width: 100%;
-    width: 42px;
+    height: 42px;
     display: flex;
     margin-top: 10px;
 }
@@ -3234,7 +3234,10 @@ margin: 22.5px 0;
 
 .tribute_request_card {
     width: 635px;
-    height: 1066px;
+}
+
+.tribute_request_card_chip_container {
+    display: flex;
 }
 
 .tribute_request_card_chip {
@@ -3276,6 +3279,7 @@ margin: 22.5px 0;
     width: 100%;
     border: 1px solid #e5e5e5;
     border-top: none;
+    border-right: none;
     border-radius: 0 0 0 18px;
     box-sizing: border-box;
     padding: 40px 50px;
@@ -3303,9 +3307,17 @@ margin: 22.5px 0;
 .tribute_request_info_prosthetics_blank {
     width: 400px;
     height: 36px;
+    display: flex;
+    align-items: center;
     border: 1px solid #e5e5e5;
     border-radius: 18px 0 0 18px;
     padding: 0 18px;
+}
+
+.tribute_request_info_prosthetics_blank_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .tribute_request_info_prosthetics_button {
@@ -3339,18 +3351,69 @@ margin: 22.5px 0;
 .tribute_request_info_selected_dental_blank {
     width: 100%;
     height: 40px;
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid #333;
 }
 
+.tribute_request_info_selected_dental_blank {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.selected_dental_container {
+    display: flex;
+}
+
+.selected_dental_item_non_bridge {
+    width: 66px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dedede;
+    border-radius: 18.5px;
+    box-sizing: border-box;
+    margin-right: 12px;
+    padding: 0 13px;
+}
+
+.selected_dental_item_non_bridge_typo {
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.selected_dental_item_bridge {
+    width: 66px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 18.5px;
+    box-sizing: border-box;
+    margin-right: 12px;
+    padding: 0 13px;
+}
+
+.selected_dental_item_bridge_typo {
+    color: #0083e8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .tribute_request_info_select_button_container {
-    width: 152px;
+    width: 100%;
     height: 36px;
+    display: flex;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .tribute_request_info_select_button {
-    width: 100%;
+    width: 152px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -3364,6 +3427,72 @@ margin: 22.5px 0;
     color: #c4c4c4;
     font-size: 13px;
     font-weight: 400;
+}
+
+.tribute_request_info_blank, .tribute_request_info_blank_typo_container {
+    display: flex;
+    align-items: center;
+}
+
+.tribute_request_info_blank {
+    width: 100%;
+    border-bottom: 1px solid #333333;
+    margin-left: 20px;
+}
+
+.tribute_request_info_blank_typo_container {
+    margin-left: 10px;
+}
+
+.tribute_request_info_blank_typo {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tribute_request_info_blank_close_button {
+    width: 8px;
+    height: 8px;
+}
+
+
+.tribute_request_direct_input {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.tribute_request_direct_input_blank {
+    min-width: 334px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    padding: 0 14px;
+}
+
+.tribute_request_direct_input_blank_typo {
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tribute_request_direct_input_button {
+    min-width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8B8B8B;
+    border: 1px solid #8B8B8B;
+}
+
+.tribute_request_direct_input_button_typo {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .dotted_divider {
@@ -3915,3 +4044,4 @@ margin: 22.5px 0;
     justify-content: center;
     align-items: center;
 }
+

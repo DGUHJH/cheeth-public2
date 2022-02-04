@@ -29,13 +29,19 @@
                     <p class="teeth_model_title_typo">환자명</p>
                 </div>
                 <div class="teeth_model_wrapper">
-                    <img class="teeth_model" src="../assets/images/teeth_model.svg"/>
+                    <img class="teeth_model" src="../assets/images/teeth_model_vol2.svg"/>
                 </div>
             </div>
             <div class="tribute_request_card">
-                <div class="tribute_request_card_chip">
-                    <p class="tribute_request_card_chip_typo">환자명 의뢰서</p>
-                    <img class="tribute_request_card_chip_close_button" src="../assets/images/tribute_request_card_chip_close_button.svg"/>
+                <div class="tribute_request_card_chip_container">
+                    <div class="tribute_request_card_chip">
+                        <p class="tribute_request_card_chip_typo">환자명 의뢰서</p>
+                        <img class="tribute_request_card_chip_close_button" src="../assets/images/tribute_request_card_chip_close_button.svg"/>
+                    </div>
+                    <div class="tribute_request_card_chip">
+                        <p class="tribute_request_card_chip_typo">홍길동 의뢰서</p>
+                        <img class="tribute_request_card_chip_close_button" src="../assets/images/tribute_request_card_chip_close_button.svg"/>
+                    </div>
                 </div>
                 <div class="tribute_request_card_border_top_container">
                     <div class="tribute_request_card_border_top_invisible"></div>
@@ -46,7 +52,7 @@
                         <p class="tribute_request_info_typo">보철종류</p>
                         <div class="tribute_request_info_prosthetics">
                             <div class="tribute_request_info_prosthetics_blank">
-                                <p class="tribute_request_info_prosthetics_blank_typo">보철 종류를 선택해 주세요.</p>
+                                <p class="tribute_request_info_prosthetics_blank_typo">의치 - Full - --- - ---</p>
                             </div>
                             <button class="tribute_request_info_prosthetics_button">
                                 <p class="tribute_request_info_prosthetics_button_typo">보철종류 선택</p>
@@ -56,18 +62,44 @@
                     <div class="tribute_request_info_selected_dental_container">
                         <p class="tribute_request_info_typo">선택된 치식</p>
                         <div class="tribute_request_info_selected_dental">
-                            <div class="tribute_request_info_selected_dental_blank">
-                                <p class="tribute_request_info_selected_dental_blank_typo">치식을 선택해 주세요.</p> 
+                            <div class="tribute_request_info_selected_dental_blank"><div class="selected_dental_container">
+                                <div class="selected_dental_item_non_bridge">
+                                    <p class="selected_dental_item_non_bridge_typo">26</p>
+                                    <img class="selected_dental_close_button" src="../assets/images/selected_dental_close_button.svg"/>
+                                </div>
+                                <div class="selected_dental_item_bridge">
+                                    <p class="selected_dental_item_bridge_typo">33</p>
+                                    <img class="selected_dental_close_button" src="../assets/images/selected_dental_close_button.svg"/>
+                                </div>
+                                <div class="selected_dental_item_bridge">
+                                    <p class="selected_dental_item_bridge_typo">34</p>
+                                    <img class="selected_dental_close_button" src="../assets/images/selected_dental_close_button.svg"/>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
                     <div class="tribute_request_info_with_select_button_container">
                         <p class="tribute_request_info_typo">가공방법</p>
                         <div class="tribute_request_info_select_button_container">
-                            <button class="tribute_request_info_select_button">
-                                <p class="tribute_request_info_select_button_typo">선택</p>
-                                <img src="../assets/images/info_select_button_arrow.svg"/>
-                            </button>
+                            <div class="tribute_request_info_select_button">
+                                <p class="tribute_request_info_select_button_typo">기타</p>
+                                <img class="tribute_request_info_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                            </div>
+                            <div class="tribute_request_info_blank">
+                                <div class="tribute_request_info_blank_typo_container">
+                                    <p class="tribute_request_info_blank_typo being_entered">기타 가공방법 적으면 되는 곳</p>
+                                    <img class="tribute_request_info_blank_close_button" src="../assets/images/etc_chosen_close_button.svg"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tribute_request_direct_input_container">
+                            <div class="tribute_request_direct_input">
+                                <input class="tribute_request_direct_input_blank" placeholder="가공 가능 품목을 입력해 주세요."/>
+                                <div class="tribute_request_direct_input_button">
+                                    <p class="tribute_request_direct_input_button_typo">입력</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tribute_request_info_with_select_button_container">
