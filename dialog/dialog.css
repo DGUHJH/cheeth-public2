@@ -594,7 +594,16 @@
     font-weight: 600;
 }
 
+.electronic_estimator_profile_pic_upload {
+    width: 58px;
+    height: 58px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+
 .electronic_estimator_profile_name {
+    height: 58px;
     display: flex;
     align-items: center;
     margin-right: 58px;
@@ -607,6 +616,7 @@
 }
 
 .electronic_estimator_profile_info_container {
+    height: 58px;
     display: flex;
     align-items: center;
 }
