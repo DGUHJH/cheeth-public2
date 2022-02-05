@@ -1246,14 +1246,14 @@ margin: 22.5px 0;
     align-items: center;
 }
 
-.pagination, .processing_center_pagination, .cheesigner_view_all_pagination, .my_page_pagination, .project_pagination {
+.pagination {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 27px;
 }
 
-.pagination_numb, .processing_center_pagination_numb, .cheesigner_view_all_pagination_numb, .my_page_pagination_numb, .project_pagination_numb {
+.pagination_numb {
     width: 34px;
     height: 34px;
     display: flex;
@@ -1261,7 +1261,7 @@ margin: 22.5px 0;
     align-items: center;
 }
 
-.pagination_numb_now, .processing_center_pagination_numb_now, .cheesigner_view_all_pagination_numb_now, .my_page_pagination_numb_now, .project_pagination_numb_now {
+.pagination_numb_now {
     width: 34px;
     height: 34px;
     display: flex;
@@ -1270,19 +1270,19 @@ margin: 22.5px 0;
     border: solid 1px #f2f2f2;
 }
 
-.pagination_numb_typo, .processing_center_pagination_numb_typo, .cheesigner_view_all_pagination_numb_typo, .my_page_pagination_numb_typo, .project_pagination_numb_typo {
+.pagination_numb_typo {
     color: #767676;
     font-size: 13px;
     font-weight: 400;
 }
 
-.pagination_numb_now_typo, .processing_center_pagination_numb_now_typo, .cheesigner_view_all_pagination_numb_now_typo, .my_page_pagination_numb_now_typo, .project_pagination_numb_now_typo {
+.pagination_numb_now_typo {
     color: #0083E8;
     font-size: 13px;
     font-weight: 500;
 }
 
-.pagination_next, .processing_center_pagination_next, .cheesigner_view_all_pagination_next, .my_page_pagination_next, .project_pagination_next {
+.pagination_next {
     width: 67px;
     height: 34px;
     display: flex;
@@ -1290,17 +1290,17 @@ margin: 22.5px 0;
     align-items: center;
 }
 
-.pagination_next_typo, .processing_center_pagination_next_typo, .cheesigner_view_all_pagination_next_typo, .my_page_pagination_next_typo, .project_pagination_next_typo {
+.pagination_next_typo {
     color: #767676;
     font-size: 13px;
     font-weight: 500;
 }
 
-.pagination_next_arrow, .processing_center_pagination_next_arrow, .cheesigner_view_all_pagination_next_arrow, .my_page_pagination_next_arrow, .project_pagination_next_arrow {
+.pagination_next_arrow {
     filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
 }
 
-.pagination_before, .processing_center_pagination_before, .cheesigner_view_all_pagination_before {
+.pagination_before {
     width: 67px;
     height: 34px;
     display: flex;
@@ -1308,13 +1308,13 @@ margin: 22.5px 0;
     align-items: center;
 }
 
-.pagination_before_typo, .processing_center_pagination_before_typo, .cheesigner_view_all_pagination_before_typo {
+.pagination_before_typo {
     color: #767676;
     font-size: 13px;
     font-weight: 500;
 }
 
-.pagination_before_arrow, .processing_center_pagination_before_arrow, .cheesigner_view_all_pagination_before_arrow {
+.pagination_before_arrow {
     transform: rotate(180deg);
     filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
 }
