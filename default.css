@@ -4514,6 +4514,7 @@ margin: 22.5px 0;
     margin-bottom: 30px;
 }
 
+
 .profile_management_profile_design_field {
     height: 100%;
     display: flex;
@@ -4530,6 +4531,77 @@ margin: 22.5px 0;
     color: #666;
     font-size: 14px;
     font-weight: 300;
+}
+
+.design_field_selected {
+    color: #0083e8;
+    border-color: #0083e8;
+}
+
+.profile_management_profile_design_field_sub_container {
+    width: 100%;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.profile_management_profile_design_field_etc_being_entered {
+    width: 406px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #666;
+    margin-bottom: 30px;
+}
+
+.profile_management_profile_design_field_etc_being_entered_item_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.profile_management_profile_design_field_etc_being_entered_item {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.profile_management_profile_design_field_etc_being_entered_item_typo {
+    color: #0083e8;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 7px;
+}
+
+.profile_management_profile_design_field_etc_direct_input {
+    width: 240px;
+    height: 36px;
+    display: flex;
+}
+
+.profile_management_profile_design_field_etc_direct_input_blank {
+    width: 164px;
+    height: 100%;
+    border-bottom: 1px solid #666;
+}
+
+.profile_management_profile_design_field_etc_direct_input_button {
+    width: 76px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8B8B8B;
+}
+
+.profile_management_profile_design_field_etc_direct_input_button_typo {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .pic {
@@ -4551,6 +4623,15 @@ margin: 22.5px 0;
     background: #F8F9FE;
     position: absolute;
     top: 1631px;
+    z-index: -1;
+}
+
+.profile_management_profile_pic_background_wrapper_vol2 {
+    width: 928px;
+    height: 111px;
+    background: #F8F9FE;
+    position: absolute;
+    top: 1751px;
     z-index: -1;
 }
 
