@@ -1000,3 +1000,32 @@ textarea {
     height: 1px;
     background: #E5E5E5;
 }
+
+.send_note_attatchment_container {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    margin-bottom: 13px;
+    overflow-y: auto;
+}
+
+.send_note_attatchment {
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.send_note_attatchment_icon {
+    width: 11px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.send_note_attatchment_typo {
+    color: #555;
+    font-size: 11px;
+    font-weight: 400;
+}
