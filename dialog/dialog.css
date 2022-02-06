@@ -1157,3 +1157,20 @@ p {
     font-size: 13px;
     font-weight: 300;
 }
+
+.received_note_attatchment_button {
+    min-width: 64px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.received_note_attatchment_button_typo {
+    color: #555;
+    font-size: 9px;
+    font-weight: 300;
+    margin-left: 7px;
+}
