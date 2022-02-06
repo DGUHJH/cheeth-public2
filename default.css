@@ -5016,7 +5016,7 @@ margin: 22.5px 0;
     margin-right: 2px;
 }
 
-.note_box_sort_by {
+.note_box_select_button {
     width: 130px;
     height: 36px;
     display: flex;
@@ -5027,7 +5027,7 @@ margin: 22.5px 0;
     padding: 0 14px 0 18px;
 }
 
-.note_box_sort_by_typo {
+.note_box_select_button_typo {
     color: #c4c4c4;
     font-size: 13px;
     font-weight: 400;
