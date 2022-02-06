@@ -6,6 +6,15 @@ textarea {
     resize: none;
 }
 
+button {
+    border: none;
+    background: #fff;
+}
+
+p {
+    margin: 0;
+}
+
 @font-face {
     font-family: Pretendard;
     src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
@@ -1028,4 +1037,123 @@ textarea {
     color: #555;
     font-size: 11px;
     font-weight: 400;
+}
+
+.received_note_container {
+    width: 330px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 17px;
+}
+
+.received_note_header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.received_note_body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.received_note_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.received_note_button_delete {
+    width: 42px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.received_note_button_delete_typo {
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.received_note_button_container {
+    display: flex;
+    align-items: center;
+}
+
+.received_note_button_before, .received_note_button_after {
+    display: flex;
+    align-items: center;
+}
+
+.received_note_button_before_arrow {
+    width: 4px;
+    height: 9px;
+    transform: rotate(180deg);
+}
+
+.received_note_button_after_arrow {
+    width: 4px;
+    height: 9px;
+}
+
+.received_note_button_before_typo, .received_note_button_after_typo {
+    color: #767676;
+    font-size: 8px;
+    font-weight: 400;
+    margin: 0 6px;
+}
+
+.received_note_button_divider {
+    width: 1px;
+    height: 8px;
+    background: #E5E5E5;
+}
+
+.received_note_info_container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.received_note_info {
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.received_note_info_title {
+    width: 67px;
+    color: #555;
+    font-size: 13px;
+    font-weight: 500;    
+}
+
+.received_note_info_context {
+    color: #777;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.received_note_context {
+    height: 212px;
+    box-sizing: border-box;
+    padding: 15px 7px;
+}
+
+.received_note_context_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
 }
