@@ -1181,3 +1181,262 @@ p {
     font-weight: 500; 
     margin-left: 2px;  
 }
+
+.address_list_container {
+    width: 556px;
+    height: 375px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
+}
+
+.address_list_header {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #005FA8;
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
+.address_list_header_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.address_list_body {
+    width: 100%;
+    height: 290px;
+    display: flex;
+}
+
+.address_list_total_trader {
+    width: 130px;
+    height: 100%;
+    border-right: solid 1px #e5e5e5;
+    box-sizing: border-box;
+    padding: 17px;
+}
+
+.address_list_total_trader_typo_container {
+    display: flex;
+    align-items: center;
+}
+
+.address_list_total_trader_title {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.address_list_total_trader_context {
+    color: #0083e8;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.address_list_main_container {
+    width: 192px;
+    height: 100%;
+    border-right: solid 1px #e5e5e5;
+}
+
+.address_list_search {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address_list_search_blank {
+    width: 126px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 13px;
+}
+
+.address_list_search input::placeholder {
+    color: #c4c4c4;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.address_list_search_button {
+    width: 42px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444444;
+    border: 1px solid #444;
+}
+
+.address_list_search_button_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.address_list_name_container {
+    width: 100%;
+    height: 214px;
+    box-sizing: border-box;
+    padding: 6.5px 20px;
+}
+
+.address_list_name, .address_list_receiver_name {
+    color: #333;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 3.5px 0;
+}
+
+.address_list_name_selected, .address_list_receiver_name_selected { 
+    /*주소 목록에서 선택된 사람들의 이름에 적용되는 style */
+    color: #0083e8;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.address_list_pagination {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.address_list_pagination_current_page {
+    color: #999;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.address_list_pagination_button_container {
+    display: flex;
+    align-items: center;
+}
+
+.address_list_pagination_button {
+    width: 21px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address_list_pagination_button_before {
+    width: 4px;
+    height: 11px;
+    transform: rotate(180deg);
+}
+
+.address_list_pagination_button_after {
+    width: 4px;
+    height: 11px;
+}
+
+.address_list_pagination_button_divider {
+    width: 1px;
+    height: 22px;
+    background-color: #e5e5e5;
+}
+
+.address_list_move_button_container {
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address_list_move_button {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+    margin: 2px 0;
+}
+
+.address_list_move_button_arrow_left {
+    transform: rotate(180deg);
+}
+
+.address_list_receiver {
+    width: 197px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 17px;
+}
+
+.address_list_receiver_typo_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.address_list_receiver_title {
+    color: #333;
+    font-size: 11px;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.address_list_receiver_context {
+    color: #0083e8;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.address_list_receiver_name_container {
+    width: 180px;
+    height: 230px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 9.5px;
+}
+
+.address_list_footer {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
+.address_list_tip {
+    color: #b6b6b6;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 7px 0 5px;
+}
+
+.address_list_button_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.address_list_button {
+    width: 45px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    margin-left: 7px;
+}
+
+.address_list_button_typo {
+    color: #555;
+    font-size: 11px;
+    font-weight: 400;
+}
