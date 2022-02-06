@@ -1174,3 +1174,10 @@ p {
     font-weight: 300;
     margin-left: 7px;
 }
+
+.received_note_attatchment_button_count_typo {
+    color: #555;
+    font-size: 9px;
+    font-weight: 500; 
+    margin-left: 2px;  
+}
