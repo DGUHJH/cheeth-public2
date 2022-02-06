@@ -2523,10 +2523,6 @@ margin: 22.5px 0;
     font-weight: 400;
 }
 
-.my_page_pagination {
-    margin: 37px;
-}
-
 .project_list_order {
     width: 34px;
 }
@@ -2915,28 +2911,6 @@ margin: 22.5px 0;
     font-size: 12px;
     font-weight: 300;
 }
-
-/* .button_wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.button_container {
-    display: flex;
-} */
-
-/* .button {
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 16px;
-    margin-right: 15px;
-} */
-
-/* .button_typo {
-    font-size: 13px;
-} */
 
 .project_request_button {
     height: 36px;
@@ -3897,65 +3871,6 @@ margin: 22.5px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.qna_pagination, .notice_pagination {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-}
-
-.notice_pagination {
-    margin-top: 50px;
-    margin-bottom: 80px;
-}
-
-.qna_pagination_numb, .notice_pagination_numb {
-    width: 34px;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.qna_pagination_numb_now, .notice_pagination_numb_now {
-    width: 34px;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px #f2f2f2;
-}
-
-.qna_pagination_numb_typo, .notice_pagination_numb_typo {
-    color: #767676;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.qna_pagination_numb_now_typo, .notice_pagination_numb_now_typo {
-    color: #0083E8;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.qna_pagination_next, .notice_pagination_next {
-    width: 67px;
-    height: 34px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.qna_pagination_next_typo, .notice_pagination_next_typo {
-    color: #767676;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.qna_pagination_next_arrow {
-    filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
 }
 
 .qna_writing_button {
@@ -4960,5 +4875,262 @@ margin: 22.5px 0;
 .review_management_list_management_button_delete_typo {
     color: #8b8b8b;
     font-size: 12px;
+    font-weight: 400;
+}
+
+.note_box_header {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    background: #005FA8;
+    overflow-x: hidden;
+}
+
+.note_box_header_typo {
+    width: 1920px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.note_box_body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.note_box_main_container {
+    width: 958px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    border-left: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+
+.note_box_side_menu {
+    width: 262px;
+    height: 100%;
+}
+
+.note_box_side_menu_title {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: #E2EFFF;
+    box-sizing: border-box;
+    padding: 0 36px;
+}
+
+.note_box_side_menu_title_typo {
+    color: #005fa8;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.note_box_side_menu_list_main {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 36px;
+}
+
+.note_box_side_menu_list_main_typo_title {
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 7px;
+}
+
+.note_box_side_menu_list_main_typo_context {
+    color: #0083e8;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 35px;
+}
+
+.note_box_side_menu_list_sub {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 36px;
+}
+
+.note_box_side_menu_list_sub_icon {
+    margin-right: 10px;
+}
+
+.note_box_side_menu_list_sub_typo_title {
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.note_box_side_menu_list_sub_typo_context {
+    color: #0083e8;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.note_box_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 68px;
+    margin-bottom: 14px;
+}
+
+.note_box_button_container {
+    display: flex;
+}
+
+.note_box_button {
+    width: 67px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    margin-right: 11px;
+}
+
+.note_box_button_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.note_box_delete_button_icon {
+    margin-right: 2px;
+}
+
+.note_box_sort_by {
+    width: 130px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 14px 0 18px;
+}
+
+.note_box_sort_by_typo {
+    color: #c4c4c4;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.note_box_list_container {
+    margin-bottom: 16px;
+}
+
+.note_box_list_data_type_container {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background: #005FA8;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.note_box_list_data_type_receiver {
+    width: 102px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    margin-left: 14px;
+}
+
+.note_box_list_data_type_context {
+    width: 541px;
+    box-sizing: border-box;
+    padding-left: 19px;
+}
+
+.note_box_list_data_type_date_sent {
+    width: 147px;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.note_box_list_data_type_date_received {
+    width: 147px;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.note_box_list_data_type_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.note_box_list {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.note_box_list_receiver {
+    width: 102px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    margin-left: 14px;
+}
+
+.note_box_list_receiver_typo {
+    color: #838C94;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.note_box_attatchment {
+    min-width: 13px;
+    height: 12px;
+}
+
+.note_box_list_context {
+    width: 541px;
+    box-sizing: border-box;
+    padding-left: 19px;
+}
+
+.note_box_list_context_typo {
+    color: #4b4b4b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.note_box_list_date_sent {
+    width: 147px;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.note_box_list_date_received {
+    width: 147px;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.note_box_list_date_typo {
+    color: #999;
+    font-size: 13px;
     font-weight: 400;
 }
