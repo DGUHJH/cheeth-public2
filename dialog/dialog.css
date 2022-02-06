@@ -2,6 +2,10 @@
     font-family: Pretendard;
 }
 
+textarea {
+    resize: none;
+}
+
 @font-face {
     font-family: Pretendard;
     src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
@@ -863,4 +867,136 @@
     color: #444;
     font-size: 16px;
     font-weight: 300;
+}
+
+.send_note_container {
+    width: 329px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
+}
+
+.send_note_header {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #005FA8;
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
+.send_note_header_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.send_note_body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 17px 29px 17px;
+}
+
+.send_note_button_container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.send_note_send_button {
+    width: 59px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    background: #E2EFFF;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.send_note_send_button_icon {
+    width: 13px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.send_note_send_button_typo {
+    color: #005FA8;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.send_note_attatch_button {
+    width: 55px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.send_note_attatch_button_typo {
+    color: #555;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.send_note_receiver {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.send_note_receiver_typo {
+    width: 60px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.send_note_receiver_blank {
+    width: 181px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-left: 11px;
+}
+
+.send_note_receiver_blank_typo {
+    color: #555;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.send_note_receiver_button {
+    width: 55px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444444;
+    border: 1px solid #444;
+}
+
+.send_note_receiver_button_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.send_note_context {
+    width: 100%;
+    height: 194px;
+    border: 1px solid #E5E5E5;
+}
+
+.main_container_divider {
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
 }
