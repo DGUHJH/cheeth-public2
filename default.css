@@ -872,6 +872,9 @@ font-weight: 600;
 .membership_type_normal_button {
     width: 100%;
     height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #0083E8;
     border: 1px solid #0083E8;
 }
@@ -885,6 +888,9 @@ font-weight: 600;
 .membership_type_expert_button {
     width: 100%;
     height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #005FA8;
     border: 1px solid #005FA8;
 }
