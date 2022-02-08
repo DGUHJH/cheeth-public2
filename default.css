@@ -4975,6 +4975,12 @@ margin: 22.5px 0;
     margin-right: 15px;
 }
 
+.note_box_side_menu_list_sub_typo_title_selected {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .note_box_side_menu_list_sub_typo_context {
     color: #0083e8;
     font-size: 11px;
