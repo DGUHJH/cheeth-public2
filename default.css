@@ -5138,3 +5138,222 @@ margin: 22.5px 0;
     font-size: 13px;
     font-weight: 400;
 }
+
+.service_intro_header {
+    width: 100%;
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #005fa8;
+}
+
+.service_intro_header_typo {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.service_intro_header_bottom_container {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    background-color: #005fa8;
+}
+
+.service_intro_header_bottom_item {
+    width: 1920px;
+    height: 43px;
+    background: #fff;
+}
+
+.service_intro_connection_location_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    margin-top: 14px;
+}
+
+.service_intro_connection_location_typo {
+    columns: #727272;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.service_intro_connection_location_typo_bold {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.service_intro_connection_location_arrow {
+    margin: 0 10px;
+}
+
+.service_intro_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_intro_main_container {
+    width: 1280px;
+}
+
+.service_intro_item {
+    width: 100%;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_intro_item_typo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service_intro_feature {
+    width: 100%;
+    height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_intro_feature_divider {
+    width: 126px;
+    height: 1px;
+    background-color: #333;
+    margin: 0 119px 0 86px;
+}
+
+.service_intro_feature_title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.service_intro_feature_context {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.feature_with_background {
+    background: #F8F9FE;
+}
+
+.service_intro_sub_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.service_intro_how_to_use {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.service_intro_how_to_use_background_wrapper {
+    width: 100%;
+    height: 194px;
+    background: #F8F9FE;
+    position: absolute;
+    z-index: -1;
+    top: 2165px;
+}
+
+.service_intro_how_to_use_title {
+    color: #444;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.service_intro_how_to_use_sub_typo_container {
+    width: 1158px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.service_intro_how_to_use_sub_title {
+    color: #444;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 432px;
+}
+
+.service_intro_view_video_guide {
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.service_intro_how_to_use_step_container {
+    width: 1158px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.service_intro_how_to_use_step {
+    width: 196px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 63px;
+}
+
+.service_intro_how_to_use_step_title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 40px 0 13px 0;
+}
+
+.service_intro_how_to_use_step_context {
+    color: #333;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.service_intro_button {
+    width: 246px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333333;
+    margin-bottom: 121px;
+}
+
+.service_intro_button_typo {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.service_intro_additional_info {
+    color: #868686;
+    font-size: 16px;
+    font-weight: 300;
+}
