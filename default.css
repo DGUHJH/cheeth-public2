@@ -5524,6 +5524,29 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
+.faq_connection_location_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.faq_connection_location_typo {
+    columns: #727272;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.faq_connection_location_typo_bold {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.faq_connection_location_arrow {
+    margin: 0 10px;
+}
+
 .faq_body {
     width: 100%;
     display: flex;
