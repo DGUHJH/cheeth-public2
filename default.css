@@ -2038,6 +2038,140 @@ margin: 22.5px 0;
     margin: 0 231px;
 }
 
+.equipment_estimator_edit_info_main_container {
+    width: 928px;
+}
+
+.equipment_estimator_edit_info_title {
+    color: #333;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 6px 0 40px;
+}
+
+.equipment_estimator_edit_info_container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0 15px;
+}
+
+.equipment_estimator_edit_info_item {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.equipment_estimator_edit_info_item_title {
+    width: 156px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.equipment_estimator_edit_info_item_constant_context {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.equipment_estimator_edit_info_item_blank {
+    width: 487px;
+    height: 38px;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.equipment_estimator_edit_info_item_button {
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083e8;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.equipment_estimator_edit_info_item_button_typo {
+    color: #0083e8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.equipment_Estimator_edit_info_select_button {
+    width: 155px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.equipment_estimator_edit_info_select_button_typo {
+    color: #b6b6b6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.equipment_estimator_edit_info_divider {
+    width: 100%;
+    height: 1px;
+    background: #3D3D3D;
+}
+
+.equipment_estimator_edit_info_item_caution {
+    color: #b6b6b6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.equipment_estimator_edit_info_button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 80px;
+}
+
+.equipment_estimator_edit_info_button_white {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DEDEDE;
+    margin-right: 20px;
+}
+
+.equipment_estimator_edit_info_button_white_typo {
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.equipment_estimator_edit_info_button_blue {
+    width: 189px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+    border: 1px solid #0083e8;
+}
+
+.equipment_estimator_edit_info_button_blue_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .processing_center_main_container {
     width: 913px;
     display: flex;
