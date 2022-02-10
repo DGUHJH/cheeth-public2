@@ -14,6 +14,22 @@ p {
     align-items: center;
     border: solid 1px #EFEFEF;
 }
+
+.select_button_large {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+
+.select_button_small {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
     
 .select_button_typo_container {
     width: 100%;
@@ -25,7 +41,8 @@ p {
 
 .select_button_typo {
     color: #B6B6B6;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .select_button_item_container {
@@ -38,15 +55,34 @@ p {
 
 .select_button_item {
     width: 100%;
-    height: 38px;
+    min-height: 38px;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.select_button_item_large {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.select_button_item_small {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
     padding: 0 20px;
 }
 
 .select_button_item_typo {
     color: #444;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
 }
 
@@ -61,4 +97,100 @@ p {
 
 .sign_up_expert_sectors {
     width: 155px;
+}
+
+.equipment_estimator_list {
+    width: 152px;
+} 
+
+.equipment_estimator_writing_date_expiry {
+    width: 403px;
+}
+
+.equipment_estimator_writing_date_expiry_select_button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    background: #EEEEEE;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.equipment_estimator_writing_date_expiry_select_button_typo {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.equipment_estimator_writing_select_button_container {
+    width: 403px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid #444444;
+    box-sizing: border-box;
+    padding: 21px 9px 8px 9px;
+}
+
+.year {
+    width: 144px;
+}
+
+.month {
+    width: 107px;
+}
+
+.date {
+    width: 107px;
+}
+
+.equipment_estimator_writing_date_expiry_select_button_after_entered {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EEEEEE;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.equipment_estimator_select_board {
+    width: 556px;
+}
+
+.select_button_item_container_select_board {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    overflow-y: auto;
+}
+
+.equipment_estimator_select_location {
+    width: 347px;
+}
+
+.select_button_item_container_location {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    overflow-y: auto;
+}
+
+.select_button_item_container_year, .select_button_item_container_month, .select_button_item_container_date {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    box-sizing: border-box;
+    padding-top: 8px;
+    overflow-y: auto;
 }
