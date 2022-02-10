@@ -194,3 +194,7 @@ p {
     padding-top: 8px;
     overflow-y: auto;
 }
+
+.equipment_estimator_edit_info {
+    width: 155px;
+}
