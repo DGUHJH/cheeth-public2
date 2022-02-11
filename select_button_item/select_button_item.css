@@ -7,6 +7,15 @@ p {
     margin: 0;
 }
 
+input {
+    border: none;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+}
+
 .select_button {
     width: 100%;
     height: 38px;
@@ -58,8 +67,6 @@ p {
     min-height: 38px;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    padding-left: 20px;
 }
 
 .select_button_item_large {
@@ -67,8 +74,6 @@ p {
     min-height: 48px;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    padding-left: 20px;
 }
 
 .select_button_item_small {
@@ -76,14 +81,17 @@ p {
     min-height: 24px;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-    padding-left: 20px;
 }
 
 .select_button_item_typo {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
     color: #444;
     font-size: 13px;
     font-weight: 300;
+    padding-left: 20px;
 }
 
 .sign_up_individual {
@@ -337,4 +345,123 @@ p {
 
 .my_page {
     width: 152px;
+}
+
+.tribute_request {
+    width: 152px;
+}
+
+.tribute_request_dialog {
+    width: 810px;
+    height: 204px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.tribute_request_prosthetics_select_button {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.tribute_request_prosthetics_select_button_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 297px;
+}
+
+.tribute_request_prosthetics_select_button_container {
+    width: 100%;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.prosthetics_type {
+    width: 152px;
+}
+
+.prosthetics_type_current {
+    background: #E2EFFF;
+}
+
+.tribute_request_etc_chosen {
+    width: 810px;
+    height: 349px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.tribute_request_prosthetics_select_button_container {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.tribute_request_divider {
+    width: 740px;
+    height: 1px;
+    background: #E5E5E5;
+    margin: 0 auto;
+}
+
+.tribute_request_prosthetics_select_button_etc_chosen {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.prosthetics_type_etc_chosen_direct_input {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #E5E5E5;
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
+.tribute_request_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.tribute_request_button {
+    width: 133px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+}
+
+.tribute_request_button_typo {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.select_button_inactive {
+    background: #F2F2F2;
 }
