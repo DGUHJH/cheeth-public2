@@ -976,6 +976,13 @@ align-items: flex-start;
 margin: 7.5px 0;
 }
 
+.sign_up_info_item_title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
 .sign_up_info_item_typo {
 min-width: 156px;
 min-height: 38px;
@@ -987,7 +994,7 @@ padding: 7.5px 0;
 }
 
 .sign_up_info_item_blank {
-min-width: 487px;
+width: 487px;
 height: 38px;
 display: flex;
 justify-content: start;
@@ -1005,6 +1012,47 @@ border: solid 1px #EFEFEF;
 box-sizing: border-box;
 margin-right: 10px;
 padding: 0 15px;
+}
+
+.sign_up_info_membership_type_select_button_container {
+    width: 100%;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sign_up_info_membership_type_select_button {
+    width: 258px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #222222;
+    margin-left: 11px;
+}
+
+.sign_up_info_membership_type_select_button_selected {
+    width: 258px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3BAAFF;
+    border-bottom: none;
+    margin-left: 11px;
+}
+
+.sign_up_info_membership_type_select_button_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sign_up_info_membership_type_select_button_selected_typo {
+    color: #2093eb;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .sign_up_info_item_button {
