@@ -1249,8 +1249,14 @@ margin: 22.5px 0;
     margin-left: 12px;
 }
 
-.equipment_estimator_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container, .project_list_main_container {
+.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container, .project_list_main_container {
     width: 728px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipment_estimator_main_container {
+    width: 928px;
     display: flex;
     flex-direction: column;
 }
@@ -1701,7 +1707,7 @@ margin: 22.5px 0;
 }
 
 .equipment_estimator_writing_select_location {
-    width: 347px;
+    width: 362px;
 }
 
 .equipment_estimator_writing_info_title {
@@ -1986,7 +1992,13 @@ margin: 22.5px 0;
     font-weight: 400;
 }
 
-.equipment_Estimator_my_page_request_history_container {
+.equipment_estimator_my_page_request_history_chip_selected_typo {
+    color: #005fa8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.equipment_estimator_my_page_request_history_container {
     border: 1px solid #E5E5E5;
 }
 
@@ -1994,6 +2006,7 @@ margin: 22.5px 0;
     width: 100%;
     height: 52px;
     display: flex;
+    background: #005FA8;
 }
 
 .equipment_estimator_my_page_request_history_datatype {
@@ -2001,7 +2014,6 @@ margin: 22.5px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #005FA8;
 }
 
 .equipment_estimator_my_page_request_history_datatype_typo {
@@ -2010,35 +2022,55 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
+.equipment_estimator_my_page_category_datatype {
+    /* width: 145px; */
+    min-width: 178px;
+    max-width: 178px;
+}
+
 .equipment_estimator_my_page_category {
-    width: 145px;
+    /* width: 145px; */
+    min-width: 178px;
+    max-width: 178px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    background: #F8F9FE;
+}
+
+.equipment_estimator_my_page_category_margin {
+    height: 20px;
+}
+
+.equipment_estimator_my_page_category_margin_full_height {
+    height: 100%;
 }
 
 .equipment_estimator_my_page_context {
-    width: 205px;
+    /* width: 200px; */
+    width: 300px;
+    box-sizing: border-box;
+    padding: 0 40px;
 }
 
 .equipment_estimator_my_page_count {
-    width: 70px;
+    /* width: 70px; */
+    width: 98px;
 }
 
-.equipment_estimator_my_page_date_estimated {
-    width: 100px;
-}
-
-.equipment_estimator_my_page_date_expiry {
-    width: 100px;
+.equipment_estimator_my_page_date_estimated, .equipment_estimator_my_page_date_expiry {
+    /* width: 100px; */
+    width: 118px;
 }
 
 .equipment_estimator_my_page_estimator_read {
-    width: 120px;
+    /* width: 110px; */
+    width: 126px;
 }
 
 .equipment_estimator_my_page_request_history_list_container {
     width: 100%;
     height: 48px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -2053,6 +2085,10 @@ margin: 22.5px 0;
     color: #4b4b4b;
     font-size: 13px;
     font-weight: 400;
+}
+
+.flex_start {
+    justify-content: flex-start;
 }
 
 .equipment_estimator_my_page_estimator_read_button {
@@ -2075,7 +2111,6 @@ margin: 22.5px 0;
     width: 100%;
     height: 80px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -2083,7 +2118,7 @@ margin: 22.5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 231px;
+    margin: 0 237px;
 }
 
 .equipment_estimator_edit_info_main_container {
