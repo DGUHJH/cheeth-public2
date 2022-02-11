@@ -59,7 +59,7 @@ p {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding-left: 20px;
 }
 
 .select_button_item_large {
@@ -68,7 +68,7 @@ p {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding-left: 20px;
 }
 
 .select_button_item_small {
@@ -77,7 +77,7 @@ p {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 20px;
+    padding-left: 20px;
 }
 
 .select_button_item_typo {
@@ -232,5 +232,101 @@ p {
 .processing_center_profile_selected_item {
     color: #B6B6B6;
     font-size: 13px;
+    font-weight: 400;
+}
+
+.project_view_all {
+    width: 152px;
+}
+
+.project_request_date {
+    width: 118px;
+}
+
+.project_request_preference {
+    width: 121px;
+}
+
+.project_request_calendar {
+    width: 189px;
+    border: 0.5px solid #444444;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+}
+
+.project_request_calendar_header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_request_calendar_header_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 25px;
+}
+
+.project_request_calendar_body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 18px 20px;
+}
+
+.project_request_calendar_days_container {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.project_request_calendar_days {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_request_calendar_days_typo {
+    color: #b6b6b6;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.project_request_calendar_date_container {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.project_request_calendar_date {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_request_calendar_date_today {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2EFFF;
+}
+
+.project_request_calendar_date_typo {
+    color: #555;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.project_request_calendar_date_today_typo {
+    color: #0083e8;
+    font-size: 10px;
     font-weight: 400;
 }
