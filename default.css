@@ -29,6 +29,14 @@ input {
     border: none;
 }
 
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    appearance: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+}
+
 select {
     appearance: none;
 }
@@ -2718,10 +2726,60 @@ margin: 22.5px 0;
 
 .my_page_prosthetics_type {
     width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.my_page_prosthetics_select_button_arrow {
+    margin-left: 16px;
+}
+
+.my_page_prosthetics_select_button_arrow_clicked {
+    margin-left: 16px;
+    transform: rotate(180deg);
 }
 
 .my_page_count {
     width: 213px;
+    display: flex;
+    justify-content: center;
+}
+
+.my_page_count_select_button_arrow {
+    margin-left: 8px;
+}
+
+.my_page_count_select_button_arrow_clicked {
+    margin-left: 8px;
+    transform: rotate(180deg);
+}
+
+/* my page에서 클릭 시 등장하는 보철종류/개수에 대한 세부사항 */
+.my_page_pop_up_detail_container {
+    width: 100%;
+    background: #F9F9F9;
+}
+
+.my_page_pop_up_detail {
+    width: 100%;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.my_page_pop_up_prosthetics_detail_typo {
+    min-width: 40px;
+    color: #868686;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.my_page_pop_up_count_detail_typo {
+    color: #868686;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 2px;
 }
 
 .my_page_attatchment {
