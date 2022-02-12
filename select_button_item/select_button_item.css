@@ -1,6 +1,10 @@
+* {
+    font-family: Pretendard;
+}    
+
 @font-face {
     font-family: Pretendard;
-    src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
+    src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
 }
 
 p {
@@ -532,29 +536,65 @@ button {
 
 .line_border {
     width: 120px;
-    height: 1px;
+    height: 0.5px;
     background-color: #555;
 }
 
 .left_inclined_border {
     width: 12px;
-    height: 1.5px;
+    height: 1px;
     background: #555;
     transform: rotate(-45deg);
-    margin: 0 0 3.5px -3px;
+    margin: 0 0 3.5px -2.8px;
 }
 
 .right_inclined_border {
     width: 12px;
-    height: 1.5px;
+    height: 1px;
     background: #555;
     transform: rotate(45deg);
-    margin: 0 -3px 3.5px;
+    margin: 0 -2.8px 3.5px;
 }
 
 .sign_up_membership_type_select_body {
-    width: 238px;
+    width: 236px;
     height: 46px;
+    display: flex;
     border: 1px solid #555;
     border-top: none;
+}
+
+.sign_up_membership_type_select_item {
+    width: 118px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign_up_membership_type_select_item_typo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0 9px;
+}
+
+.sign_up_membership_type_select_item_selected_typo {
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3baaff;
+    font-size: 13px;
+    font-weight: 700;
+    border-bottom: 5px solid #3baaff;
+    box-sizing: border-box;
+    padding: 0 9px;
+    margin-bottom: -5px;
 }
