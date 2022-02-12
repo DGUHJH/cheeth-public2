@@ -30,13 +30,14 @@ input {
 }
 
 input[type="checkbox"] {
-    width: 12px;
-    height: 12px;
+    min-width: 12px;
+    min-height: 12px;
     appearance: none;
     border: 1px solid #e5e5e5;
     border-radius: 2px;
+    margin: 0 10px;
 }
-
+ 
 select {
     appearance: none;
 }
@@ -2673,12 +2674,6 @@ margin: 22.5px 0;
     width: 25px;
 }
 
-.cheesigner_view_all_list_checkbox {
-    width: 12px;
-    height: 12px;
-    margin: 12px 10px;
-}
-
 .cheesigner_view_all_list_nickname {
     width: 247px;
     height: 100%;
@@ -2704,10 +2699,6 @@ margin: 22.5px 0;
     height: 100%;
 }
 
-.my_page_checkbox {
-    margin-right: 10px;
-}
-
 .my_page_list_container {
     margin: 0;
 }
@@ -2724,8 +2715,23 @@ margin: 22.5px 0;
     width: 524px;
 }
 
+.my_page_name_vol2 {
+    width: 194px;
+}
+
+.my_page_list_name_select_button_arrow {
+    transform: rotate(-45deg);
+    margin: 15px -14px 0 11px;
+}
+
 .my_page_prosthetics_type {
     width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.my_page_prosthetics_type_vol2 {
+    width: 470px;
     display: flex;
     justify-content: center;
 }
