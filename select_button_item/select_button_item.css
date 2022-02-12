@@ -111,6 +111,66 @@ button {
     width: 152px;
 } 
 
+.date_expiry_dialog {
+    width: 480px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.date_expiry_dialog_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 27px;
+    margin-bottom: 7px;
+}
+
+.date_expiry_dialog_header_typo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 105px;
+}
+
+.date_expiry_dialog_body {
+    width: 100%;
+    height: 123px;
+    box-sizing: border-box;
+    padding: 0 27px;
+}
+
+.date_expiry_dialog_select_button_container {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date_expiry_dialog_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.date_expiry_dialog_button {
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+}
+
+.date_expiry_dialog_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .equipment_estimator_writing_date_expiry {
     width: 403px;
 }
@@ -132,26 +192,20 @@ button {
     font-weight: 400;
 }
 
-.equipment_estimator_writing_select_button_container {
-    width: 403px;
-    height: 67px;
-    display: flex;
-    justify-content: space-between;
-    border: 0.5px solid #444444;
-    box-sizing: border-box;
-    padding: 21px 9px 8px 9px;
-}
-
 .year {
-    width: 144px;
+    width: 112px;
 }
 
 .month {
-    width: 107px;
+    width: 89px;
 }
 
 .date {
-    width: 107px;
+    width: 89px;
+}
+
+.time {
+    width: 112px;
 }
 
 .equipment_estimator_writing_date_expiry_select_button_after_entered {
@@ -160,10 +214,9 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #EEEEEE;
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .equipment_estimator_select_board {
@@ -192,7 +245,7 @@ button {
     overflow-y: auto;
 }
 
-.select_button_item_container_year, .select_button_item_container_month, .select_button_item_container_date {
+.select_button_item_container_year, .select_button_item_container_month, .select_button_item_container_date, .select_button_item_container_time {
     width: 100%;
     height: 205px;
     display: flex;
@@ -353,7 +406,6 @@ button {
 
 .tribute_request_dialog {
     width: 810px;
-    height: 204px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
 }
 
@@ -375,7 +427,7 @@ button {
     margin-right: 297px;
 }
 
-.tribute_request_prosthetics_select_button_container {
+.tribute_request_prosthetics_select_button_container_single {
     width: 100%;
     height: 132px;
     display: flex;
@@ -464,4 +516,45 @@ button {
 
 .select_button_inactive {
     background: #F2F2F2;
+}
+
+.sign_up_membership_type_select_container {
+    width: 238px;
+    height: 54px;
+}
+
+.sign_up_membership_type_select_top {
+    height: 10px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.line_border {
+    width: 120px;
+    height: 1px;
+    background-color: #555;
+}
+
+.left_inclined_border {
+    width: 12px;
+    height: 1.5px;
+    background: #555;
+    transform: rotate(-45deg);
+    margin: 0 0 3.5px -3px;
+}
+
+.right_inclined_border {
+    width: 12px;
+    height: 1.5px;
+    background: #555;
+    transform: rotate(45deg);
+    margin: 0 -3px 3.5px;
+}
+
+.sign_up_membership_type_select_body {
+    width: 238px;
+    height: 46px;
+    border: 1px solid #555;
+    border-top: none;
 }

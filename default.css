@@ -1727,12 +1727,11 @@ margin: 22.5px 0;
 }
 
 .equipment_estimator_writing_info_date_expiry {
-    width: 388px;
+    width: 335px;
     height: 100%;
     display: flex;
     align-items: center;
     border: 1px solid #e5e5e5;
-    background: #eee;
     padding: 0 20px;
 }
 
@@ -1740,6 +1739,22 @@ margin: 22.5px 0;
     color: #8b8b8b;
     font-size: 13px;
     font-weight: 400px;
+}
+
+.equipment_estimator_writing_info_date_expiry_button {
+    width: 110px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444444;
+    border: 1px solid #444;
+}
+
+.equipment_estimator_writing_info_date_expiry_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .equipment_estimator_writing_info_main_container {
@@ -2022,51 +2037,6 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.equipment_estimator_my_page_category_datatype {
-    /* width: 145px; */
-    min-width: 178px;
-    max-width: 178px;
-}
-
-.equipment_estimator_my_page_category {
-    /* width: 145px; */
-    min-width: 178px;
-    max-width: 178px;
-    box-sizing: border-box;
-    padding: 0 30px;
-    background: #F8F9FE;
-}
-
-.equipment_estimator_my_page_category_margin {
-    height: 20px;
-}
-
-.equipment_estimator_my_page_category_margin_full_height {
-    height: 100%;
-}
-
-.equipment_estimator_my_page_context {
-    /* width: 200px; */
-    width: 300px;
-    box-sizing: border-box;
-    padding: 0 40px;
-}
-
-.equipment_estimator_my_page_count {
-    /* width: 70px; */
-    width: 98px;
-}
-
-.equipment_estimator_my_page_date_estimated, .equipment_estimator_my_page_date_expiry {
-    /* width: 100px; */
-    width: 118px;
-}
-
-.equipment_estimator_my_page_estimator_read {
-    /* width: 110px; */
-    width: 126px;
-}
-
 .equipment_estimator_my_page_request_history_list_container {
     width: 100%;
     height: 48px;
@@ -2085,6 +2055,57 @@ margin: 22.5px 0;
     color: #4b4b4b;
     font-size: 13px;
     font-weight: 400;
+}
+
+.equipment_estimator_my_page_category_datatype {
+    /* width: 145px; */
+    min-width: 178px;
+    max-width: 178px;
+}
+
+.equipment_estimator_my_page_category {
+    /* width: 145px; */
+    min-width: 178px;
+    max-width: 178px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    background: #F8F9FE;
+}
+
+.equipment_estimator_my_page_category_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equipment_estimator_my_page_category_margin {
+    height: 13px;
+}
+
+.equipment_estimator_my_page_category_margin_full_height {
+    height: 100%;
+}
+
+.equipment_estimator_my_page_context {
+    /* width: 200px; */
+    width: 300px;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+
+.equipment_estimator_my_page_count {
+    /* width: 70px; */
+    width: 98px;
+}
+
+.equipment_estimator_my_page_date_estimated, .equipment_estimator_my_page_date_expiry, .equipment_estimator_my_page_date_requested {
+    /* width: 100px; */
+    width: 118px;
+}
+
+.equipment_estimator_my_page_estimator_read {
+    /* width: 110px; */
+    width: 126px;
 }
 
 .flex_start {

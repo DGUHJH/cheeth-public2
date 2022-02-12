@@ -4,36 +4,51 @@
     </head>
     <body>
         <!-- 입력 이전의 견적요청 만료시간 칸 -->
-        <div class="equipment_estimator_writing_date_expiry">
-            <div class="equipment_estimator_writing_date_expiry_select_button">
-                <p class="equipment_estimator_writing_date_expiry_select_button_typo">
-                    견적요청 만료시간
-                </p>
+        <!-- 프로젝트 의뢰하기의 dialog와 동일 -->
+        <div class="date_expiry_dialog">
+            <div class="date_expiry_dialog_header">
+                <p class="date_expiry_dialog_header_typo">견적요청 만료시간</p>
+                <img class="date_expiry_dialog_close_button" src="../assets/images/dialog_close_button.svg"/>
             </div>
-            <div class="equipment_estimator_writing_select_button_container">
-                <div class="year">
-                    <div class="select_button">
-                        <div class="select_button_typo_container">
-                            <p class="select_button_typo">YYYY</p>
-                            <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+            <div class="date_expiry_dialog_body">
+                <div class="date_expiry_dialog_select_button_container">
+                    <div class="year">
+                        <div class="select_button">
+                            <div class="select_button_typo_container">
+                                <p class="select_button_typo">YYYY</p>
+                                <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="month">
+                        <div class="select_button">
+                            <div class="select_button_typo_container">
+                                <p class="select_button_typo">MM</p>
+                                <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <div class="select_button">
+                            <div class="select_button_typo_container">
+                                <p class="select_button_typo">DD</p>
+                                <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="select_button">
+                            <div class="select_button_typo_container">
+                                <p class="select_button_typo">TT:MM</p>
+                                <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="month">
-                    <div class="select_button">
-                        <div class="select_button_typo_container">
-                            <p class="select_button_typo">MM</p>
-                            <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="date">
-                    <div class="select_button">
-                        <div class="select_button_typo_container">
-                            <p class="select_button_typo">DD</p>
-                            <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                        </div>
-                    </div>
+                <div class="date_expiry_dialog_button_wrapper">
+                    <button class="date_expiry_dialog_button">
+                        <p class="date_expiry_dialog_button_typo">입력완료</p>
+                    </button>
                 </div>
             </div>
         </div>
@@ -48,16 +63,16 @@
             </div>
             <div class="select_button_item_container_year">
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">2022</p>
+                    <p class="select_button_item_typo">2022년</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">2021</p>
+                    <p class="select_button_item_typo">2021년</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">2020</p>
+                    <p class="select_button_item_typo">2020년</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">2019</p>
+                    <p class="select_button_item_typo">2019년</p>
                 </div>
             </div>
         </div>
@@ -71,16 +86,16 @@
             </div>
             <div class="select_button_item_container_month">
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">01</p>
+                    <p class="select_button_item_typo">1월</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">02</p>
+                    <p class="select_button_item_typo">2월</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">03</p>
+                    <p class="select_button_item_typo">3월</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">04</p>
+                    <p class="select_button_item_typo">4월</p>
                 </div>
             </div>
         </div>
@@ -94,16 +109,39 @@
             </div>
             <div class="select_button_item_container_date">
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">01</p>
+                    <p class="select_button_item_typo">1일</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">02</p>
+                    <p class="select_button_item_typo">2일</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">03</p>
+                    <p class="select_button_item_typo">3일</p>
                 </div>
                 <div class="select_button_item_small">
-                    <p class="select_button_item_typo">04</p>
+                    <p class="select_button_item_typo">4일</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="time">
+            <div class="select_button">
+                <div class="select_button_typo_container">
+                    <p class="select_button_typo">TT:MM</p>
+                    <img class="select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                </div>
+            </div>
+            <div class="select_button_item_container_time">
+                <div class="select_button_item_small">
+                    <p class="select_button_item_typo">10:00</p>
+                </div>
+                <div class="select_button_item_small">
+                    <p class="select_button_item_typo">10:30</p>
+                </div>
+                <div class="select_button_item_small">
+                    <p class="select_button_item_typo">11:00</p>
+                </div>
+                <div class="select_button_item_small">
+                    <p class="select_button_item_typo">11:30</p>
                 </div>
             </div>
         </div>
