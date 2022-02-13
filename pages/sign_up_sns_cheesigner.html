@@ -37,13 +37,38 @@
                 <p class="sign_up_info_item_title">회원유형 선택</p>
             </div>
             <div class="sign_up_info_item">
-                <div class="sign_up_info_membership_type_select_button_container">
-                    <button class="sign_up_info_membership_type_select_button">
-                        <p class="sign_up_info_membership_type_select_button_typo">일반 회원가입</p>
-                    </button>
-                    <button class="sign_up_info_membership_type_select_button">
-                        <p class="sign_up_info_membership_type_select_button_typo">전문가 회원가입</p>
-                    </button>
+                <div class="sign_up_info_membership_type_select_button_wrapper">
+                    <div class="sign_up_info_membership_type_select_button_container">
+                        <button class="sign_up_info_membership_type_select_button">
+                            <p class="sign_up_info_membership_type_select_button_typo">일반 회원가입</p>
+                        </button>
+                        <!-- 규격 맞추기 용 select button -->
+                        <div class="dropbox_sign_up_membership_type_select_container send_down"></div>
+                    </div>
+                    <div class="sign_up_info_membership_type_select_button_container">
+                        <button class="sign_up_info_membership_type_select_button">
+                            <p class="sign_up_info_membership_type_select_button_typo">전문가 회원가입</p>
+                        </button>
+
+                        <!-- hidden 추가 시: 해당 부분이 공백 -> send_down 추가로 기존에 있던 버튼이 가려지지 않게 -->
+                        <!-- hidden은 select button을 감싸는 가장 바깥쪽의 요소 안의 요소에 개별적으로 넣어야 함 -->
+                        <div class="dropbox_sign_up_membership_type_select_container send_down">
+                            <div class="dropbox_sign_up_membership_type_select_top hidden">
+                                <div class="dropbox_line_border"></div>
+                                <div class="dropbox_left_inclined_border"></div>
+                                <div class="dropbox_right_inclined_border"></div>
+                                <div class="dropbox_line_border"></div>
+                            </div>
+                            <div class="dropbox_sign_up_membership_type_select_body hidden">
+                                <div class="dropbox_sign_up_membership_type_select_item">
+                                    <p class="dropbox_sign_up_membership_type_select_item_typo">의뢰인</p>
+                                </div>
+                                <div class="dropbox_sign_up_membership_type_select_item">
+                                    <p class="dropbox_sign_up_membership_type_select_item_selected_typo">치자이너</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,14 +86,22 @@
         <div class="sign_up_info_container">
             <div class="sign_up_info_item">
                 <p class="sign_up_info_item_typo">직업선택</p>
-                <select class="sign_up_info_item_select_button">
-                    <option disabled selected class="sign_up_info_item_select_button_typo_container">
-                        <p class="sign_up_info_item_select_button_typo">선택</p>
-                        <img class="sign_up_info_item_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                    </option>
-                    <option class="sign_up_info_item_select_button_typo">치과의사</option>
-                    <option class="sign_up_info_item_select_button_typo">치과기공사</option>
-                </select>
+                <div class="dropbox_sign_up_expert_job">
+                    <div class="dropbox_select_button">
+                        <div class="dropbox_select_button_typo_container">
+                            <p class="dropbox_select_button_typo">선택</p>
+                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">치과의사</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">치과기공사</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="sign_up_info_item">
                 <p class="sign_up_info_item_typo">면허증 첨부</p>
@@ -89,13 +122,19 @@
             </div>
             <div class="sign_up_info_item">
                 <p class="sign_up_info_item_typo">은행</p>
-                <select class="sign_up_info_item_select_button">
-                    <option disabled selected class="sign_up_info_item_select_button_typo_container">
-                        <p class="sign_up_info_item_select_button_typo">은행 선택</p>
-                        <img class="sign_up_info_item_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                    </option>
-                    <option class="sign_up_info_item_select_button_typo"></option>
-                </select>
+                <div class="dropbox_sign_up_expert_bank">
+                    <div class="dropbox_select_button">
+                        <div class="dropbox_select_button_typo_container">
+                            <p class="dropbox_select_button_typo">선택</p>
+                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="sign_up_info_item">
                 <p class="sign_up_info_item_typo">예금주</p>
@@ -113,14 +152,22 @@
         <div class="sign_up_info_container">
             <div class="sign_up_info_item">
                 <p class="sign_up_info_item_typo">업종선택</p>
-                <select class="sign_up_info_item_select_button">
-                    <option disabled selected class="sign_up_info_item_select_button_typo_container">
-                        <p class="sign_up_info_item_select_button_typo">선택</p>
-                        <img class="sign_up_info_item_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                    </option>
-                    <option class="sign_up_info_item_select_button_typo">치과</option>
-                    <option class="sign_up_info_item_select_button_typo">치과기공소</option>
-                </select>
+                <div class="dropbox_sign_up_expert_sectors">
+                    <div class="dropbox_select_button">
+                        <div class="dropbox_select_button_typo_container">
+                            <p class="dropbox_select_button_typo">선택</p>
+                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">치과</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">치과기공소</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="sign_up_info_item">
                 <p class="sign_up_info_item_typo">사업자등록번호</p>
