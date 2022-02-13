@@ -1028,12 +1028,11 @@ margin-right: 10px;
 padding: 0 15px;
 }
 
-.sign_up_info_membership_type_select_button_container {
+.sign_up_info_membership_type_select_button_wrapper {
     width: 100%;    
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 .sign_up_info_membership_type_select_button {
@@ -1044,6 +1043,8 @@ padding: 0 15px;
     align-items: center;
     border: 1px solid #222222;
     margin-left: 11px;
+    position: relative;
+    z-index: 0;
 }
 
 .sign_up_info_membership_type_select_button_selected {
@@ -5869,10 +5870,6 @@ margin: 22.5px 0;
     margin-top: 40px;
 }
 
-.hidden {
-    border: none;
-}
-
 .faq_header {
     width: 100%;
     height: 180px;
@@ -6015,4 +6012,595 @@ margin: 22.5px 0;
     color: #575757;
     font-size: 16px;
     font-weight: 400;
+}
+
+.dropbox_select_button {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+
+.dropbox_select_button_large {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+
+.dropbox_select_button_small {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+    
+.dropbox_select_button_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.dropbox_select_button_typo {
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dropbox_select_button_item_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #444444;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+}
+
+.dropbox_select_button_item {
+    width: 100%;
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.dropbox_select_button_item_large {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.dropbox_select_button_item_small {
+    width: 100%;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.dropbox_select_button_item_typo {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.dropbox_sign_up_individual {
+    width: 155px;
+}
+
+.dropbox_sign_up_expert_job, .dropbox_sign_up_expert_bank {
+    width: 171px;
+}
+
+.dropbox_sign_up_expert_sectors {
+    width: 155px;
+}
+
+.dropbox_equipment_estimator_list {
+    width: 152px;
+} 
+
+.dropbox_date_expiry_dialog {
+    width: 480px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.dropbox_date_expiry_dialog_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 27px;
+    margin-bottom: 7px;
+}
+
+.dropbox_date_expiry_dialog_header_typo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 105px;
+}
+
+.dropbox_date_expiry_dialog_body {
+    width: 100%;
+    height: 123px;
+    box-sizing: border-box;
+    padding: 0 27px;
+}
+
+.dropbox_date_expiry_dialog_select_button_container {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropbox_date_expiry_dialog_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropbox_date_expiry_dialog_button {
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+}
+
+.dropbox_date_expiry_dialog_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.dropbox_equipment_estimator_writing_date_expiry {
+    width: 403px;
+}
+
+.dropbox_equipment_estimator_writing_date_expiry_select_button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    background: #EEEEEE;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.dropbox_equipment_estimator_writing_date_expiry_select_button_typo {
+    color: #8b8b8b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dropbox_year {
+    width: 112px;
+}
+
+.dropbox_month {
+    width: 89px;
+}
+
+.dropbox_date {
+    width: 89px;
+}
+
+.dropbox_time {
+    width: 112px;
+}
+
+.dropbox_equipment_estimator_writing_date_expiry_select_button_after_entered {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.dropbox_equipment_estimator_select_board {
+    width: 556px;
+}
+
+.dropbox_select_button_item_container_select_board {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    overflow-y: auto;
+}
+
+.dropbox_equipment_estimator_select_location {
+    width: 347px;
+}
+
+.dropbox_select_button_item_container_location {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    overflow-y: auto;
+}
+
+.dropbox_select_button_item_container_year, .dropbox_select_button_item_container_month, .dropbox_select_button_item_container_date, .dropbox_select_button_item_container_time {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    box-sizing: border-box;
+    padding-top: 8px;
+    overflow-y: auto;
+}
+
+.dropbox_equipment_estimator_edit_info {
+    width: 155px;
+}
+
+.dropbox_processing_center_profile {
+    width: 155px;
+}
+
+.dropbox_select_button_item_container_location_small {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    overflow-y: auto;
+}
+
+.dropbox_processing_center_profile_select_button {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+}
+
+.dropbox_processing_center_profile_select_button_item {
+    width: 100%;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.dropbox_processing_center_profile_selected_item {
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dropbox_project_view_all {
+    width: 152px;
+}
+
+.dropbox_project_request_date {
+    width: 118px;
+}
+
+.dropbox_project_request_preference {
+    width: 121px;
+}
+
+.dropbox_project_request_calendar {
+    width: 189px;
+    border: 0.5px solid #444444;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+}
+
+.dropbox_project_request_calendar_header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbox_project_request_calendar_header_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 25px;
+}
+
+.dropbox_project_request_calendar_body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 18px 20px;
+}
+
+.dropbox_project_request_calendar_days_container {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.dropbox_project_request_calendar_days {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbox_project_request_calendar_days_typo {
+    color: #b6b6b6;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.dropbox_project_request_calendar_date_container {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.dropbox_project_request_calendar_date {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbox_project_request_calendar_date_today {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2EFFF;
+}
+
+.dropbox_project_request_calendar_date_typo {
+    color: #555;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.dropbox_project_request_calendar_date_today_typo {
+    color: #0083e8;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.dropbox_cheesigner_view_all_container {
+    width: 152px;
+}
+
+.dropbox_my_page {
+    width: 152px;
+}
+
+.dropbox_tribute_request {
+    width: 152px;
+}
+
+.dropbox_tribute_request_dialog {
+    width: 810px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.dropbox_tribute_request_prosthetics_select_button {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.dropbox_tribute_request_prosthetics_select_button_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 297px;
+}
+
+.dropbox_tribute_request_prosthetics_select_button_container_single {
+    width: 100%;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.dropbox_prosthetics_type {
+    width: 152px;
+}
+
+.dropbox_prosthetics_type_current {
+    background: #E2EFFF;
+}
+
+.dropbox_tribute_request_etc_chosen {
+    width: 810px;
+    height: 349px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.dropbox_tribute_request_prosthetics_select_button_container {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.dropbox_tribute_request_divider {
+    width: 740px;
+    height: 1px;
+    background: #E5E5E5;
+    margin: 0 auto;
+}
+
+.dropbox_tribute_request_prosthetics_select_button_etc_chosen {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.dropbox_prosthetics_type_etc_chosen_direct_input {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #E5E5E5;
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
+.dropbox_tribute_request_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.dropbox_tribute_request_button {
+    width: 133px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+}
+
+.dropbox_tribute_request_button_typo {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dropbox_select_button_inactive {
+    background: #F2F2F2;
+}
+
+.dropbox_sign_up_membership_type_select_container {
+    width: 238px;
+    height: 54px;
+    background: #fff;
+    margin: -10px 0 0 11px;
+    position: relative;
+    z-index: 1;
+}
+
+.dropbox_sign_up_membership_type_select_top {
+    height: 10px;
+    display: flex;
+    align-items: flex-end;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+}
+
+.dropbox_line_border {
+    width: 120px;
+    height: 0.5px;
+    background-color: #555;
+}
+
+.dropbox_left_inclined_border {
+    width: 12px;
+    height: 1px;
+    background: #555;
+    transform: rotate(-45deg);
+    margin: 0 0 3.5px -2.8px;
+}
+
+.dropbox_right_inclined_border {
+    width: 12px;
+    height: 1px;
+    background: #555;
+    transform: rotate(45deg);
+    margin: 0 -2.8px 3.5px;
+}
+
+.dropbox_sign_up_membership_type_select_body {
+    width: 236px;
+    height: 46px;
+    display: flex;
+    border: 1px solid #555;
+    border-top: none;
+}
+
+.dropbox_sign_up_membership_type_select_item {
+    width: 118px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dropbox_sign_up_membership_type_select_item_typo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 13px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0 9px;
+}
+
+.dropbox_sign_up_membership_type_select_item_selected_typo {
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3baaff;
+    font-size: 13px;
+    font-weight: 700;
+    border-bottom: 5px solid #3baaff;
+    box-sizing: border-box;
+    padding: 0 9px;
+    margin-bottom: -5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.send_down {
+    z-index: -1;
 }
