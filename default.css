@@ -4119,7 +4119,7 @@ margin: 22.5px 0;
 }
 
 .qna_main_container, .notice_main_container {
-    width: 1160px;
+    width: 928px;
 }
 
 .qna_top_divider, .notice_top_divider {
@@ -4145,7 +4145,7 @@ margin: 22.5px 0;
 }
 
 .qna_list_data_type_order {
-    width: 120px;
+    width: 60px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -4153,7 +4153,7 @@ margin: 22.5px 0;
 }
 
 .qna_list_data_type_title {
-    width: 734px;
+    width: 634px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -4187,7 +4187,7 @@ margin: 22.5px 0;
 }
 
 .qna_list_order {
-    width: 120px;
+    width: 60px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -4195,12 +4195,12 @@ margin: 22.5px 0;
 }
 
 .qna_list_title {
-    width: 734px;
+    width: 634px;
     height: 100%;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding-left: 112px;
+    padding-left: 56px;
 }
 
 .qna_list_writer {
@@ -4280,7 +4280,7 @@ margin: 22.5px 0;
 }
 
 .notice_list_data_type_order {
-    width: 120px;
+    width: 60px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -4288,7 +4288,7 @@ margin: 22.5px 0;
 }
 
 .notice_list_data_type_title {
-    width: 804px;
+    width: 704px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -4304,7 +4304,7 @@ margin: 22.5px 0;
 }
 
 .notice_list_order {
-    width: 120px;
+    width: 60px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -4312,12 +4312,12 @@ margin: 22.5px 0;
 }
 
 .notice_list_title {
-    width: 804px;
+    width: 704px;
     height: 100%;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding-left: 104px;
+    padding-left: 52px;
 }
 
 .notice_list_date {
