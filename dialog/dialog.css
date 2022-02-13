@@ -1784,3 +1784,49 @@ input {
     font-size: 13px;
     font-weight: 300;
 }
+
+.dropbox_date_expiry_dialog_select_button_container {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 17px 0;
+}
+
+.dropbox_date_expiry_dialog_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropbox_date_expiry_dialog_button {
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083E8;
+}
+
+.dropbox_date_expiry_dialog_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.dropbox_year {
+    width: 112px;
+}
+
+.dropbox_month {
+    width: 89px;
+}
+
+.dropbox_date {
+    width: 89px;
+}
+
+.dropbox_time {
+    width: 112px;
+}

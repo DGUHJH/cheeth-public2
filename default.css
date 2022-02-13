@@ -1106,7 +1106,7 @@ font-size: 14px;
 font-weight: 400;
 margin-top: 2.5px;
 }
-
+/* 
 .sign_up_info_item_select_button {
 min-width: 155px;
 height: 38px;
@@ -1126,7 +1126,7 @@ padding: 15px;
 .sign_up_info_item_select_button_typo {
 color: #B6B6B6;
 font-size: 14px;
-}
+} */
 
 .sign_up_page_button_container {
 display: flex;
@@ -1396,9 +1396,9 @@ margin: 22.5px 0;
 
 .equipment_estimator_filter_container, .cheesigner_view_all_list_filter_container, .my_page_filter_container, .project_filter_container {
     width: 100%;
+    height: 40px;
     display: flex;
     justify-content: end;
-    align-items: center;
     margin-bottom: 14px;
 }
 
@@ -1694,7 +1694,7 @@ margin: 22.5px 0;
     margin-bottom: 15px;
 }
 
-.equipment_estimator_writing_select_button, .project_request_select_button {
+/* .equipment_estimator_writing_select_button, .project_request_select_button {
     width: 100%;
     height: 100%;
     display: flex;
@@ -1703,14 +1703,14 @@ margin: 22.5px 0;
     border: 1px solid #e5e5e5;
     box-sizing: border-box;
     padding: 0 20px;
-}
+} */
 
 .equipment_estimator_writing_select_board, .project_request_select_board {
     width: 556px;
     margin-right: 10px;
 }
 
-.equipment_estimator_writing_select_button_typo, .project_request_select_button_typo {
+/* .equipment_estimator_writing_select_button_typo, .project_request_select_button_typo {
     color: #b6b6b6;
     font-size: 13px;
     font-weight: 400;
@@ -1719,11 +1719,11 @@ margin: 22.5px 0;
 .equipment_estimator_writing_select_button_arrow, .project_request_select_button_arrow {
     width: 17px;
     height: 8px;
-}
+} */
 
-.equipment_estimator_writing_select_location {
+/* .equipment_estimator_writing_select_location {
     width: 362px;
-}
+} */
 
 .equipment_estimator_writing_info_title {
     width: 515px;
@@ -1809,7 +1809,6 @@ margin: 22.5px 0;
     width: 600px;
     height: 38px;
     display: flex;
-    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -1836,19 +1835,9 @@ margin: 22.5px 0;
 }
 
 .equipment_estimator_writing_info_select_button_container {
+    width: 384;
     display: flex;
-}
-
-.equipment_estimator_writing_year {
-    width: 144px;
-    height: 38px;
-    margin-right: 13px;
-}
-
-.equipment_estimator_writing_month, .equipment_estimator_writing_date {
-    width: 107px;
-    height: 38px;
-    margin-right: 13px;
+    justify-content: space-between;
 }
 
 .equipment_estimator_writing_info_detail_typo {
@@ -2186,7 +2175,6 @@ margin: 22.5px 0;
     width: 100%;
     height: 38px;
     display: flex;
-    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -2231,7 +2219,7 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
-.equipment_Estimator_edit_info_select_button {
+.equipment_estimator_edit_info_select_button {
     width: 155px;
     height: 38px;
     display: flex;
@@ -6056,8 +6044,11 @@ margin: 22.5px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
+    background: #fff;
     border: 0.5px solid #444444;
     box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    position: relative;
+    z-index: 1;
 }
 
 .dropbox_select_button_item {
@@ -6139,35 +6130,6 @@ margin: 22.5px 0;
     padding: 0 27px;
 }
 
-.dropbox_date_expiry_dialog_select_button_container {
-    width: 100%;
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.dropbox_date_expiry_dialog_button_wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.dropbox_date_expiry_dialog_button {
-    width: 85px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0083E8;
-}
-
-.dropbox_date_expiry_dialog_button_typo {
-    color: #fff;
-    font-size: 13px;
-    font-weight: 500;
-}
-
 .dropbox_equipment_estimator_writing_date_expiry {
     width: 403px;
 }
@@ -6190,19 +6152,15 @@ margin: 22.5px 0;
 }
 
 .dropbox_year {
-    width: 112px;
+    width: 144px;
 }
 
 .dropbox_month {
-    width: 89px;
+    width: 107px;
 }
 
 .dropbox_date {
-    width: 89px;
-}
-
-.dropbox_time {
-    width: 112px;
+    width: 107px;
 }
 
 .dropbox_equipment_estimator_writing_date_expiry_select_button_after_entered {
@@ -6218,6 +6176,7 @@ margin: 22.5px 0;
 
 .dropbox_equipment_estimator_select_board {
     width: 556px;
+    margin-right: 10px;
 }
 
 .dropbox_select_button_item_container_select_board {
@@ -6225,8 +6184,11 @@ margin: 22.5px 0;
     height: 300px;
     display: flex;
     flex-direction: column;
+    background: #fff;
     box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
     overflow-y: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .dropbox_equipment_estimator_select_location {
@@ -6238,8 +6200,11 @@ margin: 22.5px 0;
     height: 300px;
     display: flex;
     flex-direction: column;
+    background: #fff;
     box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
     overflow-y: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .dropbox_select_button_item_container_year, .dropbox_select_button_item_container_month, .dropbox_select_button_item_container_date, .dropbox_select_button_item_container_time {
@@ -6247,9 +6212,12 @@ margin: 22.5px 0;
     height: 205px;
     display: flex;
     flex-direction: column;
+    background: #fff;
     box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
     box-sizing: border-box;
     padding-top: 8px;
+    position: relative;
+    z-index: 1;
     overflow-y: auto;
 }
 
@@ -6266,7 +6234,10 @@ margin: 22.5px 0;
     height: 170px;
     display: flex;
     flex-direction: column;
+    background: #fff;
     box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    position: relative;
+    z-index: 1;
     overflow-y: auto;
 }
 
