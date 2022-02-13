@@ -2051,21 +2051,37 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
+.equipment_estimator_my_page_request_history_list_wrapper {
+    display: flex;
+}
+
+.equipment_estimator_my_page_request_history_category_container {
+    min-height: 560px;
+    background: #F8F9FE;
+    box-sizing: border-box;
+    padding-top: 13px;
+}
+
 .equipment_estimator_my_page_request_history_list_container {
+    box-sizing: border-box;
+    padding-top: 13px;
+}
+
+.equipment_estimator_my_page_request_history_list {
     width: 100%;
     height: 48px;
     display: flex;
     align-items: center;
 }
 
-.equipment_estimator_my_page_request_history_list {
+.equipment_estimator_my_page_request_history_list_item {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.equipment_estimator_my_page_request_history_list_typo {
+.equipment_estimator_my_page_request_history_list_item_typo {
     color: #4b4b4b;
     font-size: 13px;
     font-weight: 400;
@@ -2081,9 +2097,9 @@ margin: 22.5px 0;
     /* width: 145px; */
     min-width: 178px;
     max-width: 178px;
+    height: 43px;
     box-sizing: border-box;
     padding-left: 30px;
-    background: #F8F9FE;
 }
 
 .equipment_estimator_my_page_category_typo {
@@ -2092,34 +2108,26 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
-.equipment_estimator_my_page_category_margin {
-    height: 13px;
-}
-
-.equipment_estimator_my_page_category_margin_full_height {
-    height: 100%;
-}
-
 .equipment_estimator_my_page_context {
     /* width: 200px; */
-    width: 300px;
+    min-width: 285px;
     box-sizing: border-box;
     padding: 0 40px;
 }
 
 .equipment_estimator_my_page_count {
     /* width: 70px; */
-    width: 98px;
+    min-width: 98px;
 }
 
 .equipment_estimator_my_page_date_estimated, .equipment_estimator_my_page_date_expiry, .equipment_estimator_my_page_date_requested {
     /* width: 100px; */
-    width: 118px;
+    min-width: 118px;
 }
 
 .equipment_estimator_my_page_estimator_read {
     /* width: 110px; */
-    width: 126px;
+    min-width: 126px;
 }
 
 .flex_start {
