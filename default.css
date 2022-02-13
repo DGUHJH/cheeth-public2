@@ -43,6 +43,10 @@ select {
     appearance: none;
 }
 
+select option[disabled] {
+    display: none;
+}
+
 @font-face {
 font-family: Pretendard;
 src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
