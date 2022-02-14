@@ -1533,7 +1533,7 @@ input {
     font-weight: 500;
 }
 
-.my_page_dialog_container {
+/* .my_page_dialog_container {
     width: 455px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
     margin: 0 auto;
@@ -1620,7 +1620,7 @@ input {
     font-size: 13px;
     font-weight: 300;
     margin-left: 4px;
-}
+} */
 
 .list_divider {
     width: 100%;
@@ -1681,7 +1681,7 @@ input {
 .pagination_next_arrow {
     filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
 }
-
+/* 
 .my_page_dialog_footer {
     width: 100%;
     box-sizing: border-box;
@@ -1783,7 +1783,7 @@ input {
     color: #444;
     font-size: 13px;
     font-weight: 300;
-}
+} */
 
 .dropbox_date_expiry_dialog_select_button_container {
     width: 100%;
@@ -1830,3 +1830,143 @@ input {
 .dropbox_time {
     width: 112px;
 }
+
+.dotted_divider_container {
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    margin-right: -5px;
+}
+
+.dotted_divider {
+    width: 100%;
+    height: 4px;
+    margin: 24px 0;
+}
+
+.project_request_view_container {
+    width: 455px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+    margin: auto;
+}
+
+.project_request_view_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.project_request_view_header_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 115px;
+}
+
+.project_request_view_body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 35px 27px 35px;
+}
+
+.project_request_request_container {
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+.project_request_request {
+    width: 100%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.project_request_request_title {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.project_request_request_context {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+
+.prosthetics_type_container {
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+
+.prosthetics_type_data_type_container {
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prosthetics_type_data_type_divider {
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+
+.prosthetics_type_list_divider {
+    width: 1px;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+.prosthetics_type_data_type {
+    width: 192px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444444;
+}
+
+.prosthetics_type_data_type_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.prosthetics_type_list_container {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prosthetics_type_list {
+    width: 192px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prosthetics_type_list_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+} 
