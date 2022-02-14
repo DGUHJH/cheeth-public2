@@ -1266,13 +1266,13 @@ margin: 22.5px 0;
     margin-left: 12px;
 }
 
-.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container {
+.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container, .project_list_main_container {
     width: 728px;
     display: flex;
     flex-direction: column;
 }
 
-.equipment_estimator_main_container, .project_list_main_container {
+.equipment_estimator_main_container, .project_request_main_container {
     width: 928px;
     display: flex;
     flex-direction: column;
