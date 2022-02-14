@@ -34,6 +34,7 @@ input[type="checkbox"] {
     min-width: 12px;
     min-height: 12px;
     appearance: none;
+    background: #fff;
     border: 1px solid #e5e5e5;
     border-radius: 2px;
     margin: 0 10px;
@@ -1265,13 +1266,13 @@ margin: 22.5px 0;
     margin-left: 12px;
 }
 
-.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container, .project_list_main_container {
+.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container {
     width: 728px;
     display: flex;
     flex-direction: column;
 }
 
-.equipment_estimator_main_container {
+.equipment_estimator_main_container, .project_list_main_container {
     width: 928px;
     display: flex;
     flex-direction: column;
@@ -1637,7 +1638,7 @@ margin: 22.5px 0;
     background: #F2F2F2;
 }
 
-.equipment_estimator_list_search, .processing_center_search, .cheesigner_view_all_search, .project_search {
+.search {
     width: 426px;
     height: 35px;
     display: flex;
@@ -1699,37 +1700,6 @@ margin: 22.5px 0;
     display: flex;
     margin-bottom: 15px;
 }
-
-/* .equipment_estimator_writing_select_button, .project_request_select_button {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #e5e5e5;
-    box-sizing: border-box;
-    padding: 0 20px;
-} */
-
-.equipment_estimator_writing_select_board, .project_request_select_board {
-    width: 556px;
-    margin-right: 10px;
-}
-
-/* .equipment_estimator_writing_select_button_typo, .project_request_select_button_typo {
-    color: #b6b6b6;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.equipment_estimator_writing_select_button_arrow, .project_request_select_button_arrow {
-    width: 17px;
-    height: 8px;
-} */
-
-/* .equipment_estimator_writing_select_location {
-    width: 362px;
-} */
 
 .equipment_estimator_writing_info_title {
     width: 515px;
@@ -2308,20 +2278,24 @@ margin: 22.5px 0;
     background: #F2F2F2;
     border-top: 2px solid #333;
     box-sizing: border-box;
-    padding: 0 40px;
+    padding-left: 30px;
     margin-bottom: 45px;
 }
 
 .processing_center_filter {
     display: flex;
-    margin-right: 40px;
+    margin-right: 51px;
+}
+
+.processing_center_filter_checkbox {
+    min-width: 18px!important;
+    min-height: 18px!important;
 }
 
 .processing_center_filter_typo {
     color: #333;
     font-size: 15px;
     font-weight: 400;
-    margin-left: 10px;
 }
 
 .processing_center_main_center_carousel_card_container {
@@ -2463,6 +2437,7 @@ margin: 22.5px 0;
 }
 
 .processing_center_profile_profile_info_container {
+    height: 42px;
     display: flex;
 }
 
@@ -2473,6 +2448,7 @@ margin: 22.5px 0;
     align-items: center;
     border: none;
     border-bottom: 1px solid #666;
+    margin-left: 20px;
 }
 
 .processing_center_profile_without_select_button {
@@ -2498,28 +2474,6 @@ margin: 22.5px 0;
     align-items: center;
     border: 1px solid #E5E5E5;
     margin-top: 10px;
-}
-
-.processing_center_profile_select_button {
-    min-width: 157px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    border: solid 1px #EFEFEF;
-    margin-right: 20px;
-}
-    
-.processing_center_profile_select_button_typo_container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-
-.processing_center_profile_select_button_typo {
-    color: #B6B6B6;
-    font-size: 14px;
 }
 
 .processing_center_profile_image_container {
@@ -2888,12 +2842,6 @@ margin: 22.5px 0;
 .project_request_select_button_container {
     height: 100%;
     display: flex;
-}
-
-.project_request_select_board {
-    width: 556px;
-    height: 100%;
-    margin-right: 10px;
 }
 
 .project_request_select_location {
@@ -6176,7 +6124,7 @@ margin: 22.5px 0;
     padding: 0 20px;
 }
 
-.dropbox_equipment_estimator_select_board {
+.dropbox_equipment_estimator_select_board, .dropbox_project_request_select_board {
     width: 556px;
     margin-right: 10px;
 }
@@ -6223,6 +6171,21 @@ margin: 22.5px 0;
     overflow-y: auto;
 }
 
+.dropbox_project_request_select_button_item_container_time {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 0.5px solid #444444;
+    box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    box-sizing: border-box;
+    padding-top: 8px;
+    position: relative;
+    z-index: 1;
+    overflow-y: auto;
+}
+
 .dropbox_equipment_estimator_edit_info {
     width: 155px;
 }
@@ -6257,7 +6220,6 @@ margin: 22.5px 0;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 20px;
 }
 
 .dropbox_processing_center_profile_selected_item {
@@ -6270,18 +6232,26 @@ margin: 22.5px 0;
     width: 152px;
 }
 
-.dropbox_project_request_date {
+.dropbox_project_request_time {
     width: 118px;
 }
 
 .dropbox_project_request_preference {
     width: 121px;
+    margin-right: 15px;
 }
 
 .dropbox_project_request_calendar {
     width: 189px;
+    margin-right: 15px;
+}
+
+.dropbox_project_request_calendar_item_container{
+    background: #fff;
     border: 0.5px solid #444444;
     box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.2);
+    position: relative;
+    z-index: 2;
 }
 
 .dropbox_project_request_calendar_header {
@@ -6305,9 +6275,10 @@ margin: 22.5px 0;
     padding: 0 20px 18px 20px;
 }
 
+
 .dropbox_project_request_calendar_days_container {
     width: 100%;
-    height: 24px;
+    height: 11px;
     display: flex;
     align-items: center;
 }
@@ -6590,6 +6561,10 @@ margin: 22.5px 0;
     color: #333;
     font-size: 13px;
     font-weight: 300;
+}
+
+.dropbox_project_request_quote_type {
+    width: 362px;
 }
 
 .hidden {
