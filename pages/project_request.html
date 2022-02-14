@@ -73,30 +73,67 @@
             <div class="connection_location_divider"></div>
             <div class="project_request_writing_info_wrapper">
                 <div class="project_request_writing_info_sub_container">
-                    <div class="project_request_select_board">
-                        <div class="project_request_select_button">
-                            <p class="project_request_select_button_typo">
-                                게시판 선택
-                            </p>
-                            <img class="project_request_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                    <div class="dropbox_project_request_select_board">
+                        <div class="dropbox_select_button_large">
+                            <div class="dropbox_select_button_typo_container">
+                                <p class="dropbox_select_button_typo">견적만료시간 순</p>
+                                <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="dropbox_select_button_item_container_select_board hidden">
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">3D 프린터</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">밀링머신</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">퍼네스</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">스캐너</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">폴리싱장비</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">S/W</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">스팀기</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">캐스팅머신</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">큐링장비</p>
+                            </div>
+                            <div class="dropbox_select_button_item_large">
+                                <p class="dropbox_select_button_item_typo">기타</p>
+                            </div>
                         </div>
                     </div>
                     <div class="project_request_select_location">
-                        <div class="project_request_select_button">
-                            <p class="project_request_select_button_typo">
-                                지정 견적 / 공개 견적
-                            </p>
-                            <img class="project_request_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        <div class="dropbox_project_request_quote_type">
+                            <div class="dropbox_select_button_large">
+                                <div class="dropbox_select_button_typo_container">
+                                    <p class="dropbox_select_button_typo">지정 견적 / 공개 견적</p>
+                                    <img class="project_request_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="project_request_writing_info_sub_container">
-                    <input class="project_request_writing_info_title" placeholder="제목입력"/>
-                    <div class="project_request_writing_info_date_expiry">
-                        <p class="project_request_writing_info_date_expiry_typo">
+                <div class="equipment_estimator_writing_info_sub_container">
+                    <input class="equipment_estimator_writing_info_title" placeholder="제목입력"/>
+                    <div class="equipment_estimator_writing_info_date_expiry">
+                        <p class="equipment_estimator_writing_info_date_expiry_typo">
                             견적요청 만료시간
                         </p>
                     </div>
+                    <a href="../dialog/date_expiry.html" class="equipment_estimator_writing_info_date_expiry_button">
+                        <p class="equipment_estimator_writing_info_date_expiry_button_typo">시간선택하기</p>
+                    </a>
                 </div>
                 <div class="project_request_writing_info_main_container">
                     <div class="project_request_writing_info_intro">
@@ -126,23 +163,258 @@
                         <div class="project_request_writing_info_item">
                             <p class="project_request_writing_info_item_typo">납품 마감일</p>
                             <div class="project_request_select_button_container">
-                                <button class="project_request_select_button project_request_calendar">
-                                    <p class="project_request_select_button_typo">날짜선택</p>
-                                    <img class="project_request_calendar_image" src="../assets/images/calendar_image.svg"/>
-                                </button>
-                                <button class="project_request_select_button project_request_time">
-                                    <p class="project_request_select_button_typo">시간</p>
-                                    <img class="project_request_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                                </button>
+                                <div class="dropbox_project_request_calendar">
+                                    <button class="dropbox_select_button">
+                                        <div class="dropbox_select_button_typo_container">
+                                            <p class="dropbox_select_button_typo">날짜선택</p>
+                                            <img class="project_request_calendar_image" src="../assets/images/calendar_image.svg"/>
+                                        </div>
+                                    </button>
+                                    <div class="dropbox_project_request_calendar_item_container hidden">
+                                        <div class="dropbox_project_request_calendar_header">
+                                            <img class="dropbox_project_request_calendar_left_arrow" src="../assets/images/project_request_calendar_left_arrow.svg"/>
+                                            <p class="dropbox_project_request_calendar_header_typo">2022년 01월</p>
+                                            <img class="dropbox_project_request_calendar_left_arrow" src="../assets/images/project_request_calendar_right_arrow.svg"/>
+                                        </div>
+                                        <div class="dropbox_project_request_calendar_body">
+                                            <div class="dropbox_project_request_calendar_days_container">
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">월</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">화</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">수</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">목</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">금</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">토</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_days">
+                                                    <p class="dropbox_project_request_calendar_days_typo">일</p>
+                                                </div>
+                                            </div>
+                                            <div class="dropbox_project_request_calendar_date_container">
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">1</p>
+                                                </div>
+                                            </div>
+                                            <div class="dropbox_project_request_calendar_date_container">
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">2</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">3</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">4</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">5</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">6</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">7</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">8</p>
+                                                </div>
+                                            </div>
+                                            <div class="dropbox_project_request_calendar_date_container">
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">2</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">3</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">4</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">5</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">6</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">7</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">8</p>
+                                                </div>
+                                            </div>
+                                            <div class="dropbox_project_request_calendar_date_container">
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">2</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">3</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">4</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">5</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">6</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">7</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">8</p>
+                                                </div>
+                                            </div>
+                                            <div class="dropbox_project_request_calendar_date_container">
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">2</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">3</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">4</p>
+                                                </div>
+                                                <!-- date_today: 오늘 날짜 (또는 선택된 날짜)에 표시 -->
+                                                <div class="dropbox_project_request_calendar_date_today">
+                                                    <p class="dropbox_project_request_calendar_date_today_typo">5</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">6</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">7</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">8</p>
+                                                </div>
+                                            </div>
+                                            <div class="dropbox_project_request_calendar_date_container">
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">2</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo">3</p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                                <div class="dropbox_project_request_calendar_date">
+                                                    <p class="dropbox_project_request_calendar_date_typo"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropbox_project_request_time">
+                                    <div class="dropbox_select_button">
+                                        <div class="dropbox_select_button_typo_container">
+                                            <p class="dropbox_select_button_typo">시간</p>
+                                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                                        </div>
+                                    </div>
+                                    <div class="dropbox_project_request_select_button_item_container_time hidden">
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">10:00</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">10:30</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">11:00</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">11:30</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">12:00</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">12:30</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">13:00</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">13:30</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">14:00</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">14:30</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">15:00</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item_small">
+                                            <p class="dropbox_select_button_item_typo">15:30</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="project_request_writing_info_item">
                             <p class="project_request_writing_info_item_typo">선호 CAD S/W</p>
                             <div class="project_request_select_button_container">
-                                <button class="project_request_select_button project_request_select">
-                                    <p class="project_request_select_button_typo">선택</p>
-                                    <img class="project_request_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
-                                </button>
+                                <div class="dropbox_project_request_preference">
+                                    <div class="dropbox_select_button">
+                                        <div class="dropbox_select_button_typo_container">
+                                            <p class="dropbox_select_button_typo">선택</p>
+                                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                                        </div>
+                                    </div>
+                                    <div class="dropbox_select_button_item_container hidden">
+                                        <div class="dropbox_select_button_item">
+                                            <p class="dropbox_select_button_item_typo">3Shape</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item">
+                                            <p class="dropbox_select_button_item_typo">EXOCAD</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item">
+                                            <p class="dropbox_select_button_item_typo">Dentalwing</p>
+                                        </div>
+                                        <div class="dropbox_select_button_item">
+                                            <p class="dropbox_select_button_item_typo">기타(직접입력)</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <input class="project_request_writing_info_underline_box"/>
                         </div>

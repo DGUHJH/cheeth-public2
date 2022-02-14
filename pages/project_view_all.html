@@ -79,12 +79,22 @@
                         미체결건만 보기
                     </p>
                 </div>
-                <button class="project_filter_sort_by">
-                    <div class="project_filter_sort_by_typo_container">
-                        <p class="project_filter_sort_by_typo">견적만료시간 순</p>
-                        <img class="project_filter_sort_by_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                <div class="dropbox_project_view_all">
+                    <div class="dropbox_select_button">
+                        <div class="dropbox_select_button_typo_container">
+                            <p class="dropbox_select_button_typo">견적만료시간 순</p>
+                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        </div>
                     </div>
-                </button>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">작성일 순</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">견적만료시간 순</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="connection_location_divider divider_without_margin"></div>
             <div class="project_list_container">
@@ -371,15 +381,24 @@
                         <img class="pagination_next_arrow" src="../assets/images/connection_location_arrow.svg"/>
                     </div>
                 </div>
-                <div class="project_search">
-                    <button class="project_search_field">
-                        <p class="project_search_field_typo">전체</p>
-                        <img class="project_search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
-                    </button>
-                    <input class="project_search_bar"/>
-                    <button class="project_search_button">
-                        <img class="project_Search_button_icon" src="../assets/images/search_button_icon.svg"/>
-                        <p class="project_search_button_typo">검색</p>
+                <div class="search">
+                    <div class="search_field_wrapper">
+                        <button class="search_field">
+                            <p class="search_field_typo">전체</p>
+                            <img class="search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
+                        </button>
+                        <div class="dropbox_search_field_select_button_item_wrapper hidden">
+                            <div class="dropbox_search_field_select_button_item_container">
+                                <div class="dropbox_search_field_select_button_item">
+                                    <p class="dropbox_search_field_select_button_item_typo">닉네임 찾기</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="search_bar"/>
+                    <button class="search_button">
+                        <img class="Search_button_icon" src="../assets/images/search_button_icon.svg"/>
+                        <p class="search_button_typo">검색</p>
                     </button>
                 </div>
             </div>
