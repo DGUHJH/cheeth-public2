@@ -100,27 +100,27 @@
             </div>
             <div class="processing_center_filter_container">
                 <div class="processing_center_filter">
-                    <input type="checkbox"/>
+                    <input type="checkbox" class="processing_center_filter_checkbox"/>
                     <p class="processing_center_filter_typo">지르코니아</p>
                 </div>
                 <div class="processing_center_filter">
-                  <input type="checkbox"/>
+                    <input type="checkbox" class="processing_center_filter_checkbox"/>
                     <p class="processing_center_filter_typo">3D 프린팅</p>
                 </div>
                 <div class="processing_center_filter">
-                  <input type="checkbox"/>
+                    <input type="checkbox" class="processing_center_filter_checkbox"/>
                     <p class="processing_center_filter_typo">소프트메탈</p>
                 </div>
                 <div class="processing_center_filter">
-                  <input type="checkbox"/>
+                    <input type="checkbox" class="processing_center_filter_checkbox"/>
                     <p class="processing_center_filter_typo">커스텀 어버트먼트</p>
                 </div>
                 <div class="processing_center_filter">
-                  <input type="checkbox"/>
+                    <input type="checkbox" class="processing_center_filter_checkbox"/>
                     <p class="processing_center_filter_typo">메탈밀링</p>
                 </div>
-                <div class="processing_center_filter">
-                  <input type="checkbox"/>
+                <div class="processing_center_filter without_margin">
+                    <input type="checkbox" class="processing_center_filter_checkbox"/>
                     <p class="processing_center_filter_typo">기타</p>
                 </div>
             </div>
@@ -331,15 +331,24 @@
                       <img class="pagination_next_arrow" src="../assets/images/connection_location_arrow.svg"/>
                   </button>
               </div>
-              <div class="processing_center_search">
-                  <div class="processing_center_search_field">
-                      <p class="processing_center_search_field_typo">전체</p>
-                      <img class="processing_center_search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
-                   </div>
-                  <input class="processing_center_search_bar"/>
-                  <button class="processing_center_search_button">
-                      <img class="processing_center_Search_button_icon" src="../assets/images/search_button_icon.svg"/>
-                      <p class="processing_center_search_button_typo">검색</p>
+              <div class="search">
+                <div class="search_field_wrapper">
+                  <button class="search_field">
+                      <p class="search_field_typo">전체</p>
+                      <img class="search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
+                  </button>
+                  <div class="dropbox_search_field_select_button_item_wrapper hidden">
+                      <div class="dropbox_search_field_select_button_item_container">
+                          <div class="dropbox_search_field_select_button_item">
+                              <p class="dropbox_search_field_select_button_item_typo">닉네임 찾기</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                  <input class="search_bar"/>
+                  <button class="search_button">
+                      <img class="Search_button_icon" src="../assets/images/search_button_icon.svg"/>
+                      <p class="search_button_typo">검색</p>
                   </button>
               </div>
           </div>
