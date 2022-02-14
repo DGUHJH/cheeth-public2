@@ -67,16 +67,29 @@
                 </div>
             </div>
             <div class="cheesigner_view_all_list_filter_container">
-                <div class="cheesigner_view_all_list_filter_sort_by">
-                    <div class="cheesigner_view_all_list_filter_sort_by_typo_container">
-                        <p class="cheesigner_view_all_list_filter_sort_by_typo">인기순</p>
-                        <img class="cheesigner_view_all_list_filter_sort_by_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                <div class="dropbox_cheesigner_view_all_container">
+                    <div class="dropbox_select_button">
+                        <div class="dropbox_select_button_typo_container">
+                            <p class="dropbox_select_button_typo">인기 순</p>
+                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">닉네임 가나다 순</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">만족도 순</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">거래 총 금액 순</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="cheesigner_view_all_list_container">
                 <div class="cheesigner_view_all_list_data_type_container">
-                    <div class="cheesigner_view_all_list_data_type_margin"></div>
+                    <input type="checkbox"/>
                     <div class="cheesigner_view_all_list_data_type cheesigner_view_all_list_order">
                         <p class="cheesigner_view_all_list_data_typo_typo">NO</p>
                     </div>
@@ -357,14 +370,23 @@
                     </div>
                 </div>
                 <div class="cheesigner_view_all_search">
-                    <button class="cheesigner_view_all_search_field">
-                        <p class="cheesigner_view_all_search_field_typo">전체</p>
-                        <img class="cheesigner_view_all_search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
-                    </button>
-                    <input class="cheesigner_view_all_search_bar"/>
-                    <button class="cheesigner_view_all_search_button">
-                        <img class="cheesigner_view_all_Search_button_icon" src="../assets/images/search_button_icon.svg"/>
-                        <p class="cheesigner_view_all_search_button_typo">검색</p>
+                    <div class="search_field_wrapper">
+                        <button class="search_field">
+                            <p class="search_field_typo">전체</p>
+                            <img class="search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
+                        </button>
+                        <div class="dropbox_search_field_select_button_item_wrapper">
+                            <div class="dropbox_search_field_select_button_item_container ">
+                                <div class="dropbox_search_field_select_button_item">
+                                    <p class="dropbox_search_field_select_button_item_typo">닉네임 찾기</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input class="search_bar"/>
+                    <button class="search_button">
+                        <img class="search_button_icon" src="../assets/images/search_button_icon.svg"/>
+                        <p class="search_button_typo">검색</p>
                     </button>
                 </div>
             </div>
