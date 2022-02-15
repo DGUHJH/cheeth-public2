@@ -1177,7 +1177,7 @@ box-sizing: border-box;
 margin: 22.5px 0;
 }
 
-.equipment_estimator_header, .processing_center_header, .cheesigner_view_all_header, .my_page_header, .project_header, .tribute_request_header, .qna_header, .notice_header {
+.equipment_estimator_header, .processing_center_header, .cheesigner_view_all_header, .request_basket_header, .project_header, .tribute_request_header, .qna_header, .notice_header {
     width: 100%;
     height: 180px;
     display: flex;
@@ -1193,7 +1193,7 @@ margin: 22.5px 0;
     margin-bottom: 40px;
 }
 
-.equipment_estimator_header_typo, .processing_center_header_typo, .cheesigner_view_all_header_typo, .my_page_header_typo, .project_header_typo, .tribute_request_header_typo, .qna_header_typo, .notice_header_typo {
+.equipment_estimator_header_typo, .processing_center_header_typo, .cheesigner_view_all_header_typo, .request_basket_header_typo, .project_header_typo, .tribute_request_header_typo, .qna_header_typo, .notice_header_typo {
     width: 1920px;
     text-align: center;
     color: #fff;
@@ -1201,11 +1201,16 @@ margin: 22.5px 0;
     font-weight: 700;
 }
 
-.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .my_page_body, .project_body, .tribute_request_body, .tribute_request_preview_body, .qna_body, .notice_body {
+.equipment_estimator_body, .processing_center_body, .cheesigner_view_all_body, .request_basket_body, .project_body, .tribute_request_body, .tribute_request_preview_body, .qna_body, .notice_body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 40px;
+}
+
+.request_basket_body {
+    box-sizing: border-box;
+    padding-bottom: 50px;
 }
 
 .side_menu {
@@ -1265,19 +1270,19 @@ margin: 22.5px 0;
     margin-left: 12px;
 }
 
-.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .my_page_list_main_container, .project_list_main_container {
+.equipment_estimator_list_main_container, .cheesigner_view_all_list_main_container, .project_list_main_container {
     width: 728px;
     display: flex;
     flex-direction: column;
 }
 
-.equipment_estimator_main_container, .project_request_main_container {
+.equipment_estimator_main_container, .project_request_main_container, .request_basket_list_main_container {
     width: 928px;
     display: flex;
     flex-direction: column;
 }
 
-.equipment_estimator_connection_location_container, .processing_center_connection_location_container, .cheesigner_view_all_connection_location_container, .my_page_connection_location_container, .project_connection_location_container, .tribute_request_connection_location_container {
+.equipment_estimator_connection_location_container, .processing_center_connection_location_container, .cheesigner_view_all_connection_location_container, .request_basket_connection_location_container, .project_connection_location_container, .tribute_request_connection_location_container {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1289,13 +1294,13 @@ margin: 22.5px 0;
     margin: 30px 0 25px;
 }
 
-.equipment_estimator_connection_location_typo, .processing_center_connection_location_typo, .cheesigner_view_all_connection_location_typo, .my_page_connection_location_typo, .project_connection_location_typo, .tribute_request_connection_location_typo {
+.equipment_estimator_connection_location_typo, .processing_center_connection_location_typo, .cheesigner_view_all_connection_location_typo, .request_basket_connection_location_typo, .project_connection_location_typo, .tribute_request_connection_location_typo {
     columns: #727272;
     font-size: 13px;
     font-weight: 400;
 }
 
-.equipment_estimator_connection_location_typo_bold, .processing_center_connection_location_typo_bold, .cheesigner_view_all_connection_location_typo_bold, .my_page_connection_location_typo_bold, .project_connection_location_typo_bold, .tribute_request_connection_location_typo_bold {
+.equipment_estimator_connection_location_typo_bold, .processing_center_connection_location_typo_bold, .cheesigner_view_all_connection_location_typo_bold, .request_basket_connection_location_typo_bold, .project_connection_location_typo_bold, .tribute_request_connection_location_typo_bold {
     color: #333;
     font-size: 13px;
     font-weight: 600;
@@ -1305,7 +1310,7 @@ margin: 22.5px 0;
     color: #fff;
 }
 
-.equipment_estimator_connection_location_arrow, .processing_center_connection_location_arrow, .cheesigner_view_all_connection_location_arrow, .my_page_connection_location_arrow, .project_connection_location_arrow, .tribute_request_connection_location_arrow {
+.equipment_estimator_connection_location_arrow, .processing_center_connection_location_arrow, .cheesigner_view_all_connection_location_arrow, .request_basket_connection_location_arrow, .project_connection_location_arrow, .tribute_request_connection_location_arrow {
     margin: 0 10px;
 }
 
@@ -1316,7 +1321,7 @@ margin: 22.5px 0;
     margin-bottom: 15px;
 }
 
-.equipment_estimator_sub_container, .processing_center_sub_container, .cheesigner_view_all_list_sub_container, .my_page_sub_container, .project_sub_container {
+.equipment_estimator_sub_container, .processing_center_sub_container, .cheesigner_view_all_list_sub_container, .request_basket_sub_container, .project_sub_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1396,7 +1401,7 @@ margin: 22.5px 0;
     filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
 }
 
-.equipment_estimator_filter_container, .cheesigner_view_all_list_filter_container, .my_page_filter_container, .project_filter_container {
+.equipment_estimator_filter_container, .cheesigner_view_all_list_filter_container, .request_basket_filter_container, .project_filter_container {
     width: 100%;
     height: 40px;
     display: flex;
@@ -1404,19 +1409,19 @@ margin: 22.5px 0;
     margin-bottom: 14px;
 }
 
-.equipment_estimator_filter_typo, .cheesigner_view_all_list_filter_typo, .my_page_filter_typo, .project_filter_typo {
+.equipment_estimator_filter_typo, .cheesigner_view_all_list_filter_typo, .request_basket_filter_typo, .project_filter_typo {
     columns: #555;
     font-size: 13px;
     font-weight: 400;
 }
 
-.equipment_estimator_filter, .cheesigner_view_all_list_filter, .my_page_filter, .project_filter {
+.equipment_estimator_filter, .cheesigner_view_all_list_filter, .request_basket_filter, .project_filter {
     display: flex;
     align-items: center;
     margin: 0 10px;
 }
 
-.equipment_estimator_filter_sort_by, .cheesigner_view_all_list_filter_sort_by, .my_page_filter_sort_by, .project_filter_sort_by {
+.equipment_estimator_filter_sort_by, .cheesigner_view_all_list_filter_sort_by, .request_basket_filter_sort_by, .project_filter_sort_by {
     min-width: 153px;
     max-height: 36px;
     display: flex;
@@ -1424,7 +1429,7 @@ margin: 22.5px 0;
     border: solid 1px #EFEFEF;
 }
 
-.equipment_estimator_filter_sort_by_typo_container, .cheesigner_view_all_list_filter_sort_by_typo_container, .my_page_filter_sort_by_typo_container, .project_filter_sort_by_typo_container {
+.equipment_estimator_filter_sort_by_typo_container, .cheesigner_view_all_list_filter_sort_by_typo_container, .request_basket_filter_sort_by_typo_container, .project_filter_sort_by_typo_container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -1432,7 +1437,7 @@ margin: 22.5px 0;
     padding: 15px;
 }
   
-.equipment_estimator_filter_sort_by_typo, .cheesigner_view_all_list_filter_sort_by_typo, .my_page_filter_sort_by_typo, .project_filter_sort_by_typo {
+.equipment_estimator_filter_sort_by_typo, .cheesigner_view_all_list_filter_sort_by_typo, .request_basket_filter_sort_by_typo, .project_filter_sort_by_typo {
     color: #C4C4C4;
     font-size: 13px;
     font-weight: 300;
@@ -2577,7 +2582,7 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
-.cheesigner_view_all_list_container, .my_page_list_container {
+.cheesigner_view_all_list_container, .request_basket_list_container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -2585,7 +2590,7 @@ margin: 22.5px 0;
     margin-bottom: 58px;
 }
 
-.cheesigner_view_all_list_data_type_container, .my_page_list_data_type_container, .project_list_data_type_container {
+.cheesigner_view_all_list_data_type_container, .request_basket_list_data_type_container, .project_list_data_type_container {
     width: 100%;
     height: 42px;
     display: flex;
@@ -2594,13 +2599,13 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.cheesigner_view_all_list_data_type, .my_page_list_data_type, .project_list_data_type {
+.cheesigner_view_all_list_data_type, .request_basket_list_data_type, .project_list_data_type {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cheesigner_view_all_list, .my_page_list, .project_list {
+.cheesigner_view_all_list, .request_basket_list, .project_list {
     width: 100%;
     height: 37px;
     display: flex;
@@ -2656,81 +2661,77 @@ margin: 22.5px 0;
     height: 100%;
 }
 
-.my_page_list_container {
-    margin: 0;
+.request_basket_list_container {
+    margin-bottom: 60px;
 }
 
-.my_page_list_main_container {
-    width: 728px;
-}
-
-.my_page_order {
+.request_basket_order {
     width: 34px;
 }
 
-.my_page_name {
+.request_basket_name {
     width: 524px;
 }
 
-.my_page_name_vol2 {
+.request_basket_name_vol2 {
     width: 194px;
 }
 
-.my_page_list_name_select_button_arrow {
+.request_basket_list_name_select_button_arrow {
     transform: rotate(-45deg);
     margin: 15px -14px 0 11px;
 }
 
-.my_page_prosthetics_type {
+.request_basket_prosthetics_type {
     width: 140px;
     display: flex;
     justify-content: center;
 }
 
-.my_page_prosthetics_type_vol2 {
+.request_basket_prosthetics_type_vol2 {
     width: 470px;
     display: flex;
     justify-content: center;
 }
 
-.my_page_prosthetics_select_button_arrow {
+.request_basket_prosthetics_select_button_arrow {
     margin-left: 16px;
 }
 
-.my_page_prosthetics_select_button_arrow_clicked {
+.request_basket_prosthetics_select_button_arrow_clicked {
     margin-left: 16px;
     transform: rotate(180deg);
 }
 
-.my_page_count {
+.request_basket_count {
     width: 213px;
     display: flex;
     justify-content: center;
 }
 
-.my_page_count_select_button_arrow {
+.request_basket_count_select_button_arrow {
     margin-left: 8px;
 }
 
-.my_page_count_select_button_arrow_clicked {
+.request_basket_count_select_button_arrow_clicked {
     margin-left: 8px;
     transform: rotate(180deg);
 }
 
 /* my page에서 클릭 시 등장하는 보철종류/개수에 대한 세부사항 */
-.my_page_pop_up_detail_container {
+.request_basket_pop_up_detail_container {
     width: 100%;
     background: #F9F9F9;
 }
 
-.my_page_pop_up_detail {
+.request_basket_pop_up_detail {
     width: 100%;
     height: 34px;
     display: flex;
     align-items: center;
 }
 
-.my_page_pop_up_prosthetics_detail_typo {
+.request_basket_pop_up_prosthetics_detail_typo {
     min-width: 40px;
     color: #868686;
     font-size: 10px;
@@ -2738,18 +2739,26 @@ margin: 22.5px 0;
     margin-left: 5px;
 }
 
-.my_page_pop_up_count_detail_typo {
+.request_basket_pop_up_count_detail_typo {
     color: #868686;
     font-size: 10px;
     font-weight: 500;
     margin-left: 2px;
 }
 
-.my_page_attatchment {
+.request_basket_attatchment {
     width: 105px;
 }
 
-.my_page_button_container_wrapper {
+.request_basket_filter_container {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.request_basket_button_container_wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -2757,14 +2766,14 @@ margin: 22.5px 0;
     margin-top: 12px;
 }
 
-.my_page_button_container, .project_request_button_container, .electronic_contract_button_container {
+.request_basket_button_container, .project_request_button_container, .electronic_contract_button_container {
     display: flex;
     justify-content: center;
     padding: 0;
     margin-right: -15px;
 }
 
-.my_page_button_white, .project_request_button_white, .tribute_request_button {
+.request_basket_button_white, .project_request_button_white, .tribute_request_button {
     height: 36px;
     display: flex;
     justify-content: center;
@@ -2774,10 +2783,151 @@ margin: 22.5px 0;
     margin-right: 15px;
 }
 
-.my_page_button_white_typo, .project_request_button_white_typo, .tribute_request_button_typo {
+.request_basket_button_white_typo, .project_request_button_white_typo, .tribute_request_button_typo {
     color: #555;
     font-size: 13px;
     font-weight: 400;
+}
+
+.request_basket_item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+
+.request_basket_title {
+    color: #444;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.request_basket_context {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request_basket_context_typo {
+    color: #c4c4c4;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.request_basket_request {
+    width: 868px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 19px;
+    box-sizing: border-box;
+    padding: 0 24px 0 19px;
+    margin-bottom: 10px;
+}
+
+.request_basket_request_title {
+    width: 105px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.request_basket_request_name {
+    width: 195px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.request_basket_request_context {
+    width: 301px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.request_basket_request_count {
+    width: 209px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.request_basket_total_prosthetics {
+    width: 100%;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    padding: 0 21px;
+}
+
+.request_basket_total_prosthetics_data_type_container {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    margin: 0 -21px;
+}
+
+.request_basket_total_prosthetics_data_type {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.request_basket_total_prosthetics_divider {
+    width: 100%;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.request_basket_total_prosthetics_info_container {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -21px;
+}
+
+.request_basket_total_prosthetics_info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.request_basket_tribute_request_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.request_basket_tribute_request_button {
+    width: 216px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+}
+
+.request_basket_tribute_request_button_typo {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .project_list_order {
@@ -6583,6 +6733,10 @@ margin: 22.5px 0;
 
 .dropbox_project_request_quote_type {
     width: 362px;
+}
+
+.dropbox_request_basket {
+    width: 152px;
 }
 
 .hidden {
