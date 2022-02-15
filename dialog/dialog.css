@@ -1783,7 +1783,7 @@ input {
 }
 
 .pagination_next_arrow {
-    filter: opacity(0.equipment_estimator_4) drop-shadow(0 0 0 #767676); 
+    filter: opacity(0.4) drop-shadow(0 0 0 #767676); 
 }
 /* 
 .my_page_dialog_footer {
