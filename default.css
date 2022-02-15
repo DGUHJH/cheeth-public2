@@ -1132,7 +1132,7 @@ font-size: 14px;
 .sign_up_page_button_container {
 display: flex;
 justify-content: center;
-margin-top: 72.5px;
+margin-top: 19.5px;
 margin-bottom: 120px;
 }
 
@@ -2001,21 +2001,21 @@ margin: 22.5px 0;
     border: 1px solid #E5E5E5;
 }
 
-.equipment_estimator_my_page_request_history_datatype_container {
+.equipment_estimator_my_page_request_history_datatype_container, .equipment_estimator_my_page_progress_datatype_container {
     width: 100%;
     height: 52px;
     display: flex;
     background: #005FA8;
 }
 
-.equipment_estimator_my_page_request_history_datatype {
+.equipment_estimator_my_page_request_history_datatype, .equipment_estimator_my_page_progress_datatype {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.equipment_estimator_my_page_request_history_datatype_typo {
+.equipment_estimator_my_page_request_history_datatype_typo, .equipment_estimator_my_page_progress_datatype_typo {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -2032,26 +2032,26 @@ margin: 22.5px 0;
     padding-top: 13px;
 }
 
-.equipment_estimator_my_page_request_history_list_container {
+.equipment_estimator_my_page_request_history_list_container, .equipment_estimator_my_page_progress_list_container {
     box-sizing: border-box;
     padding-top: 13px;
 }
 
-.equipment_estimator_my_page_request_history_list {
+.equipment_estimator_my_page_request_history_list, .equipment_estimator_my_page_progress_list {
     width: 100%;
     height: 48px;
     display: flex;
     align-items: center;
 }
 
-.equipment_estimator_my_page_request_history_list_item {
+.equipment_estimator_my_page_request_history_list_item, .equipment_estimator_my_page_progress_list_item {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.equipment_estimator_my_page_request_history_list_item_typo {
+.equipment_estimator_my_page_request_history_list_item_typo, .equipment_estimator_my_page_progress_list_item_typo {
     color: #4b4b4b;
     font-size: 13px;
     font-weight: 400;
@@ -2098,6 +2098,148 @@ margin: 22.5px 0;
 .equipment_estimator_my_page_estimator_read {
     /* width: 110px; */
     min-width: 126px;
+}
+
+.equipment_estimator_my_page_progress_current_datatype {
+    width: 58px;
+}
+
+.equipment_estimator_my_page_progress_category_datatype {
+    width: 127px;
+}
+
+.equipment_estimator_my_page_progress_context_datatype {
+    width: 243px;
+}
+
+.equipment_estimator_my_page_progress_date_matched_datatype, .equipment_estimator_my_page_progress_date_expiry_datatype {
+    width: 120px;
+}
+
+.equipment_estimator_my_page_progress_client_datatype, .equipment_estimator_my_page_progress_cheesigner_datatype {
+    width: 105px;
+}
+
+.equipment_estimator_my_page_progress_current {
+    width: 58px;
+    justify-content: flex-end;
+}
+
+.equipment_estimator_my_page_progress_proceeding {
+    width: 38px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 9px;
+}
+
+.equipment_estimator_my_page_progress_proceeding_typo {
+    color: #0083e8;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.equipment_estimator_my_page_progress_completed {
+    width: 38px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005fa8;
+    border: 1px solid #005fa8;
+    border-radius: 9px;
+}
+
+.equipment_estimator_my_page_progress_completed_typo {
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.equipment_estimator_my_page_progress_category {
+    width: 127px;
+}
+
+.equipment_estimator_my_page_progress_context {
+    width: 243px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-left: 37px;
+}
+
+.equipment_estimator_my_page_progress_date_matched, .equipment_estimator_my_page_progress_date_expiry {
+    width: 120px;
+}
+
+.equipment_estimator_my_page_progress_client, .equipment_estimator_my_page_progress_cheesigner {
+    width: 105px;
+}
+
+.equipment_estimator_my_page_progress_list_arrow_wrapper {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_my_page_progress_list_arrow {
+    transform: rotate(180deg);
+}
+
+.equipment_estimator_my_page_progress_list_pop_up_info_wrapper {
+    width: 100%;
+    height: 136px;
+}
+
+.equipment_estimator_my_page_progress_step_wrapper {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+}
+
+.equipment_estimator_my_page_progress_step_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #005FA8;
+    border-radius: 9px;
+}
+
+.equipment_estimator_my_page_progress_step {
+    width: 144px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment_estimator_my_page_progress_step_arrow {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipment_estimator_my_page_progress_step_arrow_top {
+    width: 20px;
+    height: 1px;
+    background: #005fa8;
+    transform: rotate(60deg);
+    margin-top: 5px;
+}
+
+.equipment_estimator_my_page_progress_step_arrow_bottom {
+    width: 20px;
+    height: 1px;
+    background: #005fa8;
+    transform: rotate(-60deg);
+    margin-top: 15px;
 }
 
 .flex_start {
@@ -6206,7 +6348,7 @@ margin: 22.5px 0;
 }
 
 .dropbox_sign_up_expert_job, .dropbox_sign_up_expert_bank {
-    width: 171px;
+    width: 172px;
 }
 
 .dropbox_sign_up_expert_sectors {
