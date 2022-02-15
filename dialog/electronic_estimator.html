@@ -17,7 +17,7 @@
         </div>
         <div class="electronic_estimator_dialog_item">
             <div class="electronic_estimator_dialog_item_title">
-                <p class="electronic_estimator_dialog_item_title_typo">
+                <p class="dialog_item_title_typo">
                     납품가능시간
                 </p>
                 <p class="electronic_estimator_dialog_item_sub_title_typo">
@@ -64,63 +64,154 @@
             </div>
         </div>
         <div class="main_container_divider without_margin"></div>
-        <div class="electronic_estimator_dialog_item">
+        <div class="electronic_estimator_dialog_item_row">
             <div class="electronic_estimator_dialog_item_title">
-                <p class="electronic_estimator_dialog_item_title_typo">
+                <p class="dialog_item_title_typo">
                     금액
                 </p>
                 <p class="electronic_estimator_dialog_item_sub_title_typo">
                     항목 직접 작성
                 </p>
             </div>
-            <div class="electronic_estimator_dialog_item_context_container">
+            <div class="electronic_estimator_dialog_item_context_container_price_area">
                 <div class="electronic_estimator_dialog_item_context">
-                    <div class="electronic_estimator_dialog_item_button_container"></div>
-                    <div class="dialog_item_context_calculate_price">
-                        
-                        <input class="send_estimator_dialog_item_context_blank calculate_price" placeholder="단가"/>
-                        <p class="operator">X</p>
-
-                        <input class="send_estimator_dialog_item_context_blank calculate_price" placeholder="갯수"/>
-                        <p class="operator">=</p>
-                        <div class="dialog_item_context_typo_container">
-                            <p class="electronic_estimator_dialog_item_context_typo price_num">
-                                2,500,000
-                            </p>
-                            <p class="electronic_estimator_dialog_item_context_typo">
-                                원
+                    <div class="electronic_estimator_dialog_request_container">
+                        <div class="electronic_estimator_dialog_request">
+                            <p class="electronic_estimator_dialog_request_title">의뢰서1</p>
+                            <p class="electronic_estimator_dialog_request_name">홍길동</p>
+                            <p class="electronic_estimator_dialog_request_context">지르코니아 2개, 인레이 1개</p>
+                            <img class="electronic_estimator_dialog_request_close_button" src="../assets/images/request_close_button.svg"/>
+                        </div>
+                        <div class="electronic_estimator_dialog_request without_margin">
+                            <p class="electronic_estimator_dialog_request_title">의뢰서1</p>
+                            <p class="electronic_estimator_dialog_request_name">홍길동</p>
+                            <p class="electronic_estimator_dialog_request_context">지르코니아 2개, 인레이 1개</p>
+                            <img class="electronic_estimator_dialog_request_close_button" src="../assets/images/request_close_button.svg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="dotted_divider_container">
+                    <img class="dotted_divider" src="../assets/images/dotted_divider.svg"/>
+                    <img class="dotted_divider" src="../assets/images/dotted_divider.svg"/>
+                </div>
+                <div class="prosthetics_type_container">
+                    <div class="prosthetics_type_data_type_container">
+                        <div class="prosthetics_type_data_type">
+                            <p class="prosthetics_type_data_type_typo">
+                                보철종류
                             </p>
                         </div>
-                        <img class="price_close_button" src="../assets/images/dialog_blue_close_button.svg"/>
+                        <div class="prosthetics_type_data_type_divider"></div>
+                        <div class="prosthetics_type_data_type">
+                            <p class="prosthetics_type_data_type_typo">
+                                개수
+                            </p>
+                        </div>
+                    </div>
+                    <div class="prosthetics_type_list_container">
+                        <div class="prosthetics_type_list">
+                            <p class="prosthetics_type_list_typo">
+                                지르코니아
+                            </p>
+                        </div>
+                        <div class="prosthetics_type_list_divider"></div>
+                        <div class="prosthetics_type_list">
+                            <p class="prosthetics_type_list_typo">
+                                2
+                            </p>
+                        </div>
+                    </div>
+                    <div class="prosthetics_type_list_container">
+                        <div class="prosthetics_type_list">
+                            <p class="prosthetics_type_list_typo">
+                                인레이
+                            </p>
+                        </div>
+                        <div class="prosthetics_type_list_divider"></div>
+                        <div class="prosthetics_type_list">
+                            <p class="prosthetics_type_list_typo">
+                                3
+                            </p>
+                        </div>
+                    </div>
+                    <div class="prosthetics_type_list_container">
+                        <div class="prosthetics_type_list">
+                            <p class="prosthetics_type_list_typo">
+                                크라운
+                            </p>
+                        </div>
+                        <div class="prosthetics_type_list_divider"></div>
+                        <div class="prosthetics_type_list">
+                            <p class="prosthetics_type_list_typo">
+                                1
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dotted_divider_container">
+                    <img class="dotted_divider" src="../assets/images/dotted_divider.svg"/>
+                    <img class="dotted_divider" src="../assets/images/dotted_divider.svg"/>
+                </div>
+                <div class="electronic_estimator_dialog_item_context">
+                    <div class="dialog_item_context_calculate_price_wrapper">
+                        <div class="dialog_item_context_calculate_price without_margin">
+                            <input class="electronic_estimator_dialog_item_context_blank_prosthetics_type" placeholder="보철종류"/>
+                            <input class="electronic_estimator_dialog_item_context_blank_price" placeholder="단가"/>
+                            <p class="operator">X</p>
+                            <input class="electronic_estimator_dialog_item_context_blank_count" placeholder="갯수"/>
+                            <p class="operator">=</p>
+                            <div class="dialog_item_context_typo_container price_area">
+                                <p class="dialog_item_context_typo price_num">
+                                    2,500,000
+                                </p>
+                                <p class="dialog_item_context_typo">
+                                    원
+                                </p>
+                            </div>
+                            <img class="price_close_button" src="../assets/images/dialog_blue_close_button.svg"/>
+                        </div>
                     </div>
                 </div>
                 <div class="electronic_estimator_dialog_item_context">
-                    <div class="electronic_estimator_dialog_item_button_container"></div>
-                    <div class="dialog_item_context_calculate_price">
-                        <input class="send_estimator_dialog_item_context_blank calculate_price" placeholder="단가"/>
-                        <p class="operator">X</p>
-                        <input class="send_estimator_dialog_item_context_blank calculate_price" placeholder="갯수"/>
-                        <p class="operator">=</p>
-                        <div class="dialog_item_context_typo_container">
-                            <p class="electronic_estimator_dialog_item_context_typo price_num">
-                                0
-                            </p>
-                            <p class="electronic_estimator_dialog_item_context_typo">
-                                원
-                            </p>
+                    <div class="dialog_item_context_calculate_price_wrapper without_margin">
+                        <div class="dialog_item_context_calculate_price without_margin">
+                            <input class="electronic_estimator_dialog_item_context_blank_prosthetics_type" placeholder="보철종류"/>
+                            <input class="electronic_estimator_dialog_item_context_blank_price" placeholder="단가"/>
+                            <p class="operator">X</p>
+                            <input class="electronic_estimator_dialog_item_context_blank_count" placeholder="갯수"/>
+                            <p class="operator">=</p>
+                            <div class="dialog_item_context_typo_container price_area">
+                                <p class="dialog_item_context_typo price_num">
+                                    0
+                                </p>
+                                <p class="dialog_item_context_typo">
+                                    원
+                                </p>
+                            </div>
+                            <img class="price_close_button" src="../assets/images/dialog_blue_close_button.svg"/>
+                            <button class="electronic_estimator_price_add_button">
+                                <p class="price_add_button_typo">+</p>
+                            </button>
                         </div>
-                        <img class="price_close_button" src="../assets/images/dialog_blue_close_button.svg"/>
                     </div>
-                    <button class="price_add_button">
-                        <p class="price_add_button_typo">+</p>
-                    </button>
+                </div>
+                <div class="electronic_estimator_total_price_wrapper">
+                    <div class="dialog_item_context_typo_container total_price_area">
+                        <p class="dialog_item_context_typo total_price">총 금액</p>
+                        <p class="dialog_item_context_typo price_num">
+                            2,500,000
+                        </p>
+                        <p class="dialog_item_context_typo">
+                            원
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="main_container_divider without_margin"></div>
         <div class="electronic_estimator_dialog_item">
             <div class="electronic_estimator_dialog_item_title">
-                <p class="electronic_estimator_dialog_item_title_typo">
+                <p class="dialog_item_title_typo">
                     구동 가능한 CAD(Computer Aided Design) S/W
                 </p>
             </div>
@@ -153,10 +244,10 @@
             </div>
         </div>
         <div class="main_container_divider without_margin"></div>
-        <div class="send_estimator_dialog_item">
-            <div class="send_estimator_dialog_item_title">
+        <div class="electronic_estimator_dialog_item_row">
+            <div class="electronic_estimator_dialog_item_title">
                 <p class="dialog_item_title_typo">
-                    사진 업로드
+                    대표사진 첨부하기
                 </p>
             </div>
             <div class="electronic_estimator_pic_upload_wrapper">
@@ -178,9 +269,10 @@
                 </button>
             </div>
         </div>
+        <div class="main_container_divider without_margin"></div>
         <div class="electronic_estimator_dialog_item">
             <div class="electronic_estimator_dialog_item_title">
-                <p class="electronic_estimator_dialog_item_title_typo">
+                <p class="dialog_item_title_typo">
                     치자이너 정보
                 </p>
             </div>

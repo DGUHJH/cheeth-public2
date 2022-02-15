@@ -27,7 +27,6 @@ input {
 
 .container {
     width: 620px;
-    height: 905px;
     box-sizing: border-box;
     padding: 26px 50px 50px 50px;
 }
@@ -125,7 +124,7 @@ input {
 }
 
 .dialog_item_context_typo_container {
-    width: 111px;
+    min-width: 111px;
     display: flex;  
     justify-content: end;
     align-items: baseline;
@@ -139,6 +138,14 @@ input {
     align-items: center;
     margin-left: 65px;
     padding-bottom: 10px;
+}
+
+.dialog_item_context_calculate_price_wrapper {
+    width: 100%;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 12px 17px 2px 20px;
+    margin-bottom: 12px;
 }
 
 .dialog_item_context_blank {
@@ -169,11 +176,26 @@ input {
     font-weight: 500;
 }
 
+.total_price {
+    width: 60px;
+    color: #444;
+    font-size: 10px;
+    font-weight: 600;
+}
+
 .price_num  {
     color: #333;
     font-size: 18px;
     font-weight: 600;
     margin-right: 10px;
+}
+
+.price_area {
+    width: 111px;
+}
+
+.total_price_area {
+    width: 152px;
 }
 
 .price_close_button {
@@ -195,6 +217,23 @@ input {
     font-size: 18px;
     font-weight: 200;
     margin-top: -3px;
+}
+
+.electronic_estimator_price_add_button {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 2px;
+    margin: 0 0 3px 22px;
+}
+
+.electronic_estimator_total_price_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
 }
 
 .dialog_item_context_pic_upload {
@@ -385,7 +424,7 @@ input {
     margin-right: 13px;
 }
 
-.send_estimator_dialog_item_context_blank {
+.send_estimator_dialog_item_context_blank, .electronic_estimator_dialog_item_context_blank {
     width: 634px;
     height: 80px;
     display: flex;
@@ -395,10 +434,35 @@ input {
     padding: 17px;
 }
 
-.calculate_price {
+.send_estimator_dialog_item_context_blank_price, .electronic_estimator_dialog_item_context_blank_price {
     width: 95px;
     height: 38px;
-    align-items: center;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-left: 14px;
+}
+
+.send_estimator_dialog_item_context_blank_count, .electronic_estimator_dialog_item_context_blank_count {
+    width: 68px;
+    height: 38px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-left: 14px;
+}
+
+.send_estimator_dialog_item_context_blank_prosthetics_type, .electronic_estimator_dialog_item_context_blank_prosthetics_type {
+    width: 100px;
+    height: 38px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-left: 9px;
+    margin-right: 18px;
 }
 
 .high {
@@ -501,11 +565,19 @@ input {
 }
 
 .electronic_estimator_dialog_item {
+    display: flex;
     flex-direction: column;
     padding: 37px 0 37px 0;
 }
 
+.electronic_estimator_dialog_item_row {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0 37px 0;
+}
+
 .electronic_estimator_dialog_item_title {
+    min-width: 131px;
     margin-bottom: 30px;
 }
 
@@ -520,6 +592,10 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
+}
+
+.electronic_estimator_dialog_item_context_container_price_area {
+    width: 560px;
 }
 
 .electronic_estimator_dialog_item_context {
@@ -544,9 +620,37 @@ input {
     margin-right: 15px;
 }
 
-.price_area {
-    width: 101px;
+.electronic_estimator_dialog_request {
+    width: 100%;
     height: 38px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 19px;
+    box-sizing: border-box;
+    padding: 0 25px;
+    margin-bottom: 10px;
+}
+
+.electronic_estimator_dialog_request_title {
+    width: 85px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.electronic_estimator_dialog_request_name {
+    width: 74px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.electronic_estimator_dialog_request_context {
+    width: 341px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 .electronic_estimator_dialog_item_button_typo {
@@ -1911,7 +2015,7 @@ input {
 
 .prosthetics_type_container {
     width: 100%;
-    border: 1px solid #F2F2F2;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 .prosthetics_type_data_type_container {
@@ -1935,7 +2039,7 @@ input {
 }
 
 .prosthetics_type_data_type {
-    width: 192px;
+    width: 280px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -1958,7 +2062,7 @@ input {
 }
 
 .prosthetics_type_list {
-    width: 192px;
+    width: 280px;
     height: 100%;
     display: flex;
     justify-content: center;
