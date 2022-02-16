@@ -39,6 +39,13 @@ input[type="checkbox"] {
     border-radius: 2px;
     margin: 0 10px;
 }
+
+input[type="checkbox"]:checked {
+    content: url(./assets/images/checkbox_content.svg);
+    background: #0083e8;
+    box-sizing: border-box;
+    padding: 3px 2px;
+}
  
 select {
     appearance: none;
@@ -2794,7 +2801,7 @@ margin: 22.5px 0;
 }
 
 .cheesigner_view_all_list_total_project {
-    width: 136px;
+    width: 146px;
     height: 100%;
 }
 
@@ -2969,30 +2976,30 @@ margin: 22.5px 0;
     padding: 0 24px 0 19px;
     margin-bottom: 10px;
 }
-
+/* 
 .request_basket_request_title {
     width: 105px;
     color: #444;
     font-size: 13px;
     font-weight: 500;
-}
+} */
 
 .request_basket_request_name {
-    width: 195px;
+    width: 84px;
     color: #444;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .request_basket_request_context {
-    width: 301px;
+    width: 239px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
 .request_basket_request_count {
-    width: 209px;
+    width: 486px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
