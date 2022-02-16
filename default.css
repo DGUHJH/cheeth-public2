@@ -2207,27 +2207,52 @@ margin: 22.5px 0;
     justify-content: center;
     align-items: center;
     background: #F8F8F8;
+    position: relative;
 }
 
 .equipment_estimator_my_page_progress_step_container {
+    height: 33px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #fff;
     border: 1px solid #005FA8;
     border-radius: 9px;
+    position: relative;
+    z-index: 2;
+}
+
+.equipment_estimator_my_page_progress_sub_wrapper {
+    height: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .equipment_estimator_my_page_progress_step {
-    width: 144px;
-    height: 33px;
+    width: 134px;
+    min-height: 33px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.equipment_estimator_my_page_progress_step_typo {
+    color: #005fa8;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: -15px;
+}
+
+.equipment_estimator_my_page_progress_step_typo_clicked {
+    color: #005fa8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .equipment_estimator_my_page_progress_step_arrow {
-    width: 33px;
     height: 33px;
     display: flex;
     flex-direction: column;
@@ -2238,7 +2263,7 @@ margin: 22.5px 0;
     height: 1px;
     background: #005fa8;
     transform: rotate(60deg);
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .equipment_estimator_my_page_progress_step_arrow_bottom {
@@ -2246,7 +2271,48 @@ margin: 22.5px 0;
     height: 1px;
     background: #005fa8;
     transform: rotate(-60deg);
-    margin-top: 15px;
+    margin-top: 16px;
+}
+
+.equipment_estimator_my_page_progress_list_pop_up_info_button_container {
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.equipment_estimator_my_page_progress_list_pop_up_info_button_white {
+    width: 79px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;  
+    margin-right: 20px;  
+}
+
+.equipment_estimator_my_page_progress_list_pop_up_info_button_white_typo {
+    color: #444;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.equipment_estimator_my_page_progress_list_pop_up_info_button_black {
+    width: 79px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    border: 1px solid #444444;
+    margin-right: 11px;
+}
+
+.equipment_estimator_my_page_progress_list_pop_up_info_button_black_typo {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
 }
 
 .flex_start {
@@ -2915,7 +2981,7 @@ margin: 22.5px 0;
     margin-top: 12px;
 }
 
-.request_basket_button_container, .project_request_button_container, .electronic_contract_button_container {
+.request_basket_button_container, .project_request_button_container, .contract_button_container {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -5249,7 +5315,7 @@ margin: 22.5px 0;
     margin-bottom: 30px;
 }
 
-.profile_management_customer_review_satisfaction {
+.profile_management_customer_review_satisfaction, .review_management_customer_review_satisfaction {
     display: flex;
     align-items: center;
 }
@@ -5260,6 +5326,12 @@ margin: 22.5px 0;
     margin-right: 10px;
 }
 
+.review_management_customer_review_satisfaction_img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
 .profile_management_customer_review_satisfaction_typo {
     color: #444444;
     font-weight: 500;
@@ -5267,14 +5339,14 @@ margin: 22.5px 0;
     margin-right: 10px;
 }
 
-.profile_management_customer_review_satisfaction_rate {
+.profile_management_customer_review_satisfaction_rate, .review_management_customer_review_satisfaction_rate {
     color: #0083e8;
     font-weight: 600; 
     font-size: 21px;
     margin-right: 3px;
 }
 
-.profile_management_customer_review_satisfaction_unit {
+.profile_management_customer_review_satisfaction_unit, .review_management_customer_review_satisfaction_unit {
     color: #0083e8;
     font-weight: 600; 
     font-size: 13px;
@@ -5327,7 +5399,7 @@ margin: 22.5px 0;
     justify-content: center;
     align-items: flex-start;
     margin-top: 40px;
-    margin-bottom: 33px;
+    margin-bottom: 20px;
 }
 
 .review_management_main_container {
@@ -5356,145 +5428,221 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.review_management_list_container {
+.review_management_card_chip_container {
+    display: flex;
+    height: 47px;
+    border-bottom: 1px solid #333;
+}
+
+.review_management_card_chip_selected {
+    width: 185px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -2px;
+}
+
+.review_management_card_chip_selected_typo {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.review_management_card_chip_not_selected {
+    width: 185px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -2px;
+    z-index: -1;
+}
+
+.review_management_card_chip_not_selected_typo {
+    color: #999;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.review_management_customer_review_container {
     margin-bottom: 33px;
 }
 
-.review_management_list_data_type_container {
+.review_management_customer_review {
     width: 100%;
-    height: 52px;
+    height: 174px;
     display: flex;
-    background: #FAFAFA;
+    box-sizing: border-box;
+    padding: 30px 0;
 }
 
-.review_management_list_data_type_typo {
-    color: #333;
-    font-size: 13px;
-    font-weight: 600;
+.review_management_customer_review_pic_upload {
+    min-width: 124px;
+    height: 124px;
+    background: #c4c4c4;
+    margin: 0 30px 0 20px;
 }
 
-.review_management_list_data_type_date_registered {
-    width: 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_data_type_nickname {
-    width: 142px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_data_type_context {
-    width: 411px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_data_type_star_rating {
-    width: 79px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_data_type_management {
-    width: 222px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list {
-    width: 100%;
-    height: 50px;
-    display: flex;
-}
-
-.review_management_list_typo {
-    color: #444;
-    font-size: 13px;
-    font-weight: 300;
-}
-
-.review_management_list_date_registered {
-    width: 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_nickname {
-    width: 142px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_context {
-    width: 411px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_star_rating {
-    width: 79px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_management {
-    width: 222px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.review_management_list_management_button_container {
+.review_management_customer_review_info_container {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.review_management_list_management_button_reply {
-    width: 59px;
-    height: 24px;
+.review_management_customer_review_info_top_container {
+    width: 100%;
+}
+
+.review_management_customer_review_info_bottom_container {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #0083E8;
-    border-radius: 12px;
-    box-sizing: border-box;
-    margin-right: 13px;
+    justify-content: space-between;
 }
 
-.review_management_list_management_button_reply_typo {
-    color: #0083e8;
-    font-size: 12px;
+.review_management_customer_review_context {
+    width: 100%;
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 14px;
+}
+
+.review_management_customer_review_writer_info_container {
+    display: flex;
+    align-items: center;
+}
+
+.review_management_customer_review_writer_info_divider {
+    width: 1px;
+    height: 7px;
+    background: #c4c4c4;
+    margin: 0 13px;
+}
+
+.review_management_customer_review_view_mine_divider {
+    width: 1px;
+    height: 6px;
+    background: #c4c4c4;
+    margin: 0 7px;
+}
+
+.review_management_customer_review_prosthetics_type {
+    color: #444;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.review_management_customer_review_writer_name {
+    color: #444;
+    font-size: 10px;
     font-weight: 500;
 }
 
-.review_management_list_management_button_delete {
-    width: 59px;
-    height: 24px;
+.review_management_customer_review_date_wrote {
+    color: #b6b6b6;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.review_management_customer_review_reply {
+    width: 100%;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 20px 30px 15px 20px;
+}
+
+.review_management_customer_review_reply_blank {
+    width: 100%;
+    height: 97px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 14px 17px;
+    margin-bottom: 10px;
+}
+
+.review_management_customer_review_view_mine {
+    width: 100%;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 20px 50px 27px 50px;
+}
+
+.review_management_customer_review_view_mine_top_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_management_customer_review_view_mine_writer_info {
+    display: flex;
+}
+
+.review_management_customer_review_view_mine_name {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.review_management_customer_review_view_mine_button_container {
+    display: flex;
+    align-items: center;
+}
+
+.review_management_customer_review_view_mine_button {
+    color: #a6a6a6;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.review_management_customer_review_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_management_customer_review_button_black {
+    width: 53px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8B8B8B;
+    border: 1px solid #8b8b8b;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.review_management_customer_review_button_black_typo {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.review_management_customer_review_button_white {
+    width: 53px;
+    height: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #E5E5E5;
-    border-radius: 12px;
+    border-radius: 2px;
     box-sizing: border-box;
 }
 
-.review_management_list_management_button_delete_typo {
+.review_management_customer_review_button_white_typo {
     color: #8b8b8b;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -6886,6 +7034,71 @@ margin: 22.5px 0;
 
 .dropbox_request_basket {
     width: 152px;
+}
+
+.dropbox_equipment_estimator_my_page_progress_container {
+    width: 180px;
+}
+
+.dropbox_my_page_progress_pop_up_wrapper {
+    width: 118%;
+    min-height: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: -10px;
+    margin-left: -11%;
+    position: relative;
+}
+
+.dropbox_my_page_progress_pop_up {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005fa8;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-top: -10px;
+    position: relative;
+    z-index: -1;
+}
+
+.dropbox_my_page_progress_pop_up_typo_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.dropbox_my_page_progress_pop_up_typo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.dropbox_my_page_progress_pop_up_top {
+    width: 0px;
+    height: 0px;
+    border-bottom: calc( 10px * 1.732 ) solid #005fa8;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-bottom: -5px;
+}
+
+.dropbox_my_page_progress_pop_up_typo_divider {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
 }
 
 .hidden {
