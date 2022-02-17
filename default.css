@@ -2207,7 +2207,6 @@ margin: 22.5px 0;
     justify-content: center;
     align-items: center;
     background: #F8F8F8;
-    position: relative;
 }
 
 .equipment_estimator_my_page_progress_step_container {
@@ -2218,7 +2217,6 @@ margin: 22.5px 0;
     background: #fff;
     border: 1px solid #005FA8;
     border-radius: 9px;
-    z-index: 2;
 }
 
 .equipment_estimator_my_page_progress_sub_wrapper {
@@ -6464,56 +6462,108 @@ margin: 22.5px 0;
     width: 928px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+.receive_estimator_item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+
+.receive_estimator_title {
+    color: #444;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.receive_estimator_context {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.receive_estimator_context_typo {
+    color: #c4c4c4;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.receive_estimator_request_container {
+    display: flex;
 }
 
 .receive_estimator_request {
-    width: 868px;
+    width: 717px;
     height: 38px;
     display: flex;
     align-items: center;
     border: 1px solid #E5E5E5;
     border-radius: 19px;
     box-sizing: border-box;
-    padding: 0 24px 0 19px;
+    padding: 0 25px 0 10px;
     margin-bottom: 10px;
 }
 
-.request_basket_request_name {
+.receive_estimator_request_name {
     width: 84px;
     color: #444;
     font-size: 13px;
     font-weight: 500;
 }
 
-.request_basket_request_context {
+.receive_estimator_request_context {
     width: 239px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
-.request_basket_request_count {
-    width: 486px;
+.receive_estimator_request_count {
+    width: 335px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
-.request_basket_total_prosthetics {
-    width: 100%;
-    border: 1px solid #666666;
-    box-sizing: border-box;
-    padding: 0 21px;
+.receive_estimator_attatchment_download_button {
+    width: 127px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    margin-left: 24px;
 }
 
-.request_basket_total_prosthetics_data_type_container {
+.receive_estimator_attatchment_download_button_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.receive_estimator_total_prosthetics {
     width: 100%;
-    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    padding: 21px;
+}
+
+.receive_estimator_total_prosthetics_data_type_container {
+    width: 100%;
+    height: 38px;
     display: flex;
     margin: 0 -21px;
 }
 
-.request_basket_total_prosthetics_data_type {
+.receive_estimator_total_prosthetics_data_type {
     width: 50%;
     height: 100%;
     display: flex;
@@ -6524,22 +6574,23 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
-.request_basket_total_prosthetics_divider {
+.receive_estimator_total_prosthetics_divider {
     width: 100%;
     height: 1px;
     background: #D1D1D1;
+    margin-bottom: 7px;
 }
 
-.request_basket_total_prosthetics_info_container {
+.receive_estimator_total_prosthetics_info_container {
     width: 100%;
-    height: 45px;
+    height: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 -21px;
 }
 
-.request_basket_total_prosthetics_info {
+.receive_estimator_total_prosthetics_info {
     width: 50%;
     height: 100%;
     display: flex;
@@ -6550,6 +6601,21 @@ margin: 22.5px 0;
     font-weight: 300;
 }
 
+.receive_estimator_confirm_button {
+    width: 158px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083e8;
+    margin: 30px auto;
+}
+
+.receive_estimator_confirm_button_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
 
 .dropbox_select_button {
     width: 100%;
@@ -7184,6 +7250,7 @@ margin: 22.5px 0;
     box-sizing: border-box;
     margin-top: -10px;
     margin-left: -11%;
+    position: relative;
 }
 
 .dropbox_my_page_progress_pop_up {
@@ -7196,7 +7263,7 @@ margin: 22.5px 0;
     box-sizing: border-box;
     padding-top: 5px;
     margin-top: -10px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .dropbox_my_page_progress_pop_up_typo_container {
@@ -7225,6 +7292,7 @@ margin: 22.5px 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     margin-bottom: -5px;
+    z-index: 1;
 }
 
 .dropbox_my_page_progress_pop_up_typo_divider {
