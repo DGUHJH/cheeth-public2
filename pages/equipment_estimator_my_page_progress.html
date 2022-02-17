@@ -1,0 +1,692 @@
+<html>
+
+<head>
+    <title>진행내역 (마이페이지)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../default.css">
+</head>
+
+<body>
+    <div class="equipment_estimator_header">
+        <p class="equipment_estimator_header_typo">
+            견적·의뢰내역
+        </p>
+    </div>
+    <div class="equipment_estimator_body">
+        <div class="side_menu">
+            <div class="side_menu_title">
+                <p class="side_menu_title_typo">
+                    전체보기
+                </p>
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo">견적·의뢰내역</p>    
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo">의뢰서 바구니</p>    
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo_blue">진행내역</p>    
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo">프로필 관리</p>    
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo">후기관리</p>    
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo">내정보 수정</p>    
+            </div>
+            <div class="side_menu_list">
+                <img class="side_menu_list_point" src="../assets/images/side_menu_list_point.svg"/>
+                <p class="side_menu_list_typo">로그아웃</p>    
+            </div>
+        </div>
+        <div class="equipment_estimator_main_container">
+            <div class="equipment_estimator_connection_location_container">
+                <a href="./main.html" class="equipment_estimator_connection_location_typo">
+                    <img class="equipment_estimator_connection_location_home_button" src="../assets/images/connection_loaction_home_button.svg"/>
+                </a>
+                <img class="equipment_estimator_connection_location_arrow" src="../assets/images/connection_location_arrow.svg"/>
+                <div class="equipment_estimator_connection_location">
+                    <p class="equipment_estimator_connection_location_typo">견적·의뢰내역</p>
+                </div>
+                <img class="equipment_estimator_connection_location_arrow" src="../assets/images/connection_location_arrow.svg"/>
+                <div class="equipment_estimator_connection_location">
+                    <p class="equipment_estimator_connection_location_typo_bold">진행내역</p>
+                </div>
+            </div>
+            <div class="equipment_estimator_filter_container">
+                <div class="dropbox_equipment_estimator_my_page_progress_container">
+                    <div class="dropbox_select_button">
+                        <div class="dropbox_select_button_typo_container">
+                            <p class="dropbox_select_button_typo">진행 중 프로젝트 보기</p>
+                            <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">진행 중 프로젝트 보기</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">완료 프로젝트 보기</p>
+                        </div>
+                        <div class="dropbox_select_button_item">
+                            <p class="dropbox_select_button_item_typo">전체보기</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="equipment_estimator_my_page_progress_wrapper">
+                <div class="equipment_estimator_my_page_progress_container">
+                    <div class="equipment_estimator_my_page_progress_datatype_container">
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_current_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                            </p>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_category_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                                카테고리
+                            </p>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_context_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                                의뢰내용
+                            </p>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_date_matched_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                                매칭일
+                            </p>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_date_expiry_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                                납품만기일
+                            </p>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_client_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                                의뢰자
+                            </p>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_datatype equipment_estimator_my_page_progress_cheesigner_datatype">
+                            <p class="equipment_estimator_my_page_progress_datatype_typo">
+                                치자이너
+                            </p>
+                        </div>
+                    </div>
+                    <div class="equipment_estimator_my_page_progress_list_container">
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow_clicked" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="equipment_estimator_my_page_progress_list_pop_up_info_wrapper">
+                            <div class="equipment_estimator_my_page_progress_step_wrapper">
+                                <div class="equipment_estimator_my_page_progress_step_container">
+                                    <div class="equipment_estimator_my_page_progress_sub_wrapper">
+                                        <div class="equipment_estimator_my_page_progress_step">
+                                            <p class="equipment_estimator_my_page_progress_step_typo">견적서</p>
+                                        </div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_step_arrow">
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_top"></div>
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_bottom"></div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_sub_wrapper">
+                                        <div class="equipment_estimator_my_page_progress_step">
+                                            <p class="equipment_estimator_my_page_progress_step_typo">전자계약</p>
+                                        </div>
+                                        <div class="dropbox_my_page_progress_pop_up_wrapper">
+                                            <div class="dropbox_my_page_progress_pop_up_top"></div>
+                                            <div class="dropbox_my_page_progress_pop_up">
+                                                <div class="dropbox_my_page_progress_pop_up_typo_container">
+                                                    <p class="dropbox_my_page_progress_pop_up_typo">후기쓰기</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_step_arrow">
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_top"></div>
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_bottom"></div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_sub_wrapper">
+                                        <div class="equipment_estimator_my_page_progress_step">
+                                            <p class="equipment_estimator_my_page_progress_step_typo">의뢰서 수령</p>
+                                        </div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_step_arrow">
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_top"></div>
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_bottom"></div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_sub_wrapper">
+                                        <div class="equipment_estimator_my_page_progress_step">
+                                            <p class="equipment_estimator_my_page_progress_step_typo">CAD완성 및 결제요청</p>
+                                        </div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_step_arrow">
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_top"></div>
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_bottom"></div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_sub_wrapper">
+                                        <div class="equipment_estimator_my_page_progress_step">
+                                            <p class="equipment_estimator_my_page_progress_step_typo">결제</p>
+                                        </div>
+                                        <div class="dropbox_my_page_progress_pop_up_wrapper">
+                                            <div class="dropbox_my_page_progress_pop_up_top"></div>
+                                            <div class="dropbox_my_page_progress_pop_up">
+                                                <div class="dropbox_my_page_progress_pop_up_typo_container">
+                                                    <p class="dropbox_my_page_progress_pop_up_typo">후기쓰기</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_step_arrow">
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_top"></div>
+                                        <div class="equipment_estimator_my_page_progress_step_arrow_bottom"></div>
+                                    </div>
+                                    <div class="equipment_estimator_my_page_progress_sub_wrapper">
+                                        <div class="equipment_estimator_my_page_progress_step">
+                                            <p class="equipment_estimator_my_page_progress_step_typo">파일수령</p>
+                                        </div>
+                                        <div class="dropbox_my_page_progress_pop_up_wrapper" style="width: 113%;">
+                                            <div class="dropbox_my_page_progress_pop_up_top"></div>
+                                            <div class="dropbox_my_page_progress_pop_up">
+                                                <div class="dropbox_my_page_progress_pop_up_typo_container">
+                                                    <p class="dropbox_my_page_progress_pop_up_typo">후기쓰기</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_pop_up_info_button_container">
+                                <button class="equipment_estimator_my_page_progress_list_pop_up_info_button_white">
+                                    <p class="equipment_estimator_my_page_progress_list_pop_up_info_button_white_typo">쪽지보내기</p>
+                                </button>
+                                <button class="equipment_estimator_my_page_progress_list_pop_up_info_button_black">
+                                    <p class="equipment_estimator_my_page_progress_list_pop_up_info_button_black_typo">취소요청</p>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_completed">
+                                    <p class="equipment_estimator_my_page_progress_completed_typo">완료</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_completed">
+                                    <p class="equipment_estimator_my_page_progress_completed_typo">완료</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider"></div>
+                        <div class="equipment_estimator_my_page_progress_list">
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_current">
+                                <div class="equipment_estimator_my_page_progress_proceeding">
+                                    <p class="equipment_estimator_my_page_progress_proceeding_typo">진행중</p>
+                                </div>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_category">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    크라운&캡
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_context">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    지르3, 인레이2 의뢰합니다
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_matched">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-09 14:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_date_expiry">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    02-11 12:00
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_client">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    누기누
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_item equipment_estimator_my_page_progress_cheesigner">
+                                <p class="equipment_estimator_my_page_progress_list_item_typo">
+                                    명랑핫도그
+                                </p>
+                            </div>
+                            <div class="equipment_estimator_my_page_progress_list_arrow_wrapper">
+                                <img class="equipment_estimator_my_page_progress_list_arrow" src="../assets/images/equipment_estimator_my_page_progress_list_arrow.svg"/>
+                            </div>
+                        </div>
+                        <div class="list_divider" style="margin-bottom: 18px;"></div>
+                        <div class="equipment_estimator_sub_container">
+                            <div class="pagination">
+                                <div class="pagination_before">
+                                    <img class="pagination_before_arrow" src="../assets/images/connection_location_arrow.svg"/>
+                                    <p class="pagination_before_typo">&nbsp;&nbsp;이전</p>
+                                </div>
+
+                                <div class="pagination_numb_now">
+                                    <p class="pagination_numb_now_typo">1</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">2</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">3</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">4</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">5</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">6</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">7</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">8</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">9</p>
+                                </div>
+                                <div class="pagination_numb">
+                                    <p class="pagination_numb_typo">10</p>
+                                </div>
+                                
+                                <div class="pagination_next">
+                                    <p class="pagination_next_typo">다음&nbsp;&nbsp;</p>
+                                    <img class="pagination_next_arrow" src="../assets/images/connection_location_arrow.svg"/>
+                                </div>
+                            </div>
+                            <div class="search">
+                                <div class="search_field_wrapper">
+                                    <button class="search_field">
+                                        <p class="search_field_typo">전체</p>
+                                        <img class="search_field_arrow" src="../assets/images/search_field_arrow.svg"/>
+                                    </button>
+                                    <div class="dropbox_search_field_select_button_item_wrapper hidden">
+                                        <div class="dropbox_search_field_select_button_item_container">
+                                            <div class="dropbox_search_field_select_button_item">
+                                                <p class="dropbox_search_field_select_button_item_typo">닉네임 찾기</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input class="search_bar"/>
+                                <button class="search_button">
+                                    <img class="Search_button_icon" src="../assets/images/search_button_icon.svg"/>
+                                    <p class="search_button_typo">검색</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

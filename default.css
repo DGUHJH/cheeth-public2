@@ -1302,7 +1302,7 @@ margin: 22.5px 0;
 }
 
 .equipment_estimator_connection_location_typo, .processing_center_connection_location_typo, .cheesigner_view_all_connection_location_typo, .request_basket_connection_location_typo, .project_connection_location_typo, .tribute_request_connection_location_typo {
-    columns: #727272;
+    color: #727272;
     font-size: 13px;
     font-weight: 400;
 }
@@ -1417,7 +1417,7 @@ margin: 22.5px 0;
 }
 
 .equipment_estimator_filter_typo, .cheesigner_view_all_list_filter_typo, .request_basket_filter_typo, .project_filter_typo {
-    columns: #555;
+    color: #555;
     font-size: 13px;
     font-weight: 400;
 }
@@ -2218,7 +2218,6 @@ margin: 22.5px 0;
     background: #fff;
     border: 1px solid #005FA8;
     border-radius: 9px;
-    position: relative;
     z-index: 2;
 }
 
@@ -3042,13 +3041,6 @@ margin: 22.5px 0;
     padding: 0 24px 0 19px;
     margin-bottom: 10px;
 }
-/* 
-.request_basket_request_title {
-    width: 105px;
-    color: #444;
-    font-size: 13px;
-    font-weight: 500;
-} */
 
 .request_basket_request_name {
     width: 84px;
@@ -4828,7 +4820,7 @@ margin: 22.5px 0;
 }
 
 .profile_management_connection_location_typo {
-    columns: #727272;
+    color: #727272;
     font-size: 13px;
     font-weight: 400;
 }
@@ -5417,7 +5409,7 @@ margin: 22.5px 0;
 }
 
 .review_management_connection_location_typo {
-    columns: #727272;
+    color: #727272;
     font-size: 13px;
     font-weight: 400;
 }
@@ -5948,7 +5940,7 @@ margin: 22.5px 0;
 }
 
 .service_intro_connection_location_typo {
-    columns: #727272;
+    color: #727272;
     font-size: 13px;
     font-weight: 400;
 }
@@ -6298,7 +6290,7 @@ margin: 22.5px 0;
 }
 
 .faq_connection_location_typo {
-    columns: #727272;
+    color: #727272;
     font-size: 13px;
     font-weight: 400;
 }
@@ -6416,6 +6408,148 @@ margin: 22.5px 0;
     font-size: 16px;
     font-weight: 400;
 }
+
+.receive_estimator_header {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #005FA8;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+}
+
+.receive_estimator_header_typo {
+    width: 1920px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.receive_estimator_body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.receive_estimator_connection_location_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+    margin-top: 14px;
+}
+
+.receive_estimator_connection_location_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.receive_estimator_connection_location_typo_bold {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.receive_estimator_connection_location_arrow {
+    margin: 0 10px;
+}
+
+.receive_estimator_main_container {
+    width: 928px;
+    display: flex;
+    flex-direction: column;
+}
+
+.receive_estimator_request {
+    width: 868px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 19px;
+    box-sizing: border-box;
+    padding: 0 24px 0 19px;
+    margin-bottom: 10px;
+}
+
+.request_basket_request_name {
+    width: 84px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.request_basket_request_context {
+    width: 239px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.request_basket_request_count {
+    width: 486px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.request_basket_total_prosthetics {
+    width: 100%;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    padding: 0 21px;
+}
+
+.request_basket_total_prosthetics_data_type_container {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    margin: 0 -21px;
+}
+
+.request_basket_total_prosthetics_data_type {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.request_basket_total_prosthetics_divider {
+    width: 100%;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.request_basket_total_prosthetics_info_container {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -21px;
+}
+
+.request_basket_total_prosthetics_info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+    font-size: 15px;
+    font-weight: 300;
+}
+
 
 .dropbox_select_button {
     width: 100%;
@@ -7050,7 +7184,6 @@ margin: 22.5px 0;
     box-sizing: border-box;
     margin-top: -10px;
     margin-left: -11%;
-    position: relative;
 }
 
 .dropbox_my_page_progress_pop_up {
@@ -7063,8 +7196,7 @@ margin: 22.5px 0;
     box-sizing: border-box;
     padding-top: 5px;
     margin-top: -10px;
-    position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .dropbox_my_page_progress_pop_up_typo_container {
