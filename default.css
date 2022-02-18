@@ -23,6 +23,8 @@ text-decoration: none;
 }
 
 textarea {
+    border: 1px solid #e5e5e5;
+    color: #b6b6b6;
     resize: none;
 }
 
@@ -1313,7 +1315,7 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.tribute_request_connection_location_typo_bold {
+.tribute_request_connection_location_typo, .tribute_request_connection_location_typo_bold {
     color: #fff;
 }
 
@@ -3874,10 +3876,24 @@ margin: 22.5px 0;
 .tribute_request_card_chip_container {
     display: flex;
     align-items: flex-end;
+    margin-bottom: -2px;
 }
 
-.tribute_request_card_chip {
-    width: 225px;
+.tribute_request_card_chip_selected {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+    border-radius: 18px 18px 0 0;
+    box-sizing: border-box;
+    padding: 0 20px 0 40px;
+    z-index: 1;
+}
+
+.tribute_request_card_chip_not_selected {
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -3886,7 +3902,45 @@ margin: 22.5px 0;
     border-bottom: 1px solid #fff;
     border-radius: 18px 18px 0 0;
     box-sizing: border-box;
-    padding: 0 40px;
+    padding: 0 20px 0 40px;
+    z-index: -1;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(2),
+.tribute_request_card_chip_container div:first-child:nth-last-child(2) ~ div {
+    width: 225px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(3),
+.tribute_request_card_chip_container div:first-child:nth-last-child(3) ~ div {
+    width: 225px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(4),
+.tribute_request_card_chip_container div:first-child:nth-last-child(4) ~ div {
+    width: 190px;
+    padding: 0 20px 0 35px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(5),
+.tribute_request_card_chip_container div:first-child:nth-last-child(5) ~ div {
+    width: 145px;
+    padding: 0 10px 0 20px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(6),
+.tribute_request_card_chip_container div:first-child:nth-last-child(6) ~ div {
+    width: 116px;
+    padding: 0 5px 0 10px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(7),
+.tribute_request_card_chip_container div:first-child:nth-last-child(7) ~ div {
+    width: 97px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-child(6) {
+    width: 97px;
 }
 
 .tribute_request_card_chip_add_button {
@@ -3898,7 +3952,7 @@ margin: 22.5px 0;
     background: #444;
     border: 1px solid #444;
     border-radius: 3px;
-    margin: 12px 20px;
+    margin: 12px 20px 15px 20px;
 }
 
 .tribute_request_card_chip_add_button_typo {
@@ -3908,32 +3962,22 @@ margin: 22.5px 0;
     margin-top: -2px;
 }
 
-.tribute_request_card_border_top_container {
-    display: flex;
-}
-
-.tribute_request_card_border_top_invisible {
-    width: 225px;
-    height: 1px;
-    background: #fff;
-}
-
-.tribute_request_card_border_top_visible {
-    width: 410px;
-    height: 1px;
-    background: #e5e5e5;
-}
-
-.tribute_request_card_chip_typo {
+.tribute_request_card_chip_selected_typo {
     color: #333;
     font-size: 16px;
     font-weight: 600;
 }
 
+.tribute_request_card_chip_not_selected_typo {
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .tribute_request_info_container {
     width: 100%;
+    background: #fff;
     border: 1px solid #e5e5e5;
-    border-top: none;
     border-right: none;
     border-radius: 0 0 0 18px;
     box-sizing: border-box;
