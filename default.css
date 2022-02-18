@@ -5504,6 +5504,21 @@ margin: 22.5px 0;
     margin-top: 14px;
 }
 
+.review_management_customer_review_reply_none {
+    width: 100%;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+}
+
+.review_management_customer_review_reply_none_typo {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .review_management_customer_review_writer_info_container {
     display: flex;
     align-items: center;
@@ -5556,28 +5571,31 @@ margin: 22.5px 0;
     width: 100%;
     height: 97px;
     border: 1px solid #E3E3E3;
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
     box-sizing: border-box;
     padding: 14px 17px;
     margin-bottom: 10px;
 }
 
-.review_management_customer_review_view_mine {
+.review_management_customer_review_view_mine, .review_management_customer_review_view_reply {
     width: 100%;
     background: #fafafa;
     box-sizing: border-box;
     padding: 20px 50px 27px 50px;
 }
 
-.review_management_customer_review_view_mine_top_container {
+.review_management_customer_review_view_mine_top_container, .review_management_customer_review_view_reply_top_container {
     display: flex;
     justify-content: space-between;
 }
 
-.review_management_customer_review_view_mine_writer_info {
+.review_management_customer_review_view_mine_writer_info, .review_management_customer_review_view_reply_writer_info {
     display: flex;
 }
 
-.review_management_customer_review_view_mine_name {
+.review_management_customer_review_view_mine_name, .review_management_customer_review_view_reply_name {
     color: #444;
     font-size: 13px;
     font-weight: 500;
@@ -5599,6 +5617,25 @@ margin: 22.5px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.review_management_customer_review_view_reply_button {
+    width: 53px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.review_management_customer_review_view_reply_button_typo {
+    color: #8b8b8b;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.review_management_customer_review_view_reply_button_arrow_selected {
+    transform: rotate(180deg);
 }
 
 .review_management_customer_review_button_black {
@@ -5627,7 +5664,6 @@ margin: 22.5px 0;
     align-items: center;
     border: 1px solid #E5E5E5;
     border-radius: 2px;
-    box-sizing: border-box;
 }
 
 .review_management_customer_review_button_white_typo {
