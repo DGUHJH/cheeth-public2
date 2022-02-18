@@ -20,9 +20,13 @@ input {
     border: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 @font-face {
     font-family: Pretendard;
-    src: url('../cheeth-public/assets/fonts/PretendardVariable.woff2') format('woff2');
+    src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
 }
 
 .container {
@@ -2139,3 +2143,186 @@ input {
     font-size: 13px;
     font-weight: 300;
 } 
+
+.receive_file_dialog_container {
+    width: 999px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.receive_file_dialog_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.receive_file_dialog_header_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 352px;
+}
+
+.receive_file_dialog_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 40px 40px 60px 40px;
+}
+
+.receive_file_teeth_model_container {
+    width: 476px;
+    margin-right: 60px;
+}
+
+.receive_file_teeth_model_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.receive_file_teeth_model_title_typo {
+    color: #444;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.receive_file_teeth_model_preview_wrapper {
+    width: 476px;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+.receive_file_teeth_model_preview {
+    width: 294px;
+    height: 534px;
+}
+
+.receive_file_main_container {
+    width: 383px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.receive_file_info_container {
+    margin-bottom: 30px;
+}
+
+.receive_file_info {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #555;
+}
+
+.receive_file_info_title {
+    width: 175px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.receive_file_info_title_typo {
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.receive_file_info_context {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.receive_file_info_context_typo {
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.selected_dental_preview_container {
+    display: flex;
+}
+
+.selected_dental_preview_item {
+    width: 36px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0083E8;
+    border-radius: 18.5px;
+    box-sizing: border-box;
+    margin-right: 8px;
+    padding: 0 9px;
+}
+
+.selected_dental_preview_item_typo {
+    color: #0083e8;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.receive_file_info_more {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    border-radius: 30px;
+    margin-bottom: 26px;
+}
+
+.receive_file_info_more_typo {
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.receive_file_info_more_detail {
+    width: 100%;
+    height: 124px;
+    box-sizing: border-box;
+    padding: 20px 22px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.receive_file_button_wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.receive_file_button {
+    min-width: 80px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 13px;
+    margin-left: 14px;
+}
+
+.receive_file_button_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+}
