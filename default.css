@@ -4134,7 +4134,7 @@ margin: 22.5px 0;
 }
 
 .tribute_request_info_blank {
-    width: 100%;
+    width: 302px;
     border-bottom: 1px solid #333333;
     margin-left: 20px;
 }
@@ -6485,7 +6485,7 @@ margin: 22.5px 0;
     font-weight: 400;
 }
 
-.receive_estimator_header, .receive_file_header {
+.receive_estimator_header, .receive_file_header, .rework_request_header {
     width: 100%;
     height: 180px;
     display: flex;
@@ -6497,7 +6497,7 @@ margin: 22.5px 0;
     overflow-x: hidden;
 }
 
-.receive_estimator_header_typo, .receive_file_header_typo {
+.receive_estimator_header_typo, .receive_file_header_typo, .rework_request_header_typo {
     width: 1920px;
     text-align: center;
     color: #fff;
@@ -6505,14 +6505,14 @@ margin: 22.5px 0;
     font-weight: 700;
 }
 
-.receive_estimator_body, .receive_file_body {
+.receive_estimator_body, .receive_file_body, .rework_request_body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 40px;
 }
 
-.receive_estimator_connection_location_container, .receive_file_connection_location_container {
+.receive_estimator_connection_location_container, .receive_file_connection_location_container, .rework_request_connection_location_container {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -6520,23 +6520,23 @@ margin: 22.5px 0;
     margin-top: 14px;
 }
 
-.receive_estimator_connection_location_typo, .receive_file_connection_location_typo {
+.receive_estimator_connection_location_typo, .receive_file_connection_location_typo, .rework_request_connection_location_typo {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
 }
 
-.receive_estimator_connection_location_typo_bold, .receive_file_connection_location_typo_bold {
+.receive_estimator_connection_location_typo_bold, .receive_file_connection_location_typo_bold, .rework_request_connection_location_typo_bold {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
 }
 
-.receive_estimator_connection_location_arrow, .receive_file_connection_location_arrow {
+.receive_estimator_connection_location_arrow, .receive_file_connection_location_arrow, .rework_request_connection_location_arrow {
     margin: 0 10px;
 }
 
-.receive_estimator_main_container, .receive_file_main_container {
+.receive_estimator_main_container, .receive_file_main_container, .rework_request_main_container {
     width: 928px;
     display: flex;
     flex-direction: column;
@@ -6544,20 +6544,20 @@ margin: 22.5px 0;
     padding-bottom: 50px;
 }
 
-.receive_estimator_item, .receive_file_item {
+.receive_estimator_item, .receive_file_item, .rework_request_item {
     width: 100%;
     box-sizing: border-box;
     padding: 30px 0;
 }
 
-.receive_estimator_title, .receive_file_title {
+.receive_estimator_title, .receive_file_title, .rework_request_title {
     color: #444;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.receive_estimator_context, .receive_file_context {
+.receive_estimator_context, .receive_file_context, .rework_request_context {
     width: 100%;
     height: 100px;
     display: flex;
@@ -6565,17 +6565,17 @@ margin: 22.5px 0;
     align-items: center;
 }
 
-.receive_estimator_context_typo, .receive_file_context_typo {
+.receive_estimator_context_typo, .receive_file_context_typo, .rework_request_context_typo {
     color: #c4c4c4;
     font-size: 15px;
     font-weight: 400;
 }
 
-.receive_estimator_request_container, .receive_file_request_container {
+.receive_estimator_request_container, .receive_file_request_container, .rework_request_request_container {
     display: flex;
 }
 
-.receive_estimator_request, .receive_file_request {
+.receive_estimator_request, .receive_file_request, .rework_request_request {
     width: 717px;
     height: 38px;
     display: flex;
@@ -6587,7 +6587,7 @@ margin: 22.5px 0;
     margin-bottom: 10px;
 }
 
-.receive_estimator_request_name, .receive_file_request_name {
+.receive_estimator_request_name, .receive_file_request_name, .rework_request_request_name {
     width: 84px;
     color: #444;
     font-size: 13px;
@@ -6603,6 +6603,27 @@ margin: 22.5px 0;
 
 .receive_estimator_request_count, .receive_file_request_count {
     width: 335px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.rework_request_request_view_request_button {
+    width: 120px;
+    color: #0083E8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rework_request_request_context {
+    width: 219px;
+    color: #444;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.rework_request_request_count {
+    width: 239px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
@@ -6624,7 +6645,7 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.receive_estimator_total_prosthetics {
+.receive_estimator_total_prosthetics, .rework_request_total_prosthetics {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -6634,14 +6655,14 @@ margin: 22.5px 0;
     padding: 21px;
 }
 
-.receive_estimator_total_prosthetics_data_type_container {
+.receive_estimator_total_prosthetics_data_type_container, .rework_request_total_prosthetics_data_type_container {
     width: 100%;
     height: 38px;
     display: flex;
     margin: 0 -21px;
 }
 
-.receive_estimator_total_prosthetics_data_type {
+.receive_estimator_total_prosthetics_data_type, .rework_request_total_prosthetics_data_type {
     width: 50%;
     height: 100%;
     display: flex;
@@ -6652,14 +6673,14 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
-.receive_estimator_total_prosthetics_divider {
+.receive_estimator_total_prosthetics_divider, .rework_request_total_prosthetics_divider {
     width: 100%;
     height: 1px;
     background: #D1D1D1;
     margin-bottom: 7px;
 }
 
-.receive_estimator_total_prosthetics_info_container {
+.receive_estimator_total_prosthetics_info_container, .rework_request_total_prosthetics_info_container {
     width: 100%;
     height: 38px;
     display: flex;
@@ -6668,7 +6689,7 @@ margin: 22.5px 0;
     margin: 0 -21px;
 }
 
-.receive_estimator_total_prosthetics_info {
+.receive_estimator_total_prosthetics_info, .rework_request_total_prosthetics_info {
     width: 50%;
     height: 100%;
     display: flex;
@@ -6695,7 +6716,7 @@ margin: 22.5px 0;
     font-weight: 600;
 }
 
-.receive_file_button_container {
+.receive_file_button_container, .rework_request_button_container {
     width: 100%;
     height: 52px;
     display: flex;
@@ -6704,7 +6725,11 @@ margin: 22.5px 0;
     margin: 60px 0 206px;;
 }
 
-.receive_file_button_white {
+.rework_request_button_container {
+    margin: 30px 0;
+}
+
+.receive_file_button_white, .rework_request_button_white {
     width: 158px;
     height: 100%;
     display: flex;
@@ -6715,13 +6740,13 @@ margin: 22.5px 0;
     margin: 0 10px;
 }
 
-.receive_file_button_white_typo {
+.receive_file_button_white_typo, .rework_request_button_white_typo {
     color: #555;
     font-size: 16px;
     font-weight: 400;
 }
 
-.receive_file_button_blue {
+.receive_file_button_blue, .rework_request_button_blue {
     width: 158px;
     height: 100%;
     display: flex;
@@ -6732,7 +6757,7 @@ margin: 22.5px 0;
     margin: 0 10px;
 }
 
-.receive_file_button_blue_typo {
+.receive_file_button_blue_typo, .rework_request_button_blue_typo {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -7396,65 +7421,8 @@ margin: 22.5px 0;
     width: 152px;
 }
 
-.dropbox_tribute_request {
+.dropbox_tribute_request, .dropbox_rework_request_edit {
     width: 152px;
-}
-
-.dropbox_tribute_request_dialog {
-    width: 810px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
-}
-
-.dropbox_tribute_request_prosthetics_select_button {
-    width: 100%;
-    height: 72px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: #F6F6F6;
-    box-sizing: border-box;
-    padding: 0 30px;
-}
-
-.dropbox_tribute_request_prosthetics_select_button_typo {
-    color: #333;
-    font-size: 28px;
-    font-weight: 600;
-    margin-right: 297px;
-}
-
-.dropbox_tribute_request_prosthetics_select_button_container_single {
-    width: 100%;
-    height: 132px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 35px;
-}
-
-.dropbox_prosthetics_type {
-    width: 152px;
-}
-
-.dropbox_prosthetics_type_current {
-    background: #E2EFFF;
-}
-
-.dropbox_tribute_request_etc_chosen {
-    width: 810px;
-    height: 349px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
-}
-
-.dropbox_tribute_request_prosthetics_select_button_container {
-    width: 100%;
-    height: 92px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 35px;
 }
 
 .dropbox_tribute_request_divider {
