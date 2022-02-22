@@ -33,10 +33,56 @@ a {
     src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
 }
 
+.electronic_estimator_container::-webkit-scrollbar {
+    display: none;
+}
+
+.cad_container::-webkit-scrollbar {
+    display: none;
+}
+
+.send_estimator_container::-webkit-scrollbar {
+    display: none;
+}
+
 .container {
     width: 620px;
     box-sizing: border-box;
     padding: 26px 50px 50px 50px;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 10px 0
+}
+
+.pagination_current_page {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pagination_total_page {
+    color: #767676;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.pagination_page_button {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin: 0 23px;
+}
+
+.cad_estimator_pagination_page_before_button_arrow {
+    transform: rotate(180deg);
 }
 
 .button_container {
@@ -227,7 +273,7 @@ a {
     margin-top: -3px;
 }
 
-.electronic_estimator_price_add_button {
+.electronic_estimator_price_add_button, .cad_estimator_price_add_button, .send_estimator_price_add_button {
     width: 22px;
     height: 22px;
     display: flex;
@@ -238,20 +284,10 @@ a {
     margin: 0 0 3px 22px;
 }
 
-.electronic_estimator_total_price_wrapper {
+.electronic_estimator_total_price_wrapper, .cad_estimator_total_price_wrapper {
     display: flex;
     justify-content: flex-end;
     margin-top: 30px;
-}
-
-.cad_estimator_total_price_wrapper {
-    width: 234px;
-    display: flex;
-    justify-content: flex-end;
-    border-top: 1px dashed #e5e5e5;
-    box-sizing: border-box;
-    padding-top: 17px;
-    margin-top: 10px;
 }
 
 .cad_estimator_profile_pic_upload {
@@ -311,8 +347,7 @@ a {
 }
 
 .pic_upload_container {
-    width: 298px;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 .pic_upload {
@@ -346,17 +381,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-}
-
-.upload_button {
-    width: 83px;
-    height: 36px;
-}
-
-.upload_button_typo {
-    color: #767676;
-    font-size: 13px;
-    font-weight: 400;
 }
 
 .image_slider {
@@ -442,9 +466,11 @@ a {
 
 .send_estimator_container {
     width: 864px;
+    height: 938px;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 42px 50px;
+    overflow-y: auto;
 }
 
 .send_estimator_dialog_item_title {
@@ -463,7 +489,13 @@ a {
 .send_estimator_dialog_item {
     width: 100%;
     display: flex;
-    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    padding: 37px 0;
+}
+
+.send_estimator_dialog_item_column {
+    width: 100%;
+    box-sizing: border-box;
     padding: 37px 0;
 }
 
@@ -502,32 +534,41 @@ a {
     padding: 17px;
 }
 
-.send_estimator_dialog_item_context_blank_price, .electronic_estimator_dialog_item_context_blank_price {
+.send_estimator_dialog_item_context_blank_price, .electronic_estimator_dialog_item_context_blank_price, .cad_estimator_dialog_item_context_blank_price {
     width: 95px;
     height: 38px;
     display: flex;
     align-items: flex-start;
     border: 1px solid #E5E5E5;
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
     box-sizing: border-box;
     padding-left: 14px;
 }
 
-.send_estimator_dialog_item_context_blank_count, .electronic_estimator_dialog_item_context_blank_count {
+.send_estimator_dialog_item_context_blank_count, .electronic_estimator_dialog_item_context_blank_count, .cad_estimator_dialog_item_context_blank_count {
     width: 68px;
     height: 38px;
     display: flex;
     align-items: flex-start;
     border: 1px solid #E5E5E5;
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
     box-sizing: border-box;
     padding-left: 14px;
 }
 
-.send_estimator_dialog_item_context_blank_prosthetics_type, .electronic_estimator_dialog_item_context_blank_prosthetics_type {
+.send_estimator_dialog_item_context_blank_direct_input, .electronic_estimator_dialog_item_context_blank_prosthetics_type, .cad_estimator_dialog_item_context_blank_prosthetics_type {
     width: 100px;
     height: 38px;
     display: flex;
     align-items: flex-start;
     border: 1px solid #E5E5E5;
+    color: #B6B6B6;
+    font-size: 13px;
+    font-weight: 400;
     box-sizing: border-box;
     padding-left: 9px;
     margin-right: 18px;
@@ -546,6 +587,7 @@ a {
 .send_estimator_pic_upload_wrapper {
     display: flex;
     align-items: flex-end;
+    margin-top: 30px;
 }
 
 .matching_container {
@@ -627,18 +669,20 @@ a {
 
 .electronic_estimator_container {
     width: 843px;
+    height: 1004px;
     box-sizing: border-box;
     padding: 60px 50px 50px 50px;
     margin: 0 auto;
+    overflow-y: auto;
 }
 
-.electronic_estimator_dialog_item {
+.electronic_estimator_dialog_item,.cad_estimator_dialog_item_column {
     display: flex;
     flex-direction: column;
     padding: 37px 0 37px 0;
 }
 
-.electronic_estimator_dialog_item_row {
+.electronic_estimator_dialog_item_row, .cad_estimator_dialog_item {
     display: flex;
     justify-content: space-between;
     padding: 37px 0 37px 0;
@@ -688,7 +732,11 @@ a {
     margin-right: 15px;
 }
 
-.electronic_estimator_dialog_request {
+.cad_estimator_dialog_request_container {
+    margin-top: 24px;
+}
+
+.electronic_estimator_dialog_request, .cad_estimator_dialog_request {
     width: 100%;
     height: 38px;
     display: flex;
@@ -700,21 +748,21 @@ a {
     margin-bottom: 10px;
 }
 
-.electronic_estimator_dialog_request_title {
+.electronic_estimator_dialog_request_title, .cad_estimator_dialog_request_title {
     width: 85px;
     color: #444;
     font-size: 13px;
     font-weight: 500;
 }
 
-.electronic_estimator_dialog_request_name {
+.electronic_estimator_dialog_request_name, .cad_estimator_dialog_request_name {
     width: 74px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
-.electronic_estimator_dialog_request_context {
+.electronic_estimator_dialog_request_context, .cad_estimator_dialog_request_context {
     width: 341px;
     color: #444;
     font-size: 13px;
@@ -853,45 +901,123 @@ a {
     font-weight: 600;
 }
 
-.electronic_estimator_pic_upload_wrapper {
+.electronic_estimator_pic_upload_container, .cad_estimator_pic_upload_container, .send_estimator_pic_upload_container {
+    margin-right: 30px;
+}
+
+.electronic_estimator_pic_upload_wrapper, .cad_estimator_pic_upload_wrapper {
     width: 100%;
     display: flex;
     justify-content: end;
     align-items: flex-end;
 }
 
+.electronic_estimator_main_pic_upload_wrapper {
+    width: 269px;
+    height: 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #E5E5E5;
+}
+
+.cad_estimator_main_pic_upload_wrapper {
+    width: 232px;
+    height: 131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #E5E5E5;
+}
+
+.send_estimator_main_pic_upload_wrapper {
+    width: 298px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #E5E5E5;
+}
+
+.electronic_estimator_main_pic_upload, .cad_estimator_main_pic_upload, .send_estimator_main_pic_upload {
+    width: 76px;
+    height: 67px;
+}
+
+.electronic_estimator_sub_pic_upload_wrapper, .send_estimator_sub_pic_upload_wrapper {
+    margin-bottom: 27px;
+}
+
+.cad_estimator_sub_pic_upload_wrapper {
+    margin-bottom: 30px;
+}
+
+.electronic_estimator_sub_pic_upload_container, .send_estimator_sub_pic_upload_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cad_estimator_sub_pic_upload_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.electronic_estimator_sub_pic_upload {
+    width: 140px;
+    height: 90px;
+    background: #F2F2F2;
+}
+
+.cad_estimator_sub_pic_upload {
+    width: 108px;
+    height: 69px;
+    background: #F2F2F2;
+}
+
+.send_estimator_sub_pic_upload {
+    width: 145px;
+    height: 93px;
+    background: #F2F2F2;
+}
+
+.electronic_estimator_upload_button, .cad_estimator_upload_button, .send_estimator_upload_button {
+    width: 115px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+}
+
+.electronic_estimator_upload_button_typo, .cad_estimator_upload_button_typo, .send_estimator_upload_button_typo {
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .cad_container {
     width: 668px;
+    height: 844px;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 25px 50px 50px 50px;
+    overflow-y: auto;
 }
 
 .cad_title {
     min-width: 190px;
 }
 
-.cad_pic_upload {
-    width: 262px;
+.cad_estimator_pagination {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.cad_image_slider {
-    width: 306px;
-    height: 171px;
-}
-
-.cad_pic_container {
-    width: 262px;
-    height: 61px;
-}
-
-.cad_pic {
-    width: 109px;
-    height: 61px;
-    margin-right: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .tribute_request_container, .note_box_container {
