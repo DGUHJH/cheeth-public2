@@ -2994,7 +2994,6 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 -7.5px;
 }
 
 .qna_writing_button_container {
@@ -3009,7 +3008,6 @@ a {
     justify-content: center;
     align-items: center;
     border: 1px solid #e5e5e5;
-    margin: 0 7.5px;
 }
 
 .qna_writing_button_white_typo {
@@ -3026,7 +3024,7 @@ a {
     align-items: center;
     background: #E2EFFF;
     border: 1px solid #e2efff;
-    margin: 0 7.5px;
+    margin-left: 15px;
 }
 
 .qna_writing_button_blue_typo {
