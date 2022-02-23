@@ -2817,7 +2817,7 @@ margin: 22.5px 0;
     border-top: 2px solid #333;
     box-sizing: border-box;
     border-bottom: 1px solid #E5E5E5;
-    padding: 10px 6.5px 40px 6.5px;
+    padding: 10px 6.5px 4px 6.5px;
 }
 
 .processing_center_profile_profile_container {
@@ -2905,28 +2905,55 @@ margin: 22.5px 0;
 .processing_center_profile_image_container {
     width: 100%;
     display: flex;
+    align-items: flex-end;
     margin-top: 10px;
 }
 
-.processing_center_profile_image_wrapper {
-    width: 165px;
-    height: 93px;
+.processing_center_main_pic_upload_wrapper {
+    width: 346px;
+    height: 195px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #E5E5E5;
+    border: 1px dashed #E5E5E5;
+    margin-right: 30px;
 }
 
-.processing_center_profile_sample_image {
-    width: 54px;
-    height: 47px;
+.processing_center_main_pic_upload {
+    width: 114px;
+    height: 99px;
 }
 
-.processing_center_profile_pic_upload {
+.processing_center_pic_upload_button {
+    width: 115px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+}
+
+.processing_center_pic_upload_button_typo {
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.processing_center_sub_pic_upload_wrapper {
+    width: 900px;
+}
+
+.processing_center_sub_pic_upload_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.processing_center_sub_pic_upload {
     width: 165px;
     height: 93px;
     background: #F2F2F2;
-    margin-left: 12px;
 }
 
 .processing_center_profile_button_container {
@@ -4951,20 +4978,20 @@ margin: 22.5px 0;
 }
 
 .qna_list_data_type_title {
-    width: 634px;
+    width: 724px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.qna_list_data_type_writer {
+/* .qna_list_data_type_writer {
     width: 90px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .qna_list_data_type_date {
     width: 160px;
@@ -4984,6 +5011,22 @@ margin: 22.5px 0;
     font-weight: 300;
 }
 
+.qna_list_reply {
+    width: 30px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2EFFF;
+    margin-right: 10px;
+}
+
+.qna_list_reply_typo {
+    color: #0083e8;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 .qna_list_order {
     width: 60px;
     height: 100%;
@@ -4993,7 +5036,7 @@ margin: 22.5px 0;
 }
 
 .qna_list_title {
-    width: 634px;
+    width: 724px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -5001,13 +5044,13 @@ margin: 22.5px 0;
     padding-left: 56px;
 }
 
-.qna_list_writer {
+/* .qna_list_writer {
     width: 90px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .qna_list_date {
     width: 160px;
