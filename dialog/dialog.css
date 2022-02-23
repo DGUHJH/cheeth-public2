@@ -3054,3 +3054,141 @@ a {
 .qna_writing_image_slider_arrow_container :first-child {
     transform: rotate(180deg);
 }
+
+.qna_pic_attachment_container {
+    width: 835px;
+    margin: auto;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.qna_pic_attachment_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.qna_pic_attachment_header_typo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 330px;
+}
+
+.qna_pic_attachment_body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 35px;
+}
+
+.qna_pic_attachment_title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.qna_pic_attachment_sub_title {
+    color: #b6b6b6;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.qna_pic_attatchment_pic_upload_container {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 37px;
+}
+
+.qna_pic_attatchment_main_pic_upload_wrapper {
+    width: 298px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #e5e5e5;
+    margin-right: 30px;
+}
+
+.qna_pic_attatchment_main_pic_upload {
+    width: 98px;
+    height: 86px;
+}
+
+.qna_pic_attachment_pic_upload_button {
+    width: 115px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5
+}
+
+.qna_pic_attachment_pic_upload_button_typo {
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.qna_pic_attatchment_sub_pic_upload_wrapper {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.qna_pic_attatchment_sub_pic_upload_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.qna_pic_attatchment_sub_pic_upload {
+    width: 145px;
+    height: 93px;
+    background: #F2F2F2;
+}
+
+.qna_pic_attatchment_button_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.qna_pic_attatchment_button_white {
+    width: 108px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin-left: 20px;
+}
+
+.qna_pic_attatchment_button_white_typo {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.qna_pic_attatchment_button_blue {
+    width: 108px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0083e8;
+    border: 1px solid #0083E8;
+    margin-left: 20px;
+}
+
+.qna_pic_attatchment_button_blue_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
