@@ -5484,6 +5484,7 @@ margin: 22.5px 0;
 .etc_info {
     height: 144px;
     display: flex;
+    justify-content: center;
     align-items: center;
     border: 1px solid #E5E5E5;
     border-radius: 14px;
@@ -5641,7 +5642,7 @@ margin: 22.5px 0;
     color: #333;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 24px;
+    margin: 20px 0 24px;
 }
 
 .profile_management_profile_self_intro_context {
@@ -5923,7 +5924,7 @@ margin: 22.5px 0;
     height: 35px;
     display: flex;
     border: 1px solid #EEEEEE;
-    margin-bottom: 22px;
+    margin-top: 20px;
 }
 
 .profile_management_writing_carousel_button_container {
@@ -5931,7 +5932,6 @@ margin: 22.5px 0;
     height: 35px;
     display: flex;
     border: 1px solid #EEEEEE;
-    margin-bottom: 22px;
     margin-left: 96px;
 }
 
@@ -5952,7 +5952,7 @@ margin: 22.5px 0;
 .profile_management_profile_pic_sub_container {
     height: 116px;
     display: flex;
-    margin-right: -34px;
+    margin: 20px -34px 0 0;
 }
 
 .profile_management_profile_pic_sub {
@@ -5976,20 +5976,34 @@ margin: 22.5px 0;
 }
 
 .profile_management_profile_item_title_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_management_profile_item_title_container {
     width: 165px;
     display: flex;
     justify-content: space-between;
 }
 
+.profile_management_profile_item_view_all {
+    color: #888;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
 .profile_management_customer_review_container {
-    width: 100%;
+    width: 928px;
     height: 265px;
     display: flex;
-    margin: 0 -12px;
+    justify-content: space-between;
+    margin: 22px -12px 0 -12px;
 }
 
 .profile_management_customer_review {
-    width: 214px;
+    min-width: 214px;
     height: 100%;
     box-sizing: border-box;
     border: 1px solid #D1D1D1;
