@@ -7660,6 +7660,23 @@ margin: 22.5px 0;
     font-weight: 400;
 }
 
+.rework_request_center_explanation {
+    width: 717px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.rework_request_center_explanation_typo {
+    color: #959595;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .receive_estimator_attatchment_download_button, .receive_file_attatchment_download_button {
     width: 127px;
     height: 38px;
