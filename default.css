@@ -34,7 +34,9 @@ input {
 
 input[type="checkbox"] {
     min-width: 12px;
+    max-width: 12px;
     min-height: 12px;
+    max-height: 12px;
     appearance: none;
     background: #fff;
     border: 1px solid #e5e5e5;
@@ -7431,6 +7433,8 @@ margin: 22.5px 0;
 
 .receive_estimator_request_container, .receive_file_request_container, .rework_request_request_container, .cad_completed_request_container {
     display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .receive_estimator_request, .receive_file_request, .rework_request_request, .cad_completed_request {
@@ -7441,8 +7445,11 @@ margin: 22.5px 0;
     border: 1px solid #E5E5E5;
     border-radius: 19px;
     box-sizing: border-box;
-    padding: 0 25px 0 10px;
-    margin-bottom: 10px;
+    padding: 0 10px 0 25px;
+}
+
+.rework_request_request {
+    margin-left: 14px;
 }
 
 .receive_estimator_request_name, .receive_file_request_name, .rework_request_request_name, .cad_completed_request_name {
@@ -7452,35 +7459,35 @@ margin: 22.5px 0;
     font-weight: 500;
 }
 
-.receive_estimator_request_context, .receive_file_request_context {
+.receive_file_request_context {
     width: 239px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
-.receive_estimator_request_count, .receive_file_request_count {
+.receive_file_request_count {
     width: 335px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
-.rework_request_request_view_request_button, .cad_completed_request_view_request_button {
+.receive_estimator_request_view_request_button, .rework_request_request_view_request_button, .cad_completed_request_view_request_button {
     width: 120px;
     color: #0083E8;
     font-size: 13px;
     font-weight: 500;
 }
 
-.rework_request_request_context, .cad_completed_request_context {
+.receive_estimator_request_context, .rework_request_request_context, .cad_completed_request_context {
     width: 219px;
     color: #444;
     font-size: 13px;
     font-weight: 300;
 }
 
-.rework_request_request_count, .cad_completed_request_count {
+.receive_estimator_request_count, .rework_request_request_count, .cad_completed_request_count {
     width: 239px;
     color: #444;
     font-size: 13px;
