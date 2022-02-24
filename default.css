@@ -7419,7 +7419,6 @@ margin: 22.5px 0;
 
 .receive_estimator_context, .receive_file_context, .rework_request_context {
     width: 100%;
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7492,6 +7491,29 @@ margin: 22.5px 0;
     color: #444;
     font-size: 13px;
     font-weight: 300;
+}
+
+.rework_request_request_button_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.rework_request_request_button {
+    width: 113px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin: 0 10px;
+}
+
+.rework_request_request_button_typo {
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .receive_estimator_attatchment_download_button, .receive_file_attatchment_download_button {
