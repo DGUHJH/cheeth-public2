@@ -2402,7 +2402,7 @@ margin: 22.5px 0;
     align-items: center;
     background: #F8F8F8;
     box-sizing: border-box;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 5px;
 }
 
 .equipment_estimator_my_page_progress_step_container {
@@ -2515,6 +2515,97 @@ margin: 22.5px 0;
     color: #fff;
     font-size: 11px;
     font-weight: 500;
+}
+
+.equipment_estimator_my_page_progress_writing_review {
+    width: 100%;
+    height: 249px;
+    display: flex;
+    background: #fafafa;
+    box-sizing: border-box;
+    padding: 30px 30px 0 30px;
+}
+.equipment_estimator_my_page_progress_writing_review_pic_attatchment {
+    min-width: 124px;
+    height: 124px;
+    background: #c4c4c4;
+    margin: 41px 22px 0 0;
+}
+
+.equipment_estimator_my_page_progress_writing_review_main_container {
+    width: 100%;
+}
+
+.equipment_estimator_my_page_progress_writing_review_category {
+    color: #444;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_satisfaction {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 14px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_satisfaction_typo {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 23px 0 0;
+}
+
+.equipment_estimator_my_page_progress_writing_review_context {
+    width: 100%;
+    height: 97px;
+    box-sizing: border-box;
+    padding: 14px 21px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 13px -10px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_button_container {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_button_white {
+    width: 64px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 0 10px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_button_white_typo {
+    color: #8b8b8b;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.equipment_estimator_my_page_progress_writing_review_button_black {
+    width: 64px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #444;
+    margin: 0 10px;
+}
+
+.equipment_estimator_my_page_progress_writing_review_button_black_typo {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .flex_start {
@@ -6053,7 +6144,7 @@ margin: 22.5px 0;
     align-items: flex-end;
 }
 
-.profile_management_customer_review_star_rating_star_container {
+.profile_management_customer_review_star_rating_star_container, .equipment_estimator_my_page_progress_writing_review_star_container {
     display: flex;
     margin-right: 10px;
 }
@@ -6068,7 +6159,7 @@ margin: 22.5px 0;
     height: 12px;
 }
 
-.profile_management_customer_review_star_rating_numb {
+.profile_management_customer_review_star_rating_numb, .equipment_estimator_my_page_progress_writing_review_star_numb {
     color: #0083e8;
     font-weight: 600; 
     font-size: 21px;
@@ -6082,7 +6173,7 @@ margin: 22.5px 0;
     margin: 0 3px -3px 0;
 }
 
-.profile_management_customer_review_star_rating_unit {
+.profile_management_customer_review_star_rating_unit, .equipment_estimator_my_page_progress_writing_review_star_unit {
     color: #b6b6b6;
     font-size: 14px;
     font-weight: 600;
