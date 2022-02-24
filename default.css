@@ -5386,7 +5386,7 @@ margin: 22.5px 0;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 40px 30px;
+    padding: 40px 0;
     margin-top: -15px;
 }
 
@@ -5404,7 +5404,7 @@ margin: 22.5px 0;
 
 .profile_management_writing_profile_pic_upload {
     width: 111px;
-    height: 109px;
+    height: 111px;
     margin-right: 87px;
 }
 
@@ -5497,7 +5497,7 @@ margin: 22.5px 0;
     height: 137px;
     display: flex;
     box-sizing: border-box;
-    padding: 40px 30px;
+    padding: 40px 0;
 }
 
 .profile_management_profile_etc_info_success_rate {
@@ -5627,9 +5627,7 @@ margin: 22.5px 0;
 }
 
 .self_intro {
-    height: 104px;
     flex-direction: column;
-    margin-top: 20px;
     margin-bottom: 60px;
 }
 
@@ -5637,7 +5635,29 @@ margin: 22.5px 0;
     width: 100%;
     height: 280px;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 30px 0;
+}
+
+.profile_management_profile_edit_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 14px;
+}
+
+.profile_management_profile_edit_button {
+    width: 103px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+}
+
+.profile_management_profile_edit_button_typo {
+    color: #555;
+    font-size: 11px;
+    font-weight: 500;
 }
 
 .profile_management_profile_item_title {
@@ -5901,7 +5921,7 @@ margin: 22.5px 0;
     height: 111px;
     background: #F8F9FE;
     position: absolute;
-    top: 1631px;
+    top: 1769px;
     z-index: -1;
 }
 
@@ -5974,7 +5994,7 @@ margin: 22.5px 0;
 .customer_review_writing {
     width: 100%;
     box-sizing: border-box;
-    padding: 30px 30px 0 30px;
+    padding-top: 30px;
 }
 
 .profile_management_profile_item_title_wrapper {
@@ -6021,42 +6041,28 @@ margin: 22.5px 0;
     margin-bottom: 30px;
 }
 
-.profile_management_customer_review_satisfaction, .review_management_customer_review_satisfaction {
+.profile_management_customer_review_star_rating {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
-.profile_management_profile_customer_review_satisfaction_img {
-    width: 24px;
-    height: 24px;
+.profile_management_customer_review_star_rating_star_container {
+    display: flex;
     margin-right: 10px;
 }
 
-.review_management_customer_review_satisfaction_img {
-    width: 16px;
-    height: 16px;
-    margin-right: 6px;
-}
-
-.profile_management_customer_review_satisfaction_typo {
-    color: #444444;
-    font-weight: 500;
-    font-size: 13px;
-    margin-right: 10px;
-}
-
-.profile_management_customer_review_satisfaction_rate, .review_management_customer_review_satisfaction_rate {
+.profile_management_customer_review_star_rating_numb {
     color: #0083e8;
     font-weight: 600; 
     font-size: 21px;
-    margin-right: 3px;
+    margin: 0 3px -3px 0;
 }
 
-.profile_management_customer_review_satisfaction_unit, .review_management_customer_review_satisfaction_unit {
-    color: #0083e8;
-    font-weight: 600; 
-    font-size: 13px;
-    margin-bottom: -5px;
+.profile_management_customer_review_star_rating_unit {
+    color: #b6b6b6;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 2px -2px 0;
 }
 
 .profile_management_customer_review_divider {
