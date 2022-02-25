@@ -2,20 +2,21 @@
     <head>
         <title>받은 쪽지</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../default.css"/>
         <link rel="stylesheet" type="text/css" href="./dialog.css"/>
     </head>
     <body>
         <div class="received_note_container">
             <div class="received_note_header">
-                <a href="../pages/note_box.html" class="received_note_header_close_button_wrapper">
+                <a href="../pages/received_note_box.html" class="received_note_header_close_button_wrapper">
                     <img class="received_note_header_close_button" src="../assets/images/received_note_close_button.svg"/>
                 </a>
             </div>
             <div class="received_note_body">
                 <div class="received_note_button_wrapper">
-                    <button class="received_note_button_delete">
+                    <a href="../pages/received_note_box.html" class="received_note_button_delete">
                         <p class="received_note_button_delete_typo">삭제</p>
-                    </button>
+                    </a>
                     <div class="received_note_button_container">
                         <button class="received_note_button_before">
                             <img class="received_note_button_before_arrow" src="../assets/images/connection_location_arrow.svg"/>
@@ -28,7 +29,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="main_container_divider"></div>
+                <div class="main_container_divider without_margin"></div>
                 <div class="received_note_info_container">
                     <div class="received_note_info">
                         <p class="received_note_info_title">받는사람</p>
@@ -39,8 +40,15 @@
                         <p class="received_note_info_context">22-01-24 11:33</p>
                     </div>
                 </div>
-                <div class="main_container_divider"></div>
+                <div class="main_container_divider without_margin"></div>
                 <div class="received_note_context">
+                    <a href="./note_box_attatchment.html" class="received_note_attatchment_button">
+                        <!-- hidden으로 첨부파일 유무에 따라 조절 -->
+                        <img class="received_note_attatchment_button_icon" src="../assets/images/received_note_attatchment_icon.svg"/>
+                        <p class="received_note_attatchment_button_typo">첨부파일</p>
+                        <!-- hidden으로 첨부파일 개수에 따라 조절 -->
+                        <p class="received_note_attatchment_button_count_typo hidden">2</p>
+                    </a>
                     <p class="received_note_context_typo">
                         이 헌법시행 당시에 이 헌법에 의하여
                         새로 설치될 기관의 권한에 속하는 직무를 행하고

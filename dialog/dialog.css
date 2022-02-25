@@ -1331,6 +1331,11 @@ a {
     width: 100%;
     height: 194px;
     border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 13px;
+    color: #555;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .main_container_divider {
@@ -1488,12 +1493,14 @@ a {
 }
 
 .received_note_attatchment_button {
-    min-width: 64px;
+    max-width: 78px;
     height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding: 0 8px;
     margin-bottom: 15px;
 }
 

@@ -8767,9 +8767,9 @@ margin: 22.5px 0;
 }
 
 .hidden {
-    display: none;
+    display: none!important;
 }
 
 .invisible {
-    visibility: hidden;
+    visibility: hidden!important;
 }

@@ -2,35 +2,47 @@
     <head>
         <title>쪽지보내기 창</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../default.css">
         <link rel="stylesheet" type="text/css" href="./dialog.css">
     </head>
     <body>
         <div class="send_note_container">
             <div class="send_note_header">
                 <p class="send_note_header_typo">쪽지 보내기</p>
-                <a href="../pages/note_box.html" class="send_note_dialog_close_button_wrapper">
+                <a href="../pages/note_box.html">
                     <img class="send_note_dialog_close_button" src="../assets/images/send_note_dialog_close_button.svg"/>
                 </a>
             </div>
             <div class="send_note_body">
                 <div class="send_note_button_container">
-                    <div class="send_note_send_button">
+                    <a href="../pages/note_box.html" class="send_note_send_button">
                         <img class="send_note_send_button_icon" src="../assets/images/note_box_sending_icon.svg"/>
                         <p class="send_note_send_button_typo">보내기</p>
-                    </div>
-                    <div class="send_note_attatch_button">
+                    </a>
+                    <a class="send_note_attatch_button">
                         <p class="send_note_attatch_button_typo">파일첨부</p>
+                    </a>
+                </div>
+                <div class="send_note_attatchment_container hidden">
+                    <!-- hidden으로 첨부파일 유무에 따라 조절 -->
+                    <div class="send_note_attatchment">
+                        <img class="send_note_attatchment_icon" src="../assets/images/note_box_attatchment.svg"/>
+                        <p class="send_note_attatchment_typo">참고용 이미지.jpg</p>
+                    </div>
+                    <div class="send_note_attatchment">
+                        <img class="send_note_attatchment_icon" src="../assets/images/note_box_attatchment.svg"/>
+                        <p class="send_note_attatchment_typo">설계 이미지.jpg</p>
                     </div>
                 </div>
-                <div class="main_container_divider"></div>
+                <div class="main_container_divider without_margin"></div>
                 <div class="send_note_receiver">
                     <p class="send_note_receiver_typo">받는사람</p>
                     <div class="send_note_receiver_blank">
                         <p class="send_note_receiver_blank_typo"></p>
                     </div>
-                    <button class="send_note_receiver_button">
+                    <a href="./address_list.html" class="send_note_receiver_button">
                         <p class="send_note_receiver_button_typo">주소록</p>
-                    </button>
+                    </a>
                 </div>
                 <textarea class="send_note_context"></textarea>
             </div>
