@@ -700,17 +700,40 @@ margin-bottom: 40px;
 border-bottom: solid 1px #DEDEDE;
 }
 
-.main_project_youtube_typo {
+.main_project_typo, .main_youtube_typo {
 font-size: 26px;
 font-weight: 600;
-margin-bottom: 14.main_9px;
+margin-bottom: 14.9px;
 }
 
 .main_project_box {
 width: 551px;
 height: 226px;
-border: 1px solid #F8F9FE;
-background: #F8F9FE;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+
+.main_project_box_item {
+    width: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_project_box_item_main_typo {
+    color: #005FA8;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.main_project_box_item_sub_typo {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 .main_youtube_box {
@@ -5783,7 +5806,7 @@ margin: 22.5px 0;
     width: 100%;
     height: 140px;
     box-sizing: border-box;
-    padding: 30px 0 30px 30px;
+    padding: 30px 0;
 }
 
 .profile_management_profile_career_container {
@@ -5872,7 +5895,7 @@ margin: 22.5px 0;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 60px 0 30px 30px;
+    padding: 60px 0 30px 0;
 }
 
 .profile_management_profile_design_field_container {
@@ -5994,9 +6017,9 @@ margin: 22.5px 0;
 }
 
 .pic_writing {
-    height: 458px;
+    display: flex;
     box-sizing: border-box;
-    padding:  30px;
+    padding: 30px 0 50px 0;
 }
 
 .profile_management_profile_pic_container {
@@ -6215,14 +6238,13 @@ margin: 22.5px 0;
 }
 
 .profile_management_writing_profile_item_sub_title {
-    height: 100%;
+    width: 228px;
     display: flex;
     align-items: flex-start;
     color: #b6b6b6;
     font-size: 13px;
     font-weight: 400;
-    margin-left: -30px;
-    margin-right: 55px;
+    margin: 28px 55px 0 0;
 }
 
 .profile_management_profile_item_context {
@@ -6278,75 +6300,53 @@ margin: 22.5px 0;
     font-weight: 400;
 }
 
-.profile_management_writing_pic_upload_wrapper {
-    height: 100%;
+.profile_management_pic_upload_wrapper {
+    width: 100%;
     display: flex;
     align-items: flex-end;
-    box-sizing: border-box;
-    padding: 30px;
+    margin-bottom: 37px;
 }
 
-.profile_management_writing_pic_upload_container {
-    width: 438px;
-    height: 338px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-}
-
-.profile_management_writing_image_slider {
-    width: 100%;
-    height: 247px;
-    background: #C4C4C4;
-    background: #F0F0F0;
-    box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
-    margin: 0;
-}
-
-.profile_management_writing_image_slider_arrow_container {
-    width: 100%;
-    height: 100%;
+.profile_management_main_pic_upload_wrapper {
+    width: 269px;
+    height: 152px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0;
+    border: 1px dashed #e5e5e5;
+    margin-right: 30px;
 }
 
-.profile_management_writing_image_slider_arrow_container img:first-child {
-    transform: rotate(180deg);
-}
-
-.profile_management_writing_image_slider_arrow {
-    margin: 0 13px;
-}
-
-.profile_management_writing_small_pic_upload_container {
-    width: 100%;
-    height: 52px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.profile_management_writing_small_pic_upload {
-    min-width: 135px;
-    height: 76px;
-    background: #F0F0F0;
-}
-
-.profile_management_writing_upload_button {
-    width: 83px;
-    height: 36px;
+.profile_management_pic_upload_button {
+    width: 115px;
+    height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #E5E5E5;
-    margin-bottom: 30px;
 }
 
-.profile_management_writing_upload_button_typo {
+.profile_management_pic_upload_button_typo {
     color: #767676;
     font-size: 13px;
     font-weight: 400;   
+}
+
+.profile_management_sub_pic_upload_wrapper {
+    margin: 0 -10px;
+}
+
+.profile_management_sub_pic_upload_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.profile_management_sub_pic_upload {
+    width: 141px;
+    height: 90px;
+    background: #f2f2f2;
 }
 
 .profile_management_writing_button_wrapper {
