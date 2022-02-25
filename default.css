@@ -6849,6 +6849,7 @@ margin: 22.5px 0;
 
 .note_box_button_wrapper {
     width: 100%;
+    height: 36px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -8758,6 +8759,11 @@ margin: 22.5px 0;
 .dropbox_profile_management_writing_basic_info_container {
     width: 116px;
     height: 29px;
+}
+
+.dropbox_note_box {
+    width: 136px;
+    margin-right: 2px;
 }
 
 .hidden {
