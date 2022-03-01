@@ -19,7 +19,8 @@ margin: 0;
 }
 
 a {
-text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 textarea {
@@ -8064,6 +8065,51 @@ margin: 22.5px 0;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
+}
+
+.undefined_page_container {
+    width: 100%;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 0 285px;
+}
+
+.undefined_page_main_typo {
+    color: #0083e8;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.undefined_page_sub_typo {
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 28px 0 40px;
+    text-align: center;
+}
+
+.undefined_page_button_container {
+    display: flex;
+}
+
+.undefined_page_button {
+    width: 124px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    margin: 0 10px;
+}
+
+.undefined_page_button_typo {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .dropbox_select_button {
