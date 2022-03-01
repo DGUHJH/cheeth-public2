@@ -33,6 +33,10 @@ a {
     src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
 }
 
+.container::-webkit-scrollbar {
+    display: none;
+}
+
 .electronic_estimator_container::-webkit-scrollbar {
     display: none;
 }
@@ -47,8 +51,11 @@ a {
 
 .container {
     width: 620px;
+    height: 920px;
     box-sizing: border-box;
     padding: 26px 50px 50px 50px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.45);
+    overflow-y: auto;
 }
 
 .pagination {
@@ -170,11 +177,30 @@ a {
     padding-left: 30px;
 }
 
+.dialog_item_context {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .dialog_item_context_typo {
     color: #444;
     font-size: 13px;
     font-weight: 300;
     margin-top: 7px;
+}
+
+.dialog_item_context_typo_prosthetics_type {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.dialog_item_context_typo_price_num {
+    color: #444;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .dialog_item_context_typo_container {
@@ -245,7 +271,7 @@ a {
 }
 
 .price_area {
-    width: 111px;
+    width: 107px;
 }
 
 .total_price_area {
@@ -340,10 +366,27 @@ a {
     font-weight: 600;
 }
 
-.dialog_item_context_pic_upload {
+/* .dialog_item_context_pic_upload {
     width: 100%;
     height: 211px;
     background: #f0f0f0;
+} */
+
+.dialog_item_context_pic_upload_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: -4.5px;
+}
+
+.dialog_item_context_pic_upload_container {
+    display: flex;
+}
+
+.dialog_item_context_pic_upload {
+    width: 184px;
+    height: 102px;
+    background: #ebebeb;
+    margin: 4.5px;
 }
 
 .pic_upload_container {
