@@ -4522,7 +4522,7 @@ margin: 22.5px 0;
     width: 97px;
 }
 
-.tribute_request_card_chip_add_button {
+.tribute_request_card_chip_add_button, .tribute_request_card_chip_numb {
     width: 25px;
     height: 25px;
     display: flex;
@@ -4539,6 +4539,12 @@ margin: 22.5px 0;
     font-size: 18px;
     font-weight: 300;
     margin-top: -2px;
+}
+
+.tribute_request_card_chip_numb_typo {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 .tribute_request_card_chip_selected_typo {
