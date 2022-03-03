@@ -3235,6 +3235,83 @@ a {
     font-weight: 600;
 }
 
+.qna_delete_container {
+    width: 440px;
+    margin: auto;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+}
+
+.qna_delete_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 35px;
+}
+
+.qna_delete_header_typo {
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 107px;
+}
+
+.qna_delete_body {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 33px 0 27px;
+}
+
+.qna_delete_typo {
+    color: #555;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.qna_delete_button_container {
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qna_delete_button_white {
+    width: 121px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+}
+
+.qna_delete_button_white_typo {
+    columns: #444;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.qna_delete_button_blue {
+    width: 121px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005FA8;
+}
+
+.qna_delete_button_blue_typo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .profile_view_container {
     width: 1048px;
     margin: auto;
