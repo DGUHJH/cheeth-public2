@@ -1073,6 +1073,55 @@ a {
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
 }
 
+.tribute_request_card {
+    width: 466px;
+    margin-top: 26px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(2),
+.tribute_request_card_chip_container div:first-child:nth-last-child(2) ~ div {
+    width: 195px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(3),
+.tribute_request_card_chip_container div:first-child:nth-last-child(3) ~ div {
+    width: 195px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(4),
+.tribute_request_card_chip_container div:first-child:nth-last-child(4) ~ div {
+    width: 160px;
+    padding: 0 20px 0 35px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(5),
+.tribute_request_card_chip_container div:first-child:nth-last-child(5) ~ div {
+    width: 115px;
+    padding: 0 10px 0 20px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(6),
+.tribute_request_card_chip_container div:first-child:nth-last-child(6) ~ div {
+    width: 86px;
+    padding: 0 5px 0 10px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-last-child(7),
+.tribute_request_card_chip_container div:first-child:nth-last-child(7) ~ div {
+    width: 67px;
+}
+
+.tribute_request_card_chip_container div:first-child:nth-child(6) {
+    width: 67px;
+}
+
+
+.tribute_request_preview_info_wrapper {
+    width: 466px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
 .note_box_container {
     width: 647px;
 }
@@ -2935,14 +2984,13 @@ a {
     color: #333;
     font-size: 28px;
     font-weight: 600;
-    margin-right: 352px;
+    margin-right: 393px;
 }
 
 .rework_request_preview_dialog_body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     box-sizing: border-box;
     padding: 40px 40px 60px 40px;
 }
