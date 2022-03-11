@@ -1487,6 +1487,10 @@ margin: 22.5px 0;
     margin-bottom: 30px;
 }
 
+.project_connection_location_container {
+    margin-bottom: 45px;
+}
+
 .tribute_request_connection_location_container {
     color: #fff;
     margin: 30px 0 25px;
@@ -4112,10 +4116,10 @@ margin: 22.5px 0;
 }
 
 .advertisement_banner {
-    width: 150px;
-    height: 600px;
+    width: 160px;
+    height: 470px;
     background: #c4c4c4;
-    margin: 45px 40px 0 40px;
+    margin: 60px 0 0 40px;
 }
 
 .image_slider {
@@ -5928,6 +5932,7 @@ margin: 22.5px 0;
     background: #fff;
     border: 1px solid #E5E5E5;
     border-radius: 20px 0 0 20px;
+    box-sizing: border-box;
     padding: 0 20px;
 }
 
@@ -7262,7 +7267,7 @@ margin: 22.5px 0;
     height: 35px;
     display: flex;
     border: 1px solid #EEEEEE;
-    margin-left: 96px;
+    margin-left: 40px;
 }
 
 .profile_management_carousel_button {
@@ -7312,7 +7317,7 @@ margin: 22.5px 0;
 }
 
 .profile_management_profile_item_title_container {
-    width: 165px;
+    width: 170px;
     display: flex;
     justify-content: space-between;
 }
@@ -7432,7 +7437,7 @@ margin: 22.5px 0;
 }
 
 .profile_management_writing_profile_item_sub_title {
-    width: 228px;
+    width: 173px;
     display: flex;
     align-items: flex-start;
     color: #b6b6b6;
@@ -9405,6 +9410,7 @@ margin: 22.5px 0;
 .dropbox_date_expiry_dialog {
     width: 480px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+    margin: auto;
 }
 
 .dropbox_date_expiry_dialog_header {
@@ -9495,7 +9501,7 @@ margin: 22.5px 0;
 }
 
 .dropbox_equipment_estimator_select_location {
-    width: 347px;
+    width: 362px;
 }
 
 .dropbox_select_button_item_container_location {

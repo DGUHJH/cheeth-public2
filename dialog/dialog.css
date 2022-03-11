@@ -187,7 +187,7 @@ a {
     color: #444;
     font-size: 13px;
     font-weight: 300;
-    margin-top: 7px;
+    margin-top: 3px;
 }
 
 .dialog_item_context_typo_prosthetics_type {
@@ -731,16 +731,28 @@ a {
     overflow-y: auto;
 }
 
-.electronic_estimator_dialog_item,.cad_estimator_dialog_item_column {
+.electronic_estimator_dialog_item {
     display: flex;
     flex-direction: column;
     padding: 37px 0 37px 0;
 }
 
-.electronic_estimator_dialog_item_row, .cad_estimator_dialog_item {
+.cad_estimator_dialog_item_column {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.electronic_estimator_dialog_item_row {
     display: flex;
     justify-content: space-between;
     padding: 37px 0 37px 0;
+}
+
+.cad_estimator_dialog_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
 }
 
 .electronic_estimator_dialog_item_title {
@@ -1074,6 +1086,11 @@ a {
 }
 
 .tribute_request_card {
+    width: 584px;
+    margin-top: 26px;
+}
+
+.tribute_request_preview_card {
     width: 466px;
     margin-top: 26px;
 }
@@ -1612,7 +1629,6 @@ a {
 
 .address_list_container {
     width: 556px;
-    height: 375px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
     margin: 0 auto;
 }
@@ -1628,10 +1644,28 @@ a {
     padding: 0 17px;
 }
 
+.appointed_quote_header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
 .address_list_header_typo {
     color: #fff;
     font-size: 10px;
     font-weight: 600;
+}
+
+.appointed_quote_header_typo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 194px;
 }
 
 .address_list_body {
@@ -1970,323 +2004,323 @@ a {
 }
 
 .tooth_numb_one_one {
-    left: 458px;
+    left: 398px;
     top: 219px;
 }
 
 .img_one_one {
-    left: 453px;
+    left: 393px;
     top: 259px;
 }
 
 .tooth_numb_one_two {
-    left: 408px;
+    left: 348px;
     top: 234px;
 }
 
 .img_one_two {
-    left: 414px;
+    left: 354px;
     top: 270px;
 }
 
 .tooth_numb_one_three {
-    left: 360px;
+    left: 300px;
     top: 267px;
 }
 
 .img_one_three {
-    left: 390px;
+    left: 330px;
     top: 290px;
 }
 
 .tooth_numb_one_four {
-    left: 326px;
+    left: 266px;
     top: 312px;
 }
 
 .img_one_four {
-    left: 365px;
+    left: 305px;
     top: 328px;
 }
 
 .tooth_numb_one_five {
-    left: 309px;
+    left: 249px;
     top: 358px;
 }
 
 .img_one_five {
-    left: 345px;
+    left: 285px;
     top: 368px;
 }
 
 .tooth_numb_one_six {
-    left: 291px;
+    left: 231px;
     top: 410px;
 }
 
 .img_one_six {
-    left: 335px;
+    left: 275px;
     top: 413px;
 }
 
 .tooth_numb_one_seven {
-    left: 275px;
+    left: 215px;
     top: 461px;
 }
 
 .img_one_seven {
-    left: 325px;
+    left: 265px;
     top: 458px;
 }
 
 .tooth_numb_one_eight {
-    left: 269px;
+    left: 209px;
     top: 516px;
 }
 
 .img_one_eight {
-    left: 315px;
+    left: 255px;
     top: 508px;
 }
 
 .tooth_numb_two_one {
-    left: 508px;
+    left: 448px;
     top: 219px;
 }
 
 .img_two_one {
-    left: 498px;
+    left: 438px;
     top: 257px;
 }
 
 .tooth_numb_two_two {
-    left: 558px;
+    left: 498px;
     top: 234px;
 }
 
 .img_two_two {
-    left: 538px;
+    left: 478px;
     top: 272px;
 }
 
 .tooth_numb_two_three {
-    left: 604px;
+    left: 544px;
     top: 267px;
 }
 
 .img_two_three {
-    left: 563px;
+    left: 503px;
     top: 293px;
 }
 
 .tooth_numb_two_four {
-    left: 640px;
+    left: 580px;
     top: 312px;
 }
 
 .img_two_four {
-    left: 593px;
+    left: 533px;
     top: 328px;
 }
 
 .tooth_numb_two_five {
-    left: 660px;
+    left: 600px;
     top: 361px;
 }
 
 .img_two_five {
-    left: 608px;
+    left: 548px;
     top: 368px;
 }
 
 .tooth_numb_two_six {
-    left: 675px;
+    left: 615px;
     top: 407px;
 }
 
 .img_two_six {
-    left: 623px;
+    left: 563px;
     top: 413px;
 }
 
 .tooth_numb_two_seven {
-    left: 687px;
+    left: 627px;
     top: 461px;
 }
 
 .img_two_seven {
-    left: 633px;
+    left: 573px;
     top: 461px;
 }
 
 .tooth_numb_two_eight {
-    left: 699px;
+    left: 639px;
     top: 516px;
 }
 
 .img_two_eight {
-    left: 643px;
+    left: 583px;
     top: 509px;
 }
 
 .tooth_numb_three_one {
-    left: 508px;
+    left: 448px;
     top: 947px;
 }
 
 .img_three_one {
-    left: 498px;
+    left: 438px;
     top: 887px;
 }
 
 .tooth_numb_three_two {
-    left: 558px;
+    left: 498px;
     top: 932px;
 }
 
 .img_three_two {
-    left: 538px;
+    left: 478px;
     top: 877px;
 }
 
 .tooth_numb_three_three {
-    left: 604px;
+    left: 544px;
     top: 899px;
 }
 
 .img_three_three {
-    left: 568px;
+    left: 508px;
     top: 856px;
 }
 
 .tooth_numb_three_four {
-    left: 640px;
+    left: 580px;
     top: 854px;
 }
 
 .img_three_four {
-    left: 593px;
+    left: 533px;
     top: 816px;
 }
 
 .tooth_numb_three_five {
-    left: 660px;
+    left: 600px;
     top: 808px;
 }
 
 .img_three_five {
-    left: 613px;
+    left: 553px;
     top: 776px;
 }
 
 .tooth_numb_three_six {
-    left: 680px;
+    left: 620px;
     top: 755px;
 }
 
 .img_three_six {
-    left: 628px;
+    left: 568px;
     top: 726px;
 }
 
 .tooth_numb_three_seven {
-    left: 692px;
+    left: 632px;
     top: 700px;
 }
 
 .img_three_seven {
-    left: 638px;
+    left: 578px;
     top: 676px;
 }
 
 .tooth_numb_three_eight {
-    left: 699px;
+    left: 639px;
     top: 640px;
 }
 
 .img_three_eight {
-    left: 648px;
+    left: 588px;
     top: 626px;
 }
 
 
 .tooth_numb_four_one {
-    left: 458px;
+    left: 398px;
     top: 947px;
 }
 
 .img_four_one {
-    left: 453px;
+    left: 393px;
     top: 887px;
 }
 
 .tooth_numb_four_two {
-    left: 408px;
+    left: 348px;
     top: 932px;
 }
 
 .img_four_two {
-    left: 413px;
+    left: 353px;
     top: 877px;
 }
 
 .tooth_numb_four_three {
-    left: 360px;
+    left: 300px;
     top: 899px;
 }
 
 .img_four_three {
-    left: 383px;
+    left: 323px;
     top: 856px;
 }
 
 .tooth_numb_four_four {
-    left: 326px;
+    left: 266px;
     top: 854px;
 }
 
 .img_four_four {
-    left: 358px;
+    left: 298px;
     top: 816px;
 }
 
 .tooth_numb_four_five {
-    left: 300px;
+    left: 240px;
     top: 808px;
 }
 
 .img_four_five {
-    left: 338px;
+    left: 278px;
     top: 776px;
 }
 
 .tooth_numb_four_six {
-    left: 285px;
+    left: 225px;
     top: 755px;
 }
 
 .img_four_six {
-    left: 328px;
+    left: 268px;
     top: 726px;
 }
 
 .tooth_numb_four_seven {
-    left: 272px;
+    left: 212px;
     top: 700px;
 }
 
 .img_four_seven {
-    left: 313px;
+    left: 253px;
     top: 676px;
 }
 
 .tooth_numb_four_eight {
-    left: 269px;
+    left: 209px;
     top: 640px;
 }
 
 .img_four_eight {
-    left: 303px;
+    left: 243px;
     top: 626px;
 }
 
@@ -2306,185 +2340,185 @@ a {
 }
 
 .one_one_one_two {
-    left: 408px;
+    left: 348px;
     top: 227px;
     transform: rotate(-16deg);
 }
 
 .one_two_one_three {
-    left: 356px;
+    left: 296px;
     top: 254px;
     transform: rotate(-35deg);
 }
 
 .one_three_one_four {
-    left: 318px;
+    left: 258px;
     top: 292px;
     transform: rotate(-53deg);
 }
 
 .one_four_one_five {
-    left: 318px;
+    left: 258px;
     top: 292px;
     transform: rotate(-53deg);
 }
 
 .one_four_one_five {
-    left: 293px;
+    left: 233px;
     top: 337px;
     transform: rotate(-68deg);
 }
 
 .one_five_one_six {
-    left: 275px;
+    left: 215px;
     top: 387px;
     transform: rotate(-70deg);
 }
 
 .one_six_one_seven {
-    left: 258px;
+    left: 198px;
     top: 437px;
     transform: rotate(-73deg);
 }
 
 .one_seven_one_eight {
-    left: 248px;
+    left: 188px;
     top: 493px;
     transform: rotate(-83deg);
 }
 
 .one_one_two_one {
-    left: 458px;
+    left: 398px;
     top: 219px;
 }
 
 .two_one_two_two {
-    left: 508px;
+    left: 448px;
     top: 227px;
     transform: rotate(17deg);
 }
 
 .two_two_two_three {
-    left: 558px;
+    left: 498px;
     top: 252px;
     transform: rotate(35deg);
 }
 
 .two_three_two_four {
-    left: 598px;
+    left: 538px;
     top: 292px;
     transform: rotate(50deg);
 }
 
 .two_four_two_five {
-    left: 625px;
+    left: 565px;
     top: 337px;
     transform: rotate(68deg);
 }
 
 .two_five_two_six {
-    left: 643px;
+    left: 583px;
     top: 384px;
     transform: rotate(73deg);
 }
 
 .two_six_two_seven {
-    left: 657px;
+    left: 597px;
     top: 434px;
     transform: rotate(78deg);
 }
 
 .two_seven_two_eight {
-    left: 670px;
+    left: 610px;
     top: 492px;
     transform: rotate(79deg);
 }
 
 .three_one_three_two {
-    left: 508px;
+    left: 448px;
     top: 940px;
     transform: rotate(-18deg);
 }
 
 .three_two_three_three {
-    left: 558px;
+    left: 498px;
     top: 915px;
     transform: rotate(-35deg);
 }
 
 .three_three_three_four {
-    left: 600px;
+    left: 540px;
     top: 875px;
     transform: rotate(-50deg);
 }
 
 .three_four_three_five {
-    left: 625px;
+    left: 565px;
     top: 832px;
     transform: rotate(-68deg);
 }
 
 .three_five_three_six {
-    left: 645px;
+    left: 585px;
     top: 785px;
     transform: rotate(-72deg);
 }
 
 .three_six_three_seven {
-    left: 657px;
+    left: 597px;
     top: 730px;
     transform: rotate(-79deg);
 }
 
 .three_seven_three_eight {
-    left: 669px;
+    left: 609px;
     top: 670px;
     transform: rotate(-79deg);
 }
 
 .three_one_four_one {
-    left: 458px;
+    left: 398px;
     top: 948px;
 }
 
 .four_one_four_two {
-    left: 410px;
+    left: 350px;
     top: 940px;
     transform: rotate(15deg);
 }
 
 .four_two_four_three {
-    left: 355px;
+    left: 295px;
     top: 913px;
     transform: rotate(35deg);
 }
 
 .four_three_four_four {
-    left: 317px;
+    left: 257px;
     top: 875px;
     transform: rotate(53deg);
 }
 
 .four_four_four_five {
-    left: 289px;
+    left: 229px;
     top: 830px;
     transform: rotate(59deg);
 }
 
 .four_five_four_six {
-    left: 268px;
+    left: 208px;
     top: 778px;
     transform: rotate(74deg);
 }
 
 .four_six_four_seven {
-    left: 254px;
+    left: 194px;
     top: 725px;
     transform: rotate(78deg);
 }
 
 .four_seven_four_eight {
-    left: 247px;
+    left: 187px;
     top: 665px;
     transform: rotate(85deg);
 }
@@ -3649,6 +3683,8 @@ a {
     width: 1263px;
     margin: 0 auto;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+    padding-bottom: 40px;
 }
 
 .rework_request_edit_dialog_header {
@@ -3674,7 +3710,7 @@ a {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 30px 30px 40px 30px;
 }
 
 .rework_request_edit_teeth_model_title {
@@ -3720,324 +3756,13 @@ a {
     font-weight: 400;
 }
 
-.rework_request_edit_info_container {
-    width: 474px;
-}
-
-.rework_request_edit_info_prosthetics_container {
-    width: 100%;
-    height: 88px;
-    margin-bottom: 30px;
-}
-
-.rework_request_edit_info_typo {
-    color: #333;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.rework_request_edit_info_prosthetics {
-    width: 100%;
-    display: flex;
-    margin-top: 26px;
-}
-
-.rework_request_edit_info_prosthetics_blank {
-    width: 364px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #e5e5e5;
-    border-radius: 18px 0 0 18px;
-    box-sizing: border-box;
-    padding: 0 18px;
-}
-
-.rework_request_edit_info_prosthetics_blank_typo {
-    color: #b6b6b6;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.rework_request_edit_info_prosthetics_button {
-    width: 110px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #444444;
-    border: 1px solid #444;
-    border-radius: 0 18px 18px 0;
-}
-
-.rework_request_edit_info_prosthetics_button_typo {
-    color: #fff;
-    font-size: 10px;
-    font-weight: 600;
-}
-
-.rework_request_edit_info_selected_dental_container {
-    width: 100%;
-    height: 84px;
-    margin-bottom: 50px;
-}
-
-.rework_request_edit_info_selected_dental {
-    width: 100%;
-    margin-top: 40px;
-}
-
-.rework_request_edit_info_selected_dental_blank {
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #333;
-}
-
-.rework_request_edit_info_selected_dental_blank {
-    color: #b6b6b6;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.selected_dental_container {
-    display: flex;
-}
-
-.selected_dental_item_non_bridge {
-    width: 66px;
-    height: 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #dedede;
-    border-radius: 18.5px;
-    box-sizing: border-box;
-    margin-right: 12px;
-    padding: 0 13px;
-}
-
-.selected_dental_item_non_bridge_typo {
-    color: #666;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.selected_dental_item_bridge {
-    width: 66px;
-    height: 28px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #0083E8;
-    border-radius: 18.5px;
-    box-sizing: border-box;
-    margin-right: 12px;
-    padding: 0 13px;
-}
-
-.selected_dental_item_bridge_typo {
-    color: #0083e8;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.rework_request_edit_info_select_button_container {
-    width: 100%;
-    height: 36px;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.rework_request_edit_info_select_button {
-    width: 152px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #e5e5e5;
-    box-sizing: border-box;
-    padding: 0 20px;
-}
-
-.rework_request_edit_info_select_button_typo {
-    color: #c4c4c4;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.rework_request_edit_info_blank, .rework_request_edit_info_blank_typo_container {
-    display: flex;
-    align-items: center;
-}
-
-.rework_request_edit_info_blank {
-    width: 302px;
-    border-bottom: 1px solid #333333;
-    margin-left: 20px;
-}
-
-.rework_request_edit_info_blank_typo_container {
-    margin-left: 10px;
-}
-
-.rework_request_edit_info_blank_typo {
-    color: #666;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.rework_request_edit_info_blank_close_button {
-    width: 8px;
-    height: 8px;
-}
-
-.rework_request_edit_direct_input {
-    width: 100%;
-    height: 42px;
-    display: flex;
-    margin-top: -10px;
-    margin-bottom: 30px;
-}
-
-.rework_request_edit_direct_input_blank {
-    min-width: 334px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #E5E5E5;
-    padding: 0 14px;
-}
-
-.rework_request_edit_direct_input_blank_typo {
-    color: #B6B6B6;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.rework_request_edit_direct_input_button {
-    min-width: 80px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #8B8B8B;
-}
-
-.rework_request_edit_direct_input_button_typo {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.rework_request_edit_detail_info {
-    width: 100%;
-    height: 124px;
-    border: 1px solid #E5E5E5;
-    padding: 21px;
-    margin-bottom: 40px;
-}
-
-.rework_request_edit_info_more_container {
-    width: 100%;
-    height: 198px;
-    background: #F2F2F2;
-    box-sizing: border-box;
-    padding: 20px 25px;
-    margin-bottom: 20px;
-}
-
-.rework_request_edit_info_more_header {
-    width: 100%;
-    height: 36px;
-    display: flex;
-    align-items: center;
-}
-
-.rework_request_edit_info_more_header_typo {
-    min-width: 60px;
-    color: #333;
-    font-size: 13px;
-    font-weight: 500;
-    margin-right: 33px;
-}
-
-.rework_request_edit_info_more_header_blank_container {
-    width: 100%;
-    height: 36px;
-    display: flex;
-    align-items: center;
-}
-
-.rework_request_edit_info_more_header_blank {
-    width: 233px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    background: #fff;
-    border: 1px solid #E5E5E5;
-    border-radius: 20px 0 0 20px;
-    box-sizing: border-box;
-    padding: 0 20px;
-}
-
-.rework_request_edit_info_more_header_blank {
-    color: #c4c4c4;
-    font-size: 13px;
-    font-weight: 400;
-}
-
-.rework_request_edit_info_more_header_button {
-    width: 100px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #444;
-    border: 1px solid #444;
-    border-radius: 0 20px 20px 0;
-}
-
-.rework_request_edit_info_more_header_button_typo {
-    color: #fff;
-    font-size: 10px;
-    font-weight: 600;
-}
-
-.rework_request_edit_info_more_body {
-    width: 100%;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.rework_request_edit_info_more_item {
-    width: 100%;
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    border: 1px solid #E5E5E5;
-    border-radius: 30px;
-    box-sizing: border-box;
-    padding: 0 18px;
-}
-
-.rework_request_edit_info_more_item_typo {
-    color: #c4c4c4;
-    font-size: 13px;
-    font-weight: 400;
-}
-
 .rework_request_edit_button_wrapper {
     width: 100%;
     height: 52px;
     display: flex;
     justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 110px;
 }
 
 .rework_request_button_blue {

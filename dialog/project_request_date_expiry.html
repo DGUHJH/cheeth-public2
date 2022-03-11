@@ -4,12 +4,12 @@
         <link rel="stylesheet" type="text/css" href="./dialog.css"/>
     </head>
     <body>
-        <!-- 입력 이전의 견적요청 만료시간 칸 -->
-        <!-- 프로젝트 의뢰하기의 dialog와 동일 -->
         <div class="dropbox_date_expiry_dialog">
             <div class="dropbox_date_expiry_dialog_header">
                 <p class="dropbox_date_expiry_dialog_header_typo">견적요청 만료시간</p>
-                <img class="dropbox_date_expiry_dialog_close_button" src="../assets/images/dialog_close_button.svg"/>
+                <a href="../pages/project_request.html">
+                    <img class="dropbox_date_expiry_dialog_close_button" src="../assets/images/dialog_close_button.svg"/>
+                </a>
             </div>
             <div class="dropbox_date_expiry_dialog_body">
                 <div class="dropbox_date_expiry_dialog_select_button_container">
@@ -199,23 +199,11 @@
                     </div>
                 </div>
                 <div class="dropbox_date_expiry_dialog_button_wrapper">
-                    <button class="dropbox_date_expiry_dialog_button">
+                    <a href="../pages/project_request.html" class="dropbox_date_expiry_dialog_button">
                         <p class="dropbox_date_expiry_dialog_button_typo">입력완료</p>
-                    </button>
+                    </a>
                 </div>
             </div>
-        </div>     
-
-        <!-- 입력된 이후의 견적요청 만료시간 칸 -->
-        <!-- <div class="dropbox_equipment_estimator_writing_date_expiry">
-            <div class="dropbox_equipment_estimator_writing_date_expiry_select_button_after_entered">
-                <p class="dropbox_equipment_estimator_writing_date_expiry_select_button_typo">
-                    견적요청 만료시간
-                </p>
-                <p class="dropbox_equipment_estimator_writing_date_expiry_select_button_typo">
-                    2022년 02월 04일
-                </p>
-            </div>
-        </div> -->
+        </div>  
     </body>
 </html>
