@@ -6652,6 +6652,7 @@ font-size: 14px;
   border-radius: 25px;
   margin-right: 30px;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .tribute_request_preview_info_wrapper {
