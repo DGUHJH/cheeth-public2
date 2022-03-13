@@ -2341,6 +2341,7 @@ a {
     justify-content: center;
     align-items: center;
     background: #FAFAFA;
+    border-radius: 25px;
     position: relative;
 }
 
@@ -2520,12 +2521,13 @@ a {
 }
 
 .rework_request_edit_teeth_model_wrapper {
-    width: 100%;
+    width: 504px;
     height: 867px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #FAFAFA;
+    border-radius: 25px;
     position: relative;
 }
 
