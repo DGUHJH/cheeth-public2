@@ -1833,6 +1833,7 @@ a {
   height: 214px;
   box-sizing: border-box;
   padding: 6.5px 20px;
+  overflow-y: auto;
 }
 
 .address_list_name,
