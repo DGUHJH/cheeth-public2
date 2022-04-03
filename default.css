@@ -9650,6 +9650,7 @@ font-size: 14px;
 
 .dropbox_date_expiry_dialog {
   width: 480px;
+  background: #fff;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
   margin: auto;
 }
@@ -10271,7 +10272,8 @@ font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 1000;
 }

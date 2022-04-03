@@ -5,18 +5,18 @@
         <link rel="stylesheet" type="text/css" href="./dialog.css"/>
     </head>
     <body>
-        <div class="dropbox_tribute_request_etc_chosen">
-            <div class="dropbox_tribute_request_prosthetics_select_button_etc_chosen">
-                <p class="dropbox_tribute_request_prosthetics_select_button_typo">
+        <div class="tribute_request_dialog_container">
+            <div class="tribute_request_prosthetics_select_button">
+                <p class="tribute_request_prosthetics_select_button_typo">
                     보철종류
                 </p>
-                <img class="dropbox_tribute_request_prosthetics_select_button_close_button" src="../assets/images/dialog_close_button.svg"/>
+                <img class="tribute_request_prosthetics_select_button_close_button" src="../assets/images/dialog_close_button.svg"/>
             </div>
-            <div class="dropbox_tribute_request_prosthetics_select_button_container">
+            <div class="dropbox_tribute_request_prosthetics_select_button_container_single">
                 <div class="dropbox_prosthetics_type">
                     <div class="dropbox_select_button_large">
                         <div class="dropbox_select_button_typo_container">
-                            <p class="dropbox_select_button_typo">기타</p>
+                            <p class="dropbox_select_button_typo">선택</p>
                             <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
                         </div>
                     </div>
@@ -42,50 +42,65 @@
                         <div class="dropbox_select_button_item_large">
                             <p class="dropbox_select_button_item_typo">교정</p>
                         </div>
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">기타</p>
+                        </div>
                     </div>
                 </div>
                 <div class="dropbox_prosthetics_type">
-                    <div class="dropbox_select_button_large dropbox_select_button_inactive">
+                    <div class="dropbox_select_button_large">
                         <div class="dropbox_select_button_typo_container">
                             <p class="dropbox_select_button_typo">선택</p>
                             <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
                         </div>
                     </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo dropbox_prosthetics_type_current">지르코니아</p>
+                        </div>
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">Metal</p>
+                        </div>
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">Temp Cr.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="dropbox_prosthetics_type">
-                    <div class="dropbox_select_button_large dropbox_select_button_inactive">
+                    <div class="dropbox_select_button_large">
                         <div class="dropbox_select_button_typo_container">
                             <p class="dropbox_select_button_typo">선택</p>
                             <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
                         </div>
                     </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">일반</p>
+                        </div>
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">SCRP</p>
+                        </div>
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo dropbox_prosthetics_type_current">국소의치 지대치</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="dropbox_prosthetics_type">
-                    <div class="dropbox_select_button_large dropbox_select_button_inactive">
+                    <div class="dropbox_select_button_large">
                         <div class="dropbox_select_button_typo_container">
                             <p class="dropbox_select_button_typo">선택</p>
                             <img class="dropbox_select_button_arrow" src="../assets/images/info_select_button_arrow.svg"/>
                         </div>
                     </div>
+                    <div class="dropbox_select_button_item_container hidden">
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">일반</p>
+                        </div>
+                        <div class="dropbox_select_button_item_large">
+                            <p class="dropbox_select_button_item_typo">SCRP</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="dropbox_tribute_request_divider"></div>
-            <div class="dropbox_tribute_request_prosthetics_select_button_container">
-                <div class="dropbox_prosthetics_type"></div>
-                <div class="dropbox_prosthetics_type">
-                    <input class="dropbox_prosthetics_type_etc_chosen_direct_input" placeholder="직접입력"/>
-                </div>
-                <div class="dropbox_prosthetics_type">
-                    <input class="dropbox_prosthetics_type_etc_chosen_direct_input" placeholder="직접입력"/>
-                </div>
-                <div class="dropbox_prosthetics_type">
-                    <input class="dropbox_prosthetics_type_etc_chosen_direct_input" placeholder="직접입력"/>
-                </div>
-            </div>
-            <div class="dropbox_tribute_request_button_wrapper">
-                <button class="dropbox_tribute_request_button">
-                    <div class="dropbox_tribute_request_button_typo">입력완료</div>
-                </button>
             </div>
         </div>
     </body>
