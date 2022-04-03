@@ -1991,6 +1991,7 @@ a {
   width: 655px;
   height: 256px;
   background: #fff;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.35);
   border: 1px solid #e5e5e5;
   margin: 0 auto;
 }
